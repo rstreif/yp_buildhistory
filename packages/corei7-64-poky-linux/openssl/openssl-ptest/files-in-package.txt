@@ -1,0 +1,360 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/openssl
+drwxrwxr-x root       root             4096 ./usr/lib/openssl/ptest
+-rw-r--r-- root       root            25473 ./usr/lib/openssl/ptest/Makefile
+drwxrwxr-x root       root             4096 ./usr/lib/openssl/ptest/apps
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/apps/CA.sh -> /usr/lib/ssl/misc/CA.sh
+lrwxrwxrwx root       root               16 ./usr/lib/openssl/ptest/apps/openssl -> /usr/bin/openssl
+lrwxrwxrwx root       root               24 ./usr/lib/openssl/ptest/apps/openssl.cnf -> /usr/lib/ssl/openssl.cnf
+-rw-r--r-- root       root             3288 ./usr/lib/openssl/ptest/apps/server2.pem
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/certs
+-rw-r--r-- root       root              165 ./usr/lib/openssl/ptest/certs/README.RootCerts
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/certs/demo
+lrwxrwxrwx root       root               11 ./usr/lib/openssl/ptest/certs/demo/1f6c59cd.0 -> ca-cert.pem
+lrwxrwxrwx root       root               11 ./usr/lib/openssl/ptest/certs/demo/24867d38.0 -> dsa-pca.pem
+lrwxrwxrwx root       root               11 ./usr/lib/openssl/ptest/certs/demo/3f77a2b5.0 -> ca-cert.pem
+lrwxrwxrwx root       root               10 ./usr/lib/openssl/ptest/certs/demo/73912336.0 -> dsa-ca.pem
+lrwxrwxrwx root       root               12 ./usr/lib/openssl/ptest/certs/demo/8caad35e.0 -> pca-cert.pem
+-rw-r--r-- root       root             1953 ./usr/lib/openssl/ptest/certs/demo/ca-cert.pem
+lrwxrwxrwx root       root               10 ./usr/lib/openssl/ptest/certs/demo/cbdbd8bc.0 -> dsa-ca.pem
+lrwxrwxrwx root       root               11 ./usr/lib/openssl/ptest/certs/demo/de4fa23b.0 -> dsa-pca.pem
+-rw-r--r-- root       root             2264 ./usr/lib/openssl/ptest/certs/demo/dsa-ca.pem
+-rw-r--r-- root       root             2674 ./usr/lib/openssl/ptest/certs/demo/dsa-pca.pem
+lrwxrwxrwx root       root               12 ./usr/lib/openssl/ptest/certs/demo/e83ef475.0 -> pca-cert.pem
+-rw-r--r-- root       root             1953 ./usr/lib/openssl/ptest/certs/demo/pca-cert.pem
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/certs/expired
+-rw-r--r-- root       root              471 ./usr/lib/openssl/ptest/certs/expired/ICE.crl
+-rwxr-xr-x root       root               26 ./usr/lib/openssl/ptest/run-ptest
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test/.debug
+-rwxr-xr-x root       root            11840 ./usr/lib/openssl/ptest/test/.debug/asn1test
+-rwxr-xr-x root       root            20888 ./usr/lib/openssl/ptest/test/.debug/bftest
+-rwxr-xr-x root       root            75152 ./usr/lib/openssl/ptest/test/.debug/bntest
+-rwxr-xr-x root       root            15640 ./usr/lib/openssl/ptest/test/.debug/casttest
+-rwxr-xr-x root       root            20904 ./usr/lib/openssl/ptest/test/.debug/constant_time_test
+-rwxr-xr-x root       root            32368 ./usr/lib/openssl/ptest/test/.debug/destest
+-rwxr-xr-x root       root            24440 ./usr/lib/openssl/ptest/test/.debug/dhtest
+-rwxr-xr-x root       root            20472 ./usr/lib/openssl/ptest/test/.debug/dsatest
+-rwxr-xr-x root       root            13376 ./usr/lib/openssl/ptest/test/.debug/dummytest
+-rwxr-xr-x root       root            29672 ./usr/lib/openssl/ptest/test/.debug/ecdhtest
+-rwxr-xr-x root       root            31824 ./usr/lib/openssl/ptest/test/.debug/ecdsatest
+-rwxr-xr-x root       root            94152 ./usr/lib/openssl/ptest/test/.debug/ectest
+-rwxr-xr-x root       root            19624 ./usr/lib/openssl/ptest/test/.debug/enginetest
+-rwxr-xr-x root       root            27016 ./usr/lib/openssl/ptest/test/.debug/evp_extra_test
+-rwxr-xr-x root       root            38736 ./usr/lib/openssl/ptest/test/.debug/evp_test
+-rwxr-xr-x root       root            20272 ./usr/lib/openssl/ptest/test/.debug/exptest
+-rwxr-xr-x root       root            11464 ./usr/lib/openssl/ptest/test/.debug/heartbeat_test
+-rwxr-xr-x root       root            20032 ./usr/lib/openssl/ptest/test/.debug/hmactest
+-rwxr-xr-x root       root            16944 ./usr/lib/openssl/ptest/test/.debug/ideatest
+-rwxr-xr-x root       root            21400 ./usr/lib/openssl/ptest/test/.debug/igetest
+-rwxr-xr-x root       root            13376 ./usr/lib/openssl/ptest/test/.debug/jpaketest
+-rwxr-xr-x root       root            13376 ./usr/lib/openssl/ptest/test/.debug/md2test
+-rwxr-xr-x root       root            13528 ./usr/lib/openssl/ptest/test/.debug/md4test
+-rwxr-xr-x root       root            13528 ./usr/lib/openssl/ptest/test/.debug/md5test
+-rwxr-xr-x root       root            14704 ./usr/lib/openssl/ptest/test/.debug/mdc2test
+-rwxr-xr-x root       root            14376 ./usr/lib/openssl/ptest/test/.debug/randtest
+-rwxr-xr-x root       root            13496 ./usr/lib/openssl/ptest/test/.debug/rc2test
+-rwxr-xr-x root       root            16448 ./usr/lib/openssl/ptest/test/.debug/rc4test
+-rwxr-xr-x root       root            13376 ./usr/lib/openssl/ptest/test/.debug/rc5test
+-rwxr-xr-x root       root            13536 ./usr/lib/openssl/ptest/test/.debug/rmdtest
+-rwxr-xr-x root       root            21616 ./usr/lib/openssl/ptest/test/.debug/rsa_test
+-rwxr-xr-x root       root            15792 ./usr/lib/openssl/ptest/test/.debug/sha1test
+-rwxr-xr-x root       root            15744 ./usr/lib/openssl/ptest/test/.debug/sha256t
+-rwxr-xr-x root       root            16104 ./usr/lib/openssl/ptest/test/.debug/sha512t
+-rwxr-xr-x root       root            15896 ./usr/lib/openssl/ptest/test/.debug/shatest
+-rwxr-xr-x root       root            20120 ./usr/lib/openssl/ptest/test/.debug/srptest
+-rwxr-xr-x root       root           135040 ./usr/lib/openssl/ptest/test/.debug/ssltest
+-rwxr-xr-x root       root            32624 ./usr/lib/openssl/ptest/test/.debug/v3nametest
+-rwxr-xr-x root       root            29040 ./usr/lib/openssl/ptest/test/.debug/verify_extra_test
+-rwxr-xr-x root       root            15552 ./usr/lib/openssl/ptest/test/.debug/wp_test
+-rw-r--r-- root       root             2232 ./usr/lib/openssl/ptest/test/CAss.cnf
+-rw-r--r-- root       root              728 ./usr/lib/openssl/ptest/test/CAssdh.cnf
+-rw-r--r-- root       root              729 ./usr/lib/openssl/ptest/test/CAssdsa.cnf
+-rw-r--r-- root       root              708 ./usr/lib/openssl/ptest/test/CAssrsa.cnf
+-rw-r--r-- root       root             4771 ./usr/lib/openssl/ptest/test/CAtsa.cnf
+-rw-r--r-- root       root            35684 ./usr/lib/openssl/ptest/test/Makefile
+-rw-r--r-- root       root              997 ./usr/lib/openssl/ptest/test/P1ss.cnf
+-rw-r--r-- root       root             1099 ./usr/lib/openssl/ptest/test/P2ss.cnf
+-rw-r--r-- root       root              821 ./usr/lib/openssl/ptest/test/Sssdsa.cnf
+-rw-r--r-- root       root              798 ./usr/lib/openssl/ptest/test/Sssrsa.cnf
+-rw-r--r-- root       root              935 ./usr/lib/openssl/ptest/test/Uss.cnf
+-rw-r--r-- root       root                1 ./usr/lib/openssl/ptest/test/VMSca-response.1
+-rw-r--r-- root       root                4 ./usr/lib/openssl/ptest/test/VMSca-response.2
+-rwxrwxr-x root       root             4272 ./usr/lib/openssl/ptest/test/asn1test
+-rw-r--r-- root       root              593 ./usr/lib/openssl/ptest/test/asn1test.c
+-rw-rw-r-- root       root             6976 ./usr/lib/openssl/ptest/test/asn1test.o
+-rwxr-xr-x root       root             4204 ./usr/lib/openssl/ptest/test/bctest
+-rw-r--r-- root       root             4707 ./usr/lib/openssl/ptest/test/bctest.com
+-rwxrwxr-x root       root            12352 ./usr/lib/openssl/ptest/test/bftest
+lrwxrwxrwx root       root               21 ./usr/lib/openssl/ptest/test/bftest.c -> ../crypto/bf/bftest.c
+-rw-rw-r-- root       root            41504 ./usr/lib/openssl/ptest/test/bftest.o
+-rwxrwxr-x root       root            34784 ./usr/lib/openssl/ptest/test/bntest
+lrwxrwxrwx root       root               21 ./usr/lib/openssl/ptest/test/bntest.c -> ../crypto/bn/bntest.c
+-rw-r--r-- root       root             1853 ./usr/lib/openssl/ptest/test/bntest.com
+-rw-rw-r-- root       root           196520 ./usr/lib/openssl/ptest/test/bntest.o
+-rwxrwxr-x root       root             6968 ./usr/lib/openssl/ptest/test/casttest
+lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/test/casttest.c -> ../crypto/cast/casttest.c
+-rw-rw-r-- root       root            20232 ./usr/lib/openssl/ptest/test/casttest.o
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test/certs
+-rw-r--r-- root       root             1675 ./usr/lib/openssl/ptest/test/certs/bad.key
+-rw-r--r-- root       root             1261 ./usr/lib/openssl/ptest/test/certs/bad.pem
+-rw-r--r-- root       root             1675 ./usr/lib/openssl/ptest/test/certs/interCA.key
+-rw-r--r-- root       root             1273 ./usr/lib/openssl/ptest/test/certs/interCA.pem
+-rw-r--r-- root       root             1679 ./usr/lib/openssl/ptest/test/certs/leaf.key
+-rw-r--r-- root       root             1273 ./usr/lib/openssl/ptest/test/certs/leaf.pem
+-rw-r--r-- root       root             1679 ./usr/lib/openssl/ptest/test/certs/rootCA.key
+-rw-r--r-- root       root             1273 ./usr/lib/openssl/ptest/test/certs/rootCA.pem
+-rw-r--r-- root       root             2558 ./usr/lib/openssl/ptest/test/certs/roots.pem
+-rw-r--r-- root       root             1285 ./usr/lib/openssl/ptest/test/certs/subinterCA-ss.pem
+-rw-r--r-- root       root             1679 ./usr/lib/openssl/ptest/test/certs/subinterCA.key
+-rw-r--r-- root       root             1281 ./usr/lib/openssl/ptest/test/certs/subinterCA.pem
+-rw-r--r-- root       root             2554 ./usr/lib/openssl/ptest/test/certs/untrusted.pem
+-rwxr-xr-x root       root              783 ./usr/lib/openssl/ptest/test/clean_test.com
+-rw-r--r-- root       root            11056 ./usr/lib/openssl/ptest/test/cms-examples.pl
+-rw-r--r-- root       root            20296 ./usr/lib/openssl/ptest/test/cms-test.pl
+-rwxrwxr-x root       root             8144 ./usr/lib/openssl/ptest/test/constant_time_test
+lrwxrwxrwx root       root               30 ./usr/lib/openssl/ptest/test/constant_time_test.c -> ../crypto/constant_time_test.c
+-rw-rw-r-- root       root            34792 ./usr/lib/openssl/ptest/test/constant_time_test.o
+-rwxrwxr-x root       root            20784 ./usr/lib/openssl/ptest/test/destest
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/destest.c -> ../crypto/des/destest.c
+-rw-rw-r-- root       root            82096 ./usr/lib/openssl/ptest/test/destest.o
+-rwxrwxr-x root       root            12688 ./usr/lib/openssl/ptest/test/dhtest
+lrwxrwxrwx root       root               21 ./usr/lib/openssl/ptest/test/dhtest.c -> ../crypto/dh/dhtest.c
+-rw-rw-r-- root       root            40872 ./usr/lib/openssl/ptest/test/dhtest.o
+-rwxrwxr-x root       root             8888 ./usr/lib/openssl/ptest/test/dsatest
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/dsatest.c -> ../crypto/dsa/dsatest.c
+-rw-rw-r-- root       root            27736 ./usr/lib/openssl/ptest/test/dsatest.o
+-rwxrwxr-x root       root             5664 ./usr/lib/openssl/ptest/test/dummytest
+-rw-r--r-- root       root             1137 ./usr/lib/openssl/ptest/test/dummytest.c
+-rw-rw-r-- root       root            11728 ./usr/lib/openssl/ptest/test/dummytest.o
+-rwxrwxr-x root       root            13896 ./usr/lib/openssl/ptest/test/ecdhtest
+lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/test/ecdhtest.c -> ../crypto/ecdh/ecdhtest.c
+-rw-rw-r-- root       root            56600 ./usr/lib/openssl/ptest/test/ecdhtest.o
+-rwxrwxr-x root       root            15552 ./usr/lib/openssl/ptest/test/ecdsatest
+lrwxrwxrwx root       root               27 ./usr/lib/openssl/ptest/test/ecdsatest.c -> ../crypto/ecdsa/ecdsatest.c
+-rw-rw-r-- root       root            61504 ./usr/lib/openssl/ptest/test/ecdsatest.o
+-rwxrwxr-x root       root            60576 ./usr/lib/openssl/ptest/test/ectest
+lrwxrwxrwx root       root               21 ./usr/lib/openssl/ptest/test/ectest.c -> ../crypto/ec/ectest.c
+-rw-rw-r-- root       root           336872 ./usr/lib/openssl/ptest/test/ectest.o
+-rwxrwxr-x root       root            11064 ./usr/lib/openssl/ptest/test/enginetest
+lrwxrwxrwx root       root               29 ./usr/lib/openssl/ptest/test/enginetest.c -> ../crypto/engine/enginetest.c
+-rw-rw-r-- root       root            30864 ./usr/lib/openssl/ptest/test/enginetest.o
+-rwxrwxr-x root       root            12008 ./usr/lib/openssl/ptest/test/evp_extra_test
+lrwxrwxrwx root       root               30 ./usr/lib/openssl/ptest/test/evp_extra_test.c -> ../crypto/evp/evp_extra_test.c
+-rw-rw-r-- root       root            42952 ./usr/lib/openssl/ptest/test/evp_extra_test.o
+-rwxrwxr-x root       root            15384 ./usr/lib/openssl/ptest/test/evp_test
+lrwxrwxrwx root       root               24 ./usr/lib/openssl/ptest/test/evp_test.c -> ../crypto/evp/evp_test.c
+-rw-rw-r-- root       root            81392 ./usr/lib/openssl/ptest/test/evp_test.o
+-rw-r--r-- root       root            72217 ./usr/lib/openssl/ptest/test/evptests.txt
+-rwxrwxr-x root       root             9376 ./usr/lib/openssl/ptest/test/exptest
+lrwxrwxrwx root       root               22 ./usr/lib/openssl/ptest/test/exptest.c -> ../crypto/bn/exptest.c
+-rw-rw-r-- root       root            29272 ./usr/lib/openssl/ptest/test/exptest.o
+-rwxrwxr-x root       root             4272 ./usr/lib/openssl/ptest/test/heartbeat_test
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/heartbeat_test.c -> ../ssl/heartbeat_test.c
+-rw-rw-r-- root       root             6384 ./usr/lib/openssl/ptest/test/heartbeat_test.o
+-rwxrwxr-x root       root            10056 ./usr/lib/openssl/ptest/test/hmactest
+lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/test/hmactest.c -> ../crypto/hmac/hmactest.c
+-rw-rw-r-- root       root            35936 ./usr/lib/openssl/ptest/test/hmactest.o
+-rwxrwxr-x root       root             7536 ./usr/lib/openssl/ptest/test/ideatest
+lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/test/ideatest.c -> ../crypto/idea/ideatest.c
+-rw-rw-r-- root       root            23680 ./usr/lib/openssl/ptest/test/ideatest.o
+-rwxrwxr-x root       root            11456 ./usr/lib/openssl/ptest/test/igetest
+-rw-r--r-- root       root            18724 ./usr/lib/openssl/ptest/test/igetest.c
+-rw-rw-r-- root       root            37784 ./usr/lib/openssl/ptest/test/igetest.o
+-rwxrwxr-x root       root             5664 ./usr/lib/openssl/ptest/test/jpaketest
+lrwxrwxrwx root       root               11 ./usr/lib/openssl/ptest/test/jpaketest.c -> dummytest.c
+-rw-rw-r-- root       root            11728 ./usr/lib/openssl/ptest/test/jpaketest.o
+-rw-r--r-- root       root            25619 ./usr/lib/openssl/ptest/test/maketests.com
+-rwxrwxr-x root       root             5656 ./usr/lib/openssl/ptest/test/md2test
+lrwxrwxrwx root       root               11 ./usr/lib/openssl/ptest/test/md2test.c -> dummytest.c
+-rw-rw-r-- root       root            11728 ./usr/lib/openssl/ptest/test/md2test.o
+-rwxrwxr-x root       root             6880 ./usr/lib/openssl/ptest/test/md4test
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/md4test.c -> ../crypto/md4/md4test.c
+-rw-rw-r-- root       root            13528 ./usr/lib/openssl/ptest/test/md4test.o
+-rwxrwxr-x root       root             6880 ./usr/lib/openssl/ptest/test/md5test
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/md5test.c -> ../crypto/md5/md5test.c
+-rw-rw-r-- root       root            13528 ./usr/lib/openssl/ptest/test/md5test.o
+-rwxrwxr-x root       root             5944 ./usr/lib/openssl/ptest/test/mdc2test
+lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/test/mdc2test.c -> ../crypto/mdc2/mdc2test.c
+-rw-rw-r-- root       root            14808 ./usr/lib/openssl/ptest/test/mdc2test.o
+-rw-r--r-- root       root             4525 ./usr/lib/openssl/ptest/test/methtest.c
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test/ocsp-tests
+-rw-r--r-- root       root             2020 ./usr/lib/openssl/ptest/test/ocsp-tests/D1.ors
+-rw-r--r-- root       root             2394 ./usr/lib/openssl/ptest/test/ocsp-tests/D1_Cert_EE.pem
+-rw-r--r-- root       root             1631 ./usr/lib/openssl/ptest/test/ocsp-tests/D1_Issuer_ICA.pem
+-rw-r--r-- root       root             2044 ./usr/lib/openssl/ptest/test/ocsp-tests/D2.ors
+-rw-r--r-- root       root             1610 ./usr/lib/openssl/ptest/test/ocsp-tests/D2_Cert_ICA.pem
+-rw-r--r-- root       root             1261 ./usr/lib/openssl/ptest/test/ocsp-tests/D2_Issuer_Root.pem
+-rw-r--r-- root       root             2414 ./usr/lib/openssl/ptest/test/ocsp-tests/D3.ors
+-rw-r--r-- root       root             2716 ./usr/lib/openssl/ptest/test/ocsp-tests/D3_Cert_EE.pem
+-rw-r--r-- root       root             5179 ./usr/lib/openssl/ptest/test/ocsp-tests/D3_Issuer_Root.pem
+-rw-r--r-- root       root             2020 ./usr/lib/openssl/ptest/test/ocsp-tests/ISDOSC_D1.ors
+-rw-r--r-- root       root             2044 ./usr/lib/openssl/ptest/test/ocsp-tests/ISDOSC_D2.ors
+-rw-r--r-- root       root             2414 ./usr/lib/openssl/ptest/test/ocsp-tests/ISDOSC_D3.ors
+-rw-r--r-- root       root             1631 ./usr/lib/openssl/ptest/test/ocsp-tests/ISIC_D1_Issuer_ICA.pem
+-rw-r--r-- root       root             1261 ./usr/lib/openssl/ptest/test/ocsp-tests/ISIC_D2_Issuer_Root.pem
+-rw-r--r-- root       root             2569 ./usr/lib/openssl/ptest/test/ocsp-tests/ISIC_D3_Issuer_Root.pem
+-rw-r--r-- root       root             1801 ./usr/lib/openssl/ptest/test/ocsp-tests/ISIC_ND1_Issuer_ICA.pem
+-rw-r--r-- root       root             1383 ./usr/lib/openssl/ptest/test/ocsp-tests/ISIC_ND2_Issuer_Root.pem
+-rw-r--r-- root       root             1521 ./usr/lib/openssl/ptest/test/ocsp-tests/ISIC_ND3_Issuer_Root.pem
+-rw-r--r-- root       root             2020 ./usr/lib/openssl/ptest/test/ocsp-tests/ISOP_D1.ors
+-rw-r--r-- root       root             2044 ./usr/lib/openssl/ptest/test/ocsp-tests/ISOP_D2.ors
+-rw-r--r-- root       root             2414 ./usr/lib/openssl/ptest/test/ocsp-tests/ISOP_D3.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/ISOP_ND1.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/ISOP_ND2.ors
+-rw-r--r-- root       root              642 ./usr/lib/openssl/ptest/test/ocsp-tests/ISOP_ND3.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/ND1.ors
+-rw-r--r-- root       root             2244 ./usr/lib/openssl/ptest/test/ocsp-tests/ND1_Cert_EE.pem
+-rw-r--r-- root       root             1801 ./usr/lib/openssl/ptest/test/ocsp-tests/ND1_Issuer_ICA.pem
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/ND2.ors
+-rw-r--r-- root       root             1801 ./usr/lib/openssl/ptest/test/ocsp-tests/ND2_Cert_ICA.pem
+-rw-r--r-- root       root             1383 ./usr/lib/openssl/ptest/test/ocsp-tests/ND2_Issuer_Root.pem
+-rw-r--r-- root       root              642 ./usr/lib/openssl/ptest/test/ocsp-tests/ND3.ors
+-rw-r--r-- root       root             2094 ./usr/lib/openssl/ptest/test/ocsp-tests/ND3_Cert_EE.pem
+-rw-r--r-- root       root             1521 ./usr/lib/openssl/ptest/test/ocsp-tests/ND3_Issuer_Root.pem
+-rw-r--r-- root       root             2020 ./usr/lib/openssl/ptest/test/ocsp-tests/WIKH_D1.ors
+-rw-r--r-- root       root             2044 ./usr/lib/openssl/ptest/test/ocsp-tests/WIKH_D2.ors
+-rw-r--r-- root       root             2414 ./usr/lib/openssl/ptest/test/ocsp-tests/WIKH_D3.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/WIKH_ND1.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/WIKH_ND2.ors
+-rw-r--r-- root       root              642 ./usr/lib/openssl/ptest/test/ocsp-tests/WIKH_ND3.ors
+-rw-r--r-- root       root             2020 ./usr/lib/openssl/ptest/test/ocsp-tests/WINH_D1.ors
+-rw-r--r-- root       root             2044 ./usr/lib/openssl/ptest/test/ocsp-tests/WINH_D2.ors
+-rw-r--r-- root       root             2414 ./usr/lib/openssl/ptest/test/ocsp-tests/WINH_D3.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/WINH_ND1.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/WINH_ND2.ors
+-rw-r--r-- root       root              642 ./usr/lib/openssl/ptest/test/ocsp-tests/WINH_ND3.ors
+-rw-r--r-- root       root             2020 ./usr/lib/openssl/ptest/test/ocsp-tests/WKDOSC_D1.ors
+-rw-r--r-- root       root             2044 ./usr/lib/openssl/ptest/test/ocsp-tests/WKDOSC_D2.ors
+-rw-r--r-- root       root             2414 ./usr/lib/openssl/ptest/test/ocsp-tests/WKDOSC_D3.ors
+-rw-r--r-- root       root             1631 ./usr/lib/openssl/ptest/test/ocsp-tests/WKIC_D1_Issuer_ICA.pem
+-rw-r--r-- root       root             1261 ./usr/lib/openssl/ptest/test/ocsp-tests/WKIC_D2_Issuer_Root.pem
+-rw-r--r-- root       root             2569 ./usr/lib/openssl/ptest/test/ocsp-tests/WKIC_D3_Issuer_Root.pem
+-rw-r--r-- root       root             1801 ./usr/lib/openssl/ptest/test/ocsp-tests/WKIC_ND1_Issuer_ICA.pem
+-rw-r--r-- root       root             1383 ./usr/lib/openssl/ptest/test/ocsp-tests/WKIC_ND2_Issuer_Root.pem
+-rw-r--r-- root       root             1521 ./usr/lib/openssl/ptest/test/ocsp-tests/WKIC_ND3_Issuer_Root.pem
+-rw-r--r-- root       root             2020 ./usr/lib/openssl/ptest/test/ocsp-tests/WRID_D1.ors
+-rw-r--r-- root       root             2044 ./usr/lib/openssl/ptest/test/ocsp-tests/WRID_D2.ors
+-rw-r--r-- root       root             2414 ./usr/lib/openssl/ptest/test/ocsp-tests/WRID_D3.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/WRID_ND1.ors
+-rw-r--r-- root       root              638 ./usr/lib/openssl/ptest/test/ocsp-tests/WRID_ND2.ors
+-rw-r--r-- root       root              642 ./usr/lib/openssl/ptest/test/ocsp-tests/WRID_ND3.ors
+-rw-r--r-- root       root             1631 ./usr/lib/openssl/ptest/test/ocsp-tests/WSNIC_D1_Issuer_ICA.pem
+-rw-r--r-- root       root             1261 ./usr/lib/openssl/ptest/test/ocsp-tests/WSNIC_D2_Issuer_Root.pem
+-rw-r--r-- root       root             2569 ./usr/lib/openssl/ptest/test/ocsp-tests/WSNIC_D3_Issuer_Root.pem
+-rw-r--r-- root       root             1801 ./usr/lib/openssl/ptest/test/ocsp-tests/WSNIC_ND1_Issuer_ICA.pem
+-rw-r--r-- root       root             1383 ./usr/lib/openssl/ptest/test/ocsp-tests/WSNIC_ND2_Issuer_Root.pem
+-rw-r--r-- root       root             1521 ./usr/lib/openssl/ptest/test/ocsp-tests/WSNIC_ND3_Issuer_Root.pem
+-rw-r--r-- root       root              851 ./usr/lib/openssl/ptest/test/pkcs7-1.pem
+-rw-r--r-- root       root             3744 ./usr/lib/openssl/ptest/test/pkcs7.pem
+-rw-r--r-- root       root            34072 ./usr/lib/openssl/ptest/test/pkits-test.pl
+-rw-r--r-- root       root             3185 ./usr/lib/openssl/ptest/test/r160test.c
+-rwxrwxr-x root       root             6704 ./usr/lib/openssl/ptest/test/randtest
+lrwxrwxrwx root       root               25 ./usr/lib/openssl/ptest/test/randtest.c -> ../crypto/rand/randtest.c
+-rw-rw-r-- root       root            16680 ./usr/lib/openssl/ptest/test/randtest.o
+-rwxrwxr-x root       root             5888 ./usr/lib/openssl/ptest/test/rc2test
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/rc2test.c -> ../crypto/rc2/rc2test.c
+-rw-rw-r-- root       root            12648 ./usr/lib/openssl/ptest/test/rc2test.o
+-rwxrwxr-x root       root             7896 ./usr/lib/openssl/ptest/test/rc4test
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/rc4test.c -> ../crypto/rc4/rc4test.c
+-rw-rw-r-- root       root            23032 ./usr/lib/openssl/ptest/test/rc4test.o
+-rwxrwxr-x root       root             5656 ./usr/lib/openssl/ptest/test/rc5test
+lrwxrwxrwx root       root               11 ./usr/lib/openssl/ptest/test/rc5test.c -> dummytest.c
+-rw-rw-r-- root       root            11728 ./usr/lib/openssl/ptest/test/rc5test.o
+-rwxrwxr-x root       root             6888 ./usr/lib/openssl/ptest/test/rmdtest
+lrwxrwxrwx root       root               26 ./usr/lib/openssl/ptest/test/rmdtest.c -> ../crypto/ripemd/rmdtest.c
+-rw-rw-r-- root       root            13752 ./usr/lib/openssl/ptest/test/rmdtest.o
+-rwxrwxr-x root       root            12888 ./usr/lib/openssl/ptest/test/rsa_test
+lrwxrwxrwx root       root               24 ./usr/lib/openssl/ptest/test/rsa_test.c -> ../crypto/rsa/rsa_test.c
+-rw-rw-r-- root       root            34000 ./usr/lib/openssl/ptest/test/rsa_test.o
+-rw-r--r-- root       root              740 ./usr/lib/openssl/ptest/test/serverinfo.pem
+-rwxrwxr-x root       root             6816 ./usr/lib/openssl/ptest/test/sha1test
+lrwxrwxrwx root       root               24 ./usr/lib/openssl/ptest/test/sha1test.c -> ../crypto/sha/sha1test.c
+-rw-rw-r-- root       root            18024 ./usr/lib/openssl/ptest/test/sha1test.o
+-rwxrwxr-x root       root             7200 ./usr/lib/openssl/ptest/test/sha256t
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/sha256t.c -> ../crypto/sha/sha256t.c
+-rw-rw-r-- root       root            18424 ./usr/lib/openssl/ptest/test/sha256t.o
+-rwxrwxr-x root       root             7904 ./usr/lib/openssl/ptest/test/sha512t
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/sha512t.c -> ../crypto/sha/sha512t.c
+-rw-rw-r-- root       root            19624 ./usr/lib/openssl/ptest/test/sha512t.o
+-rwxrwxr-x root       root             6824 ./usr/lib/openssl/ptest/test/shatest
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/shatest.c -> ../crypto/sha/shatest.c
+-rw-rw-r-- root       root            18208 ./usr/lib/openssl/ptest/test/shatest.o
+-rw-r--r-- root       root               33 ./usr/lib/openssl/ptest/test/smcont.txt
+drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test/smime-certs
+-rw-r--r-- root       root             1648 ./usr/lib/openssl/ptest/test/smime-certs/ca.cnf
+-rw-r--r-- root       root             3158 ./usr/lib/openssl/ptest/test/smime-certs/mksmime-certs.sh
+-rw-r--r-- root       root             1957 ./usr/lib/openssl/ptest/test/smime-certs/smdh.pem
+-rw-r--r-- root       root             2879 ./usr/lib/openssl/ptest/test/smime-certs/smdsa1.pem
+-rw-r--r-- root       root             2879 ./usr/lib/openssl/ptest/test/smime-certs/smdsa2.pem
+-rw-r--r-- root       root             2879 ./usr/lib/openssl/ptest/test/smime-certs/smdsa3.pem
+-rw-r--r-- root       root              455 ./usr/lib/openssl/ptest/test/smime-certs/smdsap.pem
+-rw-r--r-- root       root             1214 ./usr/lib/openssl/ptest/test/smime-certs/smec1.pem
+-rw-r--r-- root       root             1231 ./usr/lib/openssl/ptest/test/smime-certs/smec2.pem
+-rw-r--r-- root       root             2953 ./usr/lib/openssl/ptest/test/smime-certs/smroot.pem
+-rw-r--r-- root       root             2953 ./usr/lib/openssl/ptest/test/smime-certs/smrsa1.pem
+-rw-r--r-- root       root             2953 ./usr/lib/openssl/ptest/test/smime-certs/smrsa2.pem
+-rw-r--r-- root       root             2953 ./usr/lib/openssl/ptest/test/smime-certs/smrsa3.pem
+-rwxrwxr-x root       root             9152 ./usr/lib/openssl/ptest/test/srptest
+lrwxrwxrwx root       root               23 ./usr/lib/openssl/ptest/test/srptest.c -> ../crypto/srp/srptest.c
+-rw-rw-r-- root       root            28240 ./usr/lib/openssl/ptest/test/srptest.o
+-rwxrwxr-x root       root            49384 ./usr/lib/openssl/ptest/test/ssltest
+lrwxrwxrwx root       root               16 ./usr/lib/openssl/ptest/test/ssltest.c -> ../ssl/ssltest.c
+-rw-rw-r-- root       root           356328 ./usr/lib/openssl/ptest/test/ssltest.o
+-rw-r--r-- root       root             1928 ./usr/lib/openssl/ptest/test/tcrl
+-rw-r--r-- root       root             2638 ./usr/lib/openssl/ptest/test/tcrl.com
+-rw-r--r-- root       root             2637 ./usr/lib/openssl/ptest/test/test.cnf
+-rwxr-xr-x root       root             1449 ./usr/lib/openssl/ptest/test/test_padlock
+-rw-r--r-- root       root              752 ./usr/lib/openssl/ptest/test/testca
+-rw-r--r-- root       root             1340 ./usr/lib/openssl/ptest/test/testca.com
+-rw-r--r-- root       root              938 ./usr/lib/openssl/ptest/test/testcrl.pem
+-rw-r--r-- root       root             1016 ./usr/lib/openssl/ptest/test/testenc
+-rw-r--r-- root       root             2164 ./usr/lib/openssl/ptest/test/testenc.com
+-rw-r--r-- root       root             3609 ./usr/lib/openssl/ptest/test/testfipsssl
+-rw-r--r-- root       root              927 ./usr/lib/openssl/ptest/test/testgen
+-rw-r--r-- root       root             1511 ./usr/lib/openssl/ptest/test/testgen.com
+-rw-r--r-- root       root             2854 ./usr/lib/openssl/ptest/test/testp7.pem
+-rw-r--r-- root       root              371 ./usr/lib/openssl/ptest/test/testreq2.pem
+-rw-r--r-- root       root              497 ./usr/lib/openssl/ptest/test/testrsa.pem
+-rw-r--r-- root       root            10201 ./usr/lib/openssl/ptest/test/tests.com
+-rw-r--r-- root       root              718 ./usr/lib/openssl/ptest/test/testsid.pem
+-rw-r--r-- root       root             4555 ./usr/lib/openssl/ptest/test/testss
+-rw-r--r-- root       root             3536 ./usr/lib/openssl/ptest/test/testss.com
+-rw-r--r-- root       root             8992 ./usr/lib/openssl/ptest/test/testssl
+-rw-r--r-- root       root             6289 ./usr/lib/openssl/ptest/test/testssl.com
+-rw-r--r-- root       root              291 ./usr/lib/openssl/ptest/test/testsslproxy
+-rw-r--r-- root       root             6366 ./usr/lib/openssl/ptest/test/testtsa
+-rw-r--r-- root       root             7478 ./usr/lib/openssl/ptest/test/testtsa.com
+-rw-r--r-- root       root             4767 ./usr/lib/openssl/ptest/test/testutil.h
+-rw-r--r-- root       root              530 ./usr/lib/openssl/ptest/test/testx509.pem
+-rw-r--r-- root       root             5895 ./usr/lib/openssl/ptest/test/times
+-rw-r--r-- root       root             5620 ./usr/lib/openssl/ptest/test/tocsp
+-rw-r--r-- root       root             7212 ./usr/lib/openssl/ptest/test/tocsp.com
+-rw-r--r-- root       root             1033 ./usr/lib/openssl/ptest/test/tpkcs7
+-rw-r--r-- root       root             1648 ./usr/lib/openssl/ptest/test/tpkcs7.com
+-rw-r--r-- root       root              899 ./usr/lib/openssl/ptest/test/tpkcs7d
+-rw-r--r-- root       root             1464 ./usr/lib/openssl/ptest/test/tpkcs7d.com
+-rw-r--r-- root       root             2111 ./usr/lib/openssl/ptest/test/treq
+-rw-r--r-- root       root             2694 ./usr/lib/openssl/ptest/test/treq.com
+-rw-r--r-- root       root             2031 ./usr/lib/openssl/ptest/test/trsa
+-rw-r--r-- root       root             2846 ./usr/lib/openssl/ptest/test/trsa.com
+-rw-r--r-- root       root             1939 ./usr/lib/openssl/ptest/test/tsid
+-rw-r--r-- root       root             2649 ./usr/lib/openssl/ptest/test/tsid.com
+-rw-r--r-- root       root             1589 ./usr/lib/openssl/ptest/test/tverify.com
+-rw-r--r-- root       root             1951 ./usr/lib/openssl/ptest/test/tx509
+-rw-r--r-- root       root             2623 ./usr/lib/openssl/ptest/test/tx509.com
+-rw-r--r-- root       root              944 ./usr/lib/openssl/ptest/test/v3-cert1.pem
+-rw-r--r-- root       root              940 ./usr/lib/openssl/ptest/test/v3-cert2.pem
+-rwxrwxr-x root       root            13616 ./usr/lib/openssl/ptest/test/v3nametest
+lrwxrwxrwx root       root               29 ./usr/lib/openssl/ptest/test/v3nametest.c -> ../crypto/x509v3/v3nametest.c
+-rw-rw-r-- root       root            61096 ./usr/lib/openssl/ptest/test/v3nametest.o
+-rwxrwxr-x root       root             8752 ./usr/lib/openssl/ptest/test/verify_extra_test
+lrwxrwxrwx root       root               34 ./usr/lib/openssl/ptest/test/verify_extra_test.c -> ../crypto/x509/verify_extra_test.c
+-rw-rw-r-- root       root            42480 ./usr/lib/openssl/ptest/test/verify_extra_test.o
+-rwxrwxr-x root       root             8288 ./usr/lib/openssl/ptest/test/wp_test
+lrwxrwxrwx root       root               28 ./usr/lib/openssl/ptest/test/wp_test.c -> ../crypto/whrlpool/wp_test.c
+-rw-rw-r-- root       root            20344 ./usr/lib/openssl/ptest/test/wp_test.o
+drwxrwxr-x root       root             4096 ./usr/lib/openssl/ptest/util
+-rwxr-xr-x root       root              977 ./usr/lib/openssl/ptest/util/opensslwrap.sh
+-rwxr-xr-x root       root             3708 ./usr/lib/openssl/ptest/util/shlib_wrap.sh

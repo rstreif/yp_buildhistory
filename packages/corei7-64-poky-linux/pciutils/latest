@@ -1,0 +1,4 @@
+PV = 3.3.1
+PR = r0
+DEPENDS = kmod virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc zlib
+PACKAGES = pciutils-ids libpci pciutils-dbg pciutils-staticdev pciutils-dev pciutils-doc pciutils-locale pciutils

@@ -1,0 +1,9 @@
+PV = 0.0.0+gitAUTOINC+6f0afff90a
+PR = r0
+PKGV = 0.0.0+git0+6f0afff90a
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/pixieserver/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pixieserver/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pixieserver/pixieserver/.debug /usr/src/debug
+FILELIST = 

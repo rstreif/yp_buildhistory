@@ -1,0 +1,9 @@
+PV = 0.0.0+gitAUTOINC+6f0afff90a
+PR = r0
+PKGV = 0.0.0+git0+6f0afff90a
+RPROVIDES = 
+RDEPENDS = pixieserver (= 0.0.0+git0+6f0afff90a-r0)
+RRECOMMENDS = initscripts-dev initscripts-functions-dev nodejs-dev nodejs-npm-dev update-rc.d-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pixieserver/*.la /lib/*.la
+FILELIST = 

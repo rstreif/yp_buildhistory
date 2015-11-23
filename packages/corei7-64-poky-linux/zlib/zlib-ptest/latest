@@ -1,0 +1,9 @@
+PV = 1.2.8
+PR = r0
+PKG = libz-ptest
+RPROVIDES = 1.2.8 zlib-ptest
+RDEPENDS = glibc (>= 2.22) make zlib (>= 1.2.8)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 595141
+FILES = /usr/lib/zlib/ptest
+FILELIST = /usr/lib/zlib/ptest/.debug/example /usr/lib/zlib/ptest/.debug/examplesh /usr/lib/zlib/ptest/.debug/minigzip /usr/lib/zlib/ptest/.debug/minigzipsh /usr/lib/zlib/ptest/Makefile /usr/lib/zlib/ptest/example /usr/lib/zlib/ptest/examplesh /usr/lib/zlib/ptest/minigzip /usr/lib/zlib/ptest/minigzipsh /usr/lib/zlib/ptest/run-ptest

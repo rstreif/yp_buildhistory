@@ -1,0 +1,9 @@
+PV = 0.0.0+gitAUTOINC+6f0afff90a
+PR = r0
+PKGV = 0.0.0+git0+6f0afff90a
+RPROVIDES = 
+RDEPENDS = pixieserver-dev (= 0.0.0+git0+6f0afff90a-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/pixieserver/*.a
+FILELIST = 
