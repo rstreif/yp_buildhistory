@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root           472406 ./usr/lib/libasm.a
+-rw-r--r-- root       root          5496956 ./usr/lib/libdw.a
+-rw-r--r-- root       root          1089040 ./usr/lib/libebl.a
+-rw-r--r-- root       root          2622294 ./usr/lib/libelf.a

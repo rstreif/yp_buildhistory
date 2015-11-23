@@ -1,0 +1,9 @@
+PV = 3.19.5+gitAUTOINC+1016714868_e152349de5
+PR = r0.3
+PKGV = 3.19.5+git0+1016714868_e152349de5
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 44352
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/ethernet/realtek/8139too.ko /etc/modules-load.d/8139too.conf /etc/modprobe.d/8139too.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/ethernet/realtek/8139too.ko

@@ -1,0 +1,9 @@
+PV = 3.19.5+gitAUTOINC+1016714868_e152349de5
+PR = r0.3
+PKGV = 3.19.5+git0+1016714868_e152349de5
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 846640
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/net/wireless/cfg80211.ko /etc/modules-load.d/cfg80211.conf /etc/modprobe.d/cfg80211.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/net/wireless/cfg80211.ko

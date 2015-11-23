@@ -1,0 +1,10 @@
+PV = 3.19.5+gitAUTOINC+1016714868_e152349de5
+PR = r0.3
+PKGV = 3.19.5+git0+1016714868_e152349de5
+PKG = kernel-3.19.5-yocto-standard
+RPROVIDES = 3.19.5+git0+1016714868 e152349de5 kernel-3.19.5-yocto-standard kernel-base
+RDEPENDS = kernel-image
+RRECOMMENDS = 
+PKGSIZE = 20494
+FILES = /lib/modules/3.19.5-yocto-standard/modules.order /lib/modules/3.19.5-yocto-standard/modules.builtin
+FILELIST = /lib/modules/3.19.5-yocto-standard/modules.builtin /lib/modules/3.19.5-yocto-standard/modules.order

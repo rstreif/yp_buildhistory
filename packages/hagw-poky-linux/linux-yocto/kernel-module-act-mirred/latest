@@ -1,0 +1,9 @@
+PV = 3.19.5+gitAUTOINC+1016714868_e152349de5
+PR = r0.3
+PKGV = 3.19.5+git0+1016714868_e152349de5
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8768
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/net/sched/act_mirred.ko /etc/modules-load.d/act_mirred.conf /etc/modprobe.d/act_mirred.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/net/sched/act_mirred.ko

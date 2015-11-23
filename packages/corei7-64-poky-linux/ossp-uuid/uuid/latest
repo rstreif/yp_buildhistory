@@ -1,0 +1,8 @@
+PV = 1.6.2
+PR = r2
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) ossp-uuid (>= 1.6.2)
+RRECOMMENDS = 
+PKGSIZE = 11024
+FILES = /usr/bin/uuid
+FILELIST = /usr/bin/uuid

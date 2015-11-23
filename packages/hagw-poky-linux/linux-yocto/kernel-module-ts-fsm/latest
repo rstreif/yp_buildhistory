@@ -1,0 +1,9 @@
+PV = 3.19.5+gitAUTOINC+1016714868_e152349de5
+PR = r0.3
+PKGV = 3.19.5+git0+1016714868_e152349de5
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6776
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/lib/ts_fsm.ko /etc/modules-load.d/ts_fsm.conf /etc/modprobe.d/ts_fsm.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/lib/ts_fsm.ko

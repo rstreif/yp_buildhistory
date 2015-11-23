@@ -1,0 +1,9 @@
+PV = 8.37
+PR = r0
+PKG = libpcrecpp0
+RPROVIDES = 8.37 libpcrecpp
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libpcre (>= 8.37) libstdc++ (>= 5.2.0)
+RRECOMMENDS = 
+PKGSIZE = 35859
+FILES = /usr/lib/libpcrecpp.so.*
+FILELIST = /usr/lib/libpcrecpp.so.0 /usr/lib/libpcrecpp.so.0.0.1

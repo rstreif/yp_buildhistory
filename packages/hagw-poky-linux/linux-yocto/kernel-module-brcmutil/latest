@@ -1,0 +1,9 @@
+PV = 3.19.5+gitAUTOINC+1016714868_e152349de5
+PR = r0.3
+PKGV = 3.19.5+git0+1016714868_e152349de5
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13056
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmutil/brcmutil.ko /etc/modules-load.d/brcmutil.conf /etc/modprobe.d/brcmutil.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmutil/brcmutil.ko

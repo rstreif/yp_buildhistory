@@ -1,0 +1,9 @@
+PV = 3.19.5+gitAUTOINC+1016714868_e152349de5
+PR = r0.3
+PKGV = 3.19.5+git0+1016714868_e152349de5
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 39520
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/tun.ko /etc/modules-load.d/tun.conf /etc/modprobe.d/tun.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/tun.ko
