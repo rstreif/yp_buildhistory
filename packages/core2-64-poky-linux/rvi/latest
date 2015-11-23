@@ -1,0 +1,4 @@
+PV = 0.4.0+gitAUTOINC+3ad1ad4f45
+PR = r0
+DEPENDS = bluez5 erlang initscripts rebar update-rc.d update-rc.d-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = rvi-dbg rvi-staticdev rvi-dev rvi-doc rvi-locale rvi
