@@ -1,0 +1,18 @@
+hagw: vhgw-image-base configured for poky 2.0
+
+Build Configuration:
+BB_VERSION        = "1.28.0"
+BUILD_SYS         = "x86_64-linux"
+NATIVELSBSTRING   = "Fedora-20"
+TARGET_SYS        = "x86_64-poky-linux"
+MACHINE           = "hagw"
+DISTRO            = "poky"
+DISTRO_VERSION    = "2.0"
+TUNE_FEATURES     = "m64 corei7"
+TARGET_FPU        = ""
+meta              
+meta-yocto        = "rjs:1b25a70991589ed1f123015c16ee4806c46e3199"
+meta-oe           = "master:b9ae51570d1ba7136700c81d309663342275193a"
+meta-rvi          
+meta-hagw         = "<unknown>:<unknown>"
+

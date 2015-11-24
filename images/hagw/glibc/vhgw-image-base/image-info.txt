@@ -1,0 +1,13 @@
+DISTRO = poky
+DISTRO_VERSION = 2.0
+USER_CLASSES = buildstats image-mklibs image-prelink
+IMAGE_CLASSES = image_types
+IMAGE_FEATURES = debug-tweaks package-management tools-sdk eclipse-debug tools-debug ssh-server-openssh
+IMAGE_LINGUAS = en-us en-gb
+IMAGE_INSTALL = packagegroup-core-boot packagegroup-base-extended kernel-modules sudo python git nodejs nodejs-npm erlang rebar rvi ncurses ncurses-dev
+BAD_RECOMMENDATIONS = 
+NO_RECOMMENDATIONS = 
+PACKAGE_EXCLUDE = 
+ROOTFS_POSTPROCESS_COMMAND = write_package_manifest; license_create_manifest;   ssh_allow_empty_password;  postinst_enable_logging;  rootfs_update_timestamp ;    empty_var_volatile; modify_shells; modify_sudoers; modify_blacklist;
+IMAGE_POSTPROCESS_COMMAND =   buildhistory_get_imageinfo ; 
+IMAGESIZE = 510468
