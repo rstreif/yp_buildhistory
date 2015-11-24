@@ -1,0 +1,4 @@
+PV = 21+gitAUTOINC+114ec87c85
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gtk-doc-stub-native libtool-cross libtool-native pkgconfig-native pkgconfig-native virtual/libc virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc zlib
+PACKAGES = libkmod kmod-bash-completion kmod-dbg kmod-staticdev kmod-dev kmod-doc kmod-locale kmod

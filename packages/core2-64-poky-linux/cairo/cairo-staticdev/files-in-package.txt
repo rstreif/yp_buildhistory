@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/cairo
+-rw-r--r-- root       root           825822 ./usr/lib/cairo/libcairo-trace.a
+-rw-r--r-- root       root            91170 ./usr/lib/libcairo-gobject.a
+-rw-r--r-- root       root          1058176 ./usr/lib/libcairo-script-interpreter.a
+-rw-r--r-- root       root         13155210 ./usr/lib/libcairo.a

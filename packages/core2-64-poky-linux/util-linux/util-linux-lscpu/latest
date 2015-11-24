@@ -1,0 +1,8 @@
+PV = 2.26.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) util-linux-libsmartcols (>= 2.26.2)
+RRECOMMENDS = 
+PKGSIZE = 49760
+FILES = /usr/bin/lscpu
+FILELIST = /usr/bin/lscpu
