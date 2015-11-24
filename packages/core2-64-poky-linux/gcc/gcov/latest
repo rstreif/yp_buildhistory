@@ -1,0 +1,8 @@
+PV = 5.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 896288
+FILES = /usr/bin/x86_64-poky-linux-gcov* /usr/bin/x86_64-poky-linux-gcov-tool*
+FILELIST = /usr/bin/x86_64-poky-linux-gcov /usr/bin/x86_64-poky-linux-gcov-tool

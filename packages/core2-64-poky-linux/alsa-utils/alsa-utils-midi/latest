@@ -1,0 +1,8 @@
+PV = 1.0.29
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libasound (>= 1.0.29)
+RRECOMMENDS = 
+PKGSIZE = 57064
+FILES = /usr/bin/aplaymidi /usr/bin/arecordmidi /usr/bin/amidi
+FILELIST = /usr/bin/amidi /usr/bin/aplaymidi /usr/bin/arecordmidi

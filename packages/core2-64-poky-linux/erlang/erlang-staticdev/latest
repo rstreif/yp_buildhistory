@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 4929552
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/erlang/*.a /usr/lib/erlang/usr/lib/*.a /usr/lib/erlang/usr/lib/internal/*.a /usr/lib/erlang/erts-*/lib/*.a /usr/lib/erlang/erts-*/lib/internal/*
+FILELIST = /usr/lib/erlang/erts-5.10.4/lib/internal/README /usr/lib/erlang/erts-5.10.4/lib/internal/liberts_internal.a /usr/lib/erlang/erts-5.10.4/lib/internal/liberts_internal_r.a /usr/lib/erlang/erts-5.10.4/lib/internal/libethread.a /usr/lib/erlang/erts-5.10.4/lib/liberts.a /usr/lib/erlang/erts-5.10.4/lib/liberts_r.a /usr/lib/erlang/usr/lib/libei.a /usr/lib/erlang/usr/lib/libei_st.a /usr/lib/erlang/usr/lib/liberl_interface.a /usr/lib/erlang/usr/lib/liberl_interface_st.a /usr/lib/erlang/usr/lib/liberts.a /usr/lib/erlang/usr/lib/liberts_r.a /usr/lib/erlang/usr/lib/libic.a

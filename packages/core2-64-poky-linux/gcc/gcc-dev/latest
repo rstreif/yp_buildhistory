@@ -1,0 +1,8 @@
+PV = 5.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = gcc (= 5.2.0-r0) glibc (>= 2.22)
+RRECOMMENDS = cpp-dev g++-dev glibc-dev gmp-dev libgcc-dev libmpc-dev libstdc++-dev mpfr-dev zlib-dev
+PKGSIZE = 176332
+FILES = /usr/lib/gcc/x86_64-poky-linux/5.2.0/lib*.so /usr/lib/gcc/gcc/x86_64-poky-linux/5.2.0/lib*.so /usr/lib/gcc/x86_64-poky-linux/5.2.0/plugin/include/ /usr/lib/gcc/gcc/x86_64-poky-linux/5.2.0/plugin/gengtype /usr/lib/gcc/x86_64-poky-linux/5.2.0/plugin/gtype.state
+FILELIST = /usr/lib/gcc/gcc/x86_64-poky-linux/5.2.0/libcc1.so /usr/lib/gcc/gcc/x86_64-poky-linux/5.2.0/libcc1plugin.so /usr/lib/gcc/gcc/x86_64-poky-linux/5.2.0/plugin/gengtype

@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root           499040 ./usr/lib/libavahi-client.a
+-rw-r--r-- root       root           346834 ./usr/lib/libavahi-common.a
+-rw-r--r-- root       root          2347614 ./usr/lib/libavahi-core.a
+-rw-r--r-- root       root            74694 ./usr/lib/libavahi-glib.a
+-rw-r--r-- root       root           334370 ./usr/lib/libavahi-gobject.a

@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 150027
+FILES = /usr/lib/erlang/lib/eunit-*/src /usr/lib/erlang/lib/eunit-*/include
+FILELIST = /usr/lib/erlang/lib/eunit-2.2.6/include/eunit.hrl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_autoexport.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_data.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_lib.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_proc.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_serial.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_server.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_striptests.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_surefire.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_test.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_tests.erl /usr/lib/erlang/lib/eunit-2.2.6/src/eunit_tty.erl

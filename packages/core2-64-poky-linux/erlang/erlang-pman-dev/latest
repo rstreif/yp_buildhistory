@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 125635
+FILES = /usr/lib/erlang/lib/pman-*/src /usr/lib/erlang/lib/pman-*/include
+FILELIST = /usr/lib/erlang/lib/pman-2.7.1.4/src/assert.hrl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_buf.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_buf.hrl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_buf_buffer.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_buf_converter.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_buf_printer.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_buf_utils.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_main.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_module_info.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_options.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_options.hrl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_process.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_relay.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_relay_server.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_shell.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_tool.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_win.erl /usr/lib/erlang/lib/pman-2.7.1.4/src/pman_win.hrl

@@ -1,6 +1,6 @@
-PV = 0.4.0+gitAUTOINC+3ad1ad4f45
+PV = 0.4.0+gitAUTOINC+0d12de7d77
 PR = r0
-PKGV = 0.4.0+git0+3ad1ad4f45
+PKGV = 0.4.0+git0+0d12de7d77
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 

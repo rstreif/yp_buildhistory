@@ -1,0 +1,35 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            28152 ./usr/bin/x86_64-poky-linux-addr2line
+-rwxr-xr-x root       root            56856 ./usr/bin/x86_64-poky-linux-ar
+-rwxr-xr-x root       root           357472 ./usr/bin/x86_64-poky-linux-as
+-rwxr-xr-x root       root            23600 ./usr/bin/x86_64-poky-linux-c++filt
+-rwxr-xr-x root       root          3129304 ./usr/bin/x86_64-poky-linux-dwp
+-rwxr-xr-x root       root            28200 ./usr/bin/x86_64-poky-linux-elfedit
+-rwxr-xr-x root       root            92696 ./usr/bin/x86_64-poky-linux-gprof
+-rwxr-xr-x root       root           849200 ./usr/bin/x86_64-poky-linux-ld
+-rwxr-xr-x root       root           849200 ./usr/bin/x86_64-poky-linux-ld.bfd
+-rwxr-xr-x root       root          4866464 ./usr/bin/x86_64-poky-linux-ld.gold
+-rwxr-xr-x root       root            38888 ./usr/bin/x86_64-poky-linux-nm
+-rwxr-xr-x root       root           216552 ./usr/bin/x86_64-poky-linux-objcopy
+-rwxr-xr-x root       root           344312 ./usr/bin/x86_64-poky-linux-objdump
+-rwxr-xr-x root       root            56864 ./usr/bin/x86_64-poky-linux-ranlib
+-rwxr-xr-x root       root           462792 ./usr/bin/x86_64-poky-linux-readelf
+-rwxr-xr-x root       root            27992 ./usr/bin/x86_64-poky-linux-size
+-rwxr-xr-x root       root            28088 ./usr/bin/x86_64-poky-linux-strings
+-rwxr-xr-x root       root           216552 ./usr/bin/x86_64-poky-linux-strip
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root          1195760 ./usr/lib/libbfd-2.25.1.so
+-rwxr-xr-x root       root          1597384 ./usr/lib/libopcodes-2.25.1.so
+drwxr-xr-x root       root             4096 ./usr/x86_64-poky-linux
+drwxr-xr-x root       root             4096 ./usr/x86_64-poky-linux/bin
+lrwxrwxrwx root       root               37 ./usr/x86_64-poky-linux/bin/ar -> ../../../usr/bin/x86_64-poky-linux-ar
+lrwxrwxrwx root       root               37 ./usr/x86_64-poky-linux/bin/as -> ../../../usr/bin/x86_64-poky-linux-as
+lrwxrwxrwx root       root               37 ./usr/x86_64-poky-linux/bin/ld -> ../../../usr/bin/x86_64-poky-linux-ld
+lrwxrwxrwx root       root               41 ./usr/x86_64-poky-linux/bin/ld.bfd -> ../../../usr/bin/x86_64-poky-linux-ld.bfd
+lrwxrwxrwx root       root               42 ./usr/x86_64-poky-linux/bin/ld.gold -> ../../../usr/bin/x86_64-poky-linux-ld.gold
+lrwxrwxrwx root       root               37 ./usr/x86_64-poky-linux/bin/nm -> ../../../usr/bin/x86_64-poky-linux-nm
+lrwxrwxrwx root       root               42 ./usr/x86_64-poky-linux/bin/objcopy -> ../../../usr/bin/x86_64-poky-linux-objcopy
+lrwxrwxrwx root       root               42 ./usr/x86_64-poky-linux/bin/objdump -> ../../../usr/bin/x86_64-poky-linux-objdump
+lrwxrwxrwx root       root               41 ./usr/x86_64-poky-linux/bin/ranlib -> ../../../usr/bin/x86_64-poky-linux-ranlib
+lrwxrwxrwx root       root               40 ./usr/x86_64-poky-linux/bin/strip -> ../../../usr/bin/x86_64-poky-linux-strip

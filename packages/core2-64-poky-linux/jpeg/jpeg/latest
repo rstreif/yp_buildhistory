@@ -1,0 +1,9 @@
+PV = 9a
+PR = r0
+PKG = libjpeg9
+RPROVIDES = 9a jpeg
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 238336
+FILES = /usr/bin/* /usr/sbin/* /usr/lib/jpeg/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/jpeg /usr/lib/jpeg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libjpeg.so.9 /usr/lib/libjpeg.so.9.1.0

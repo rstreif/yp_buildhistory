@@ -1,0 +1,4 @@
+PV = 182
+PR = r9
+DEPENDS = autoconf-native automake-native glib-2.0 glib-2.0-native gnu-config-native gperf-native initscripts libtool-cross libtool-native libusb libxslt-native module-init-tools pciutils pkgconfig-native update-rc.d update-rc.d-native usbutils util-linux virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = libgudev libudev udev-cache udev-ptest udev-dbg udev-staticdev udev-dev udev-doc udev-locale udev

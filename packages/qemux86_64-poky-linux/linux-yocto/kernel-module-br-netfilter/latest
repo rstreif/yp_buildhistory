@@ -1,0 +1,9 @@
+PV = 4.1.8+gitAUTOINC+aed9021602_dbe692d91c
+PR = r0
+PKGV = 4.1.8+git0+aed9021602_dbe692d91c
+RPROVIDES = 
+RDEPENDS = kernel-4.1.8-yocto-standard kernel-module-bridge kernel-module-llc kernel-module-stp
+RRECOMMENDS = 
+PKGSIZE = 23328
+FILES = /lib/modules/4.1.8-yocto-standard/kernel/net/bridge/br_netfilter.ko /etc/modules-load.d/br_netfilter.conf /etc/modprobe.d/br_netfilter.conf
+FILELIST = /lib/modules/4.1.8-yocto-standard/kernel/net/bridge/br_netfilter.ko

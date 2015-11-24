@@ -1,0 +1,8 @@
+PV = 182
+PR = r9
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 38544
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/udev/README.keymap.txt /usr/share/man/man7/udev.7 /usr/share/man/man8/scsi_id.8 /usr/share/man/man8/udevadm.8 /usr/share/man/man8/udevd.8

@@ -75,7 +75,7 @@ drwxr-xr-x root       root             4096 ./opt/rvi/rvi/components/service_dis
 drwxr-xr-x 1000       1000             4096 ./opt/rvi/rvi/components/service_discovery/ebin
 -rw-r--r-- 1000       1000              393 ./opt/rvi/rvi/components/service_discovery/ebin/service_discovery.app
 -rw-r--r-- 1000       1000             1312 ./opt/rvi/rvi/components/service_discovery/ebin/service_discovery_app.beam
--rw-r--r-- 1000       1000            22592 ./opt/rvi/rvi/components/service_discovery/ebin/service_discovery_rpc.beam
+-rw-r--r-- 1000       1000            22596 ./opt/rvi/rvi/components/service_discovery/ebin/service_discovery_rpc.beam
 -rw-r--r-- 1000       1000             1360 ./opt/rvi/rvi/components/service_discovery/ebin/service_discovery_sup.beam
 drwxr-xr-x 1000       1000             4096 ./opt/rvi/rvi/components/service_discovery/priv
 -rw-r--r-- 1000       1000             1127 ./opt/rvi/rvi/components/service_discovery/priv/setup.config

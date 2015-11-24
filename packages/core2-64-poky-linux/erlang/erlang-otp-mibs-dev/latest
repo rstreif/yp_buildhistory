@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 10235
+FILES = /usr/lib/erlang/lib/otp_mibs-*/src /usr/lib/erlang/lib/otp_mibs-*/include
+FILELIST = /usr/lib/erlang/lib/otp_mibs-1.0.8/include/OTP-MIB.hrl /usr/lib/erlang/lib/otp_mibs-1.0.8/include/OTP-REG.hrl /usr/lib/erlang/lib/otp_mibs-1.0.8/include/OTP-TC.hrl /usr/lib/erlang/lib/otp_mibs-1.0.8/src/otp_mib.erl

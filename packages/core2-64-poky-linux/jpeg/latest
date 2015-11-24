@@ -1,0 +1,4 @@
+PV = 9a
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = jpeg-tools jpeg-dbg jpeg-staticdev jpeg-dev jpeg-doc jpeg-locale jpeg

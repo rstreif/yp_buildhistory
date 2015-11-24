@@ -1,0 +1,9 @@
+PV = 7.1p1
+PR = r0
+RPROVIDES = sshd
+RDEPENDS = base-files base-passwd glibc (>= 2.22) libcrypto (>= 1.0.2d) openssh-keygen shadow zlib (>= 1.2.8)
+RRECOMMENDS = update-rc.d
+RCONFLICTS = dropbear
+PKGSIZE = 1039006
+FILES = /usr/sbin/sshd /etc/init.d/sshd /lib/systemd/system /etc/ssh/moduli /etc/ssh/sshd_config /etc/ssh/sshd_config_readonly /etc/default/volatiles/99_sshd /etc/pam.d/sshd
+FILELIST = /etc/default/volatiles/99_sshd /etc/init.d/sshd /etc/ssh/moduli /etc/ssh/sshd_config /etc/ssh/sshd_config_readonly /usr/sbin/sshd

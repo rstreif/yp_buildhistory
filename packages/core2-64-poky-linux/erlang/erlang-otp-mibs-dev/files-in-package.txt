@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/otp_mibs-1.0.8
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/otp_mibs-1.0.8/include
+-rw-r--r-- root       root             2382 ./usr/lib/erlang/lib/otp_mibs-1.0.8/include/OTP-MIB.hrl
+-rw-r--r-- root       root              693 ./usr/lib/erlang/lib/otp_mibs-1.0.8/include/OTP-REG.hrl
+-rw-r--r-- root       root              258 ./usr/lib/erlang/lib/otp_mibs-1.0.8/include/OTP-TC.hrl
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/otp_mibs-1.0.8/src
+-rw-r--r-- root       root             6902 ./usr/lib/erlang/lib/otp_mibs-1.0.8/src/otp_mib.erl

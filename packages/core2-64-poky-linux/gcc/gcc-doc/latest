@@ -1,0 +1,8 @@
+PV = 5.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2127536
+FILES = /usr/share/info /usr/share/man /usr/lib/gcc/x86_64-poky-linux/5.2.0/include/README
+FILELIST = /usr/share/man/man1/x86_64-poky-linux-cpp.1 /usr/share/man/man1/x86_64-poky-linux-g++.1 /usr/share/man/man1/x86_64-poky-linux-gcc.1 /usr/share/man/man1/x86_64-poky-linux-gcov.1

@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/syntax_tools-1.6.13
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src
+-rw-r--r-- root       root            30321 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/epp_dodger.erl
+-rw-r--r-- root       root            11037 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_comment_scan.erl
+-rw-r--r-- root       root            34784 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_prettypr.erl
+-rw-r--r-- root       root            23716 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_recomment.erl
+-rw-r--r-- root       root           185749 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_syntax.erl
+-rw-r--r-- root       root            76347 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_syntax_lib.erl
+-rw-r--r-- root       root            67656 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_tidy.erl
+-rw-r--r-- root       root           101139 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/igor.erl
+-rw-r--r-- root       root            41981 ./usr/lib/erlang/lib/syntax_tools-1.6.13/src/prettypr.erl

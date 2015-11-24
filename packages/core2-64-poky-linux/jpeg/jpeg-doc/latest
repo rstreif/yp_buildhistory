@@ -1,0 +1,9 @@
+PV = 9a
+PR = r0
+PKG = libjpeg-doc
+RPROVIDES = 9a jpeg-doc
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 35409
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man1/cjpeg.1 /usr/share/man/man1/djpeg.1 /usr/share/man/man1/jpegtran.1 /usr/share/man/man1/rdjpgcom.1 /usr/share/man/man1/wrjpgcom.1

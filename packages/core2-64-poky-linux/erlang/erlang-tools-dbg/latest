@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg
+PKGSIZE = 584256
+FILES = /usr/lib/erlang/lib/tools-*/bin/.debug /usr/lib/erlang/lib/tools-*/lib/.debug /usr/lib/erlang/lib/tools-*/priv/lib/.debug /usr/lib/erlang/lib/tools-*/priv/obj/.debug /usr/lib/erlang/lib/tools-*/priv/bin/.debug
+FILELIST = /usr/lib/erlang/lib/tools-2.6.13/bin/.debug/emem

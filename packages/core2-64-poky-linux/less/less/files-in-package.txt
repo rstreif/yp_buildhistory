@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           151160 ./usr/bin/less.less
+-rwxr-xr-x root       root             7256 ./usr/bin/lessecho
+-rwxr-xr-x root       root            14056 ./usr/bin/lesskey

@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev libcrypto-dev ncurses-dev openssl-dev
+PKGSIZE = 62907
+FILES = /usr/lib/erlang/lib/crypto-*/src /usr/lib/erlang/lib/crypto-*/include
+FILELIST = /usr/lib/erlang/lib/crypto-3.2/src/crypto.erl /usr/lib/erlang/lib/crypto-3.2/src/crypto_app.erl /usr/lib/erlang/lib/crypto-3.2/src/crypto_server.erl /usr/lib/erlang/lib/crypto-3.2/src/crypto_sup.erl

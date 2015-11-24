@@ -1,0 +1,8 @@
+PV = 5.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = gcc-sanitizers libubsan
+RRECOMMENDS = gcc-runtime-dev glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 1017
+FILES = /usr/lib/libubsan.so /usr/lib/libubsan.la
+FILELIST = /usr/lib/libubsan.la /usr/lib/libubsan.so

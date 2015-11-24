@@ -1,0 +1,9 @@
+PV = 4.1.8+gitAUTOINC+aed9021602_dbe692d91c
+PR = r0
+PKGV = 4.1.8+git0+aed9021602_dbe692d91c
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 179789960
+FILES = /boot/vmlinux*
+FILELIST = /boot/vmlinux-4.1.8-yocto-standard

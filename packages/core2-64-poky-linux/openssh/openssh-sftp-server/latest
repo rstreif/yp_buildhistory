@@ -1,0 +1,8 @@
+PV = 7.1p1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 89168
+FILES = /usr/lib/openssh/sftp-server
+FILELIST = /usr/lib/openssh/sftp-server

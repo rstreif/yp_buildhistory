@@ -1,0 +1,8 @@
+PV = 8.37
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libpcre (>= 8.37) libpcreposix (>= 8.37)
+RRECOMMENDS = 
+PKGSIZE = 62064
+FILES = /usr/bin/pcretest
+FILELIST = /usr/bin/pcretest

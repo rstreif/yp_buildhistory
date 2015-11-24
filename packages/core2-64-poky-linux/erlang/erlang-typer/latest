@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 49268
+FILES = /usr/lib/erlang/lib/typer-*
+FILELIST = /usr/lib/erlang/lib/typer-0.9.5/ebin/typer.app /usr/lib/erlang/lib/typer-0.9.5/ebin/typer.appup /usr/lib/erlang/lib/typer-0.9.5/ebin/typer.beam

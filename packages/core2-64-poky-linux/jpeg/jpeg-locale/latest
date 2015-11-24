@@ -1,0 +1,9 @@
+PV = 9a
+PR = r0
+PKG = libjpeg-locale
+RPROVIDES = 9a jpeg-locale
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

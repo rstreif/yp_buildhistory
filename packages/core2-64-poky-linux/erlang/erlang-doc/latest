@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 97131
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help /usr/lib/erlang/erts-*/doc /usr/lib/erlang/erts-*/man /usr/lib/erlang/lib/*/examples /usr/lib/erlang/misc
+FILELIST = /usr/lib/erlang/lib/asn1-2.0.4/examples/P-Record.asn /usr/lib/erlang/lib/diameter-1.5/examples/code/GNUmakefile /usr/lib/erlang/lib/diameter-1.5/examples/code/client.erl /usr/lib/erlang/lib/diameter-1.5/examples/code/client_cb.erl /usr/lib/erlang/lib/diameter-1.5/examples/code/peer.erl /usr/lib/erlang/lib/diameter-1.5/examples/code/relay.erl /usr/lib/erlang/lib/diameter-1.5/examples/code/relay_cb.erl /usr/lib/erlang/lib/diameter-1.5/examples/code/server.erl /usr/lib/erlang/lib/diameter-1.5/examples/code/server_cb.erl /usr/lib/erlang/lib/diameter-1.5/examples/dict/rfc4004_mip.dia /usr/lib/erlang/lib/diameter-1.5/examples/dict/rfc4005_nas.dia /usr/lib/erlang/lib/diameter-1.5/examples/dict/rfc4006_cc.dia /usr/lib/erlang/lib/diameter-1.5/examples/dict/rfc4072_eap.dia /usr/lib/erlang/lib/diameter-1.5/examples/dict/rfc4590_digest.dia /usr/lib/erlang/lib/diameter-1.5/examples/dict/rfc4740_sip.dia /usr/lib/erlang/misc/format_man_pages /usr/lib/erlang/misc/makewhatis

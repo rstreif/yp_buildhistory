@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg
+PKGSIZE = 416424
+FILES = /usr/lib/erlang/lib/crypto-*/bin/.debug /usr/lib/erlang/lib/crypto-*/lib/.debug /usr/lib/erlang/lib/crypto-*/priv/lib/.debug /usr/lib/erlang/lib/crypto-*/priv/obj/.debug /usr/lib/erlang/lib/crypto-*/priv/bin/.debug
+FILELIST = /usr/lib/erlang/lib/crypto-3.2/priv/lib/.debug/crypto.so /usr/lib/erlang/lib/crypto-3.2/priv/lib/.debug/crypto_callback.so /usr/lib/erlang/lib/crypto-3.2/priv/obj/.debug/crypto.o /usr/lib/erlang/lib/crypto-3.2/priv/obj/.debug/crypto_callback.o

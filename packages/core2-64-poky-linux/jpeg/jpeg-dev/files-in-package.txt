@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             3295 ./usr/include/jconfig.h
+-rw-r--r-- root       root            14580 ./usr/include/jerror.h
+-rw-r--r-- root       root            14925 ./usr/include/jmorecfg.h
+-rw-r--r-- root       root            49281 ./usr/include/jpeglib.h
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root              911 ./usr/lib/libjpeg.la
+lrwxrwxrwx root       root               16 ./usr/lib/libjpeg.so -> libjpeg.so.9.1.0

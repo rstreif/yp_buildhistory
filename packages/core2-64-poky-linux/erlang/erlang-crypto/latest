@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2d)
+RRECOMMENDS = 
+PKGSIZE = 188145
+FILES = /usr/lib/erlang/lib/crypto-*
+FILELIST = /usr/lib/erlang/lib/crypto-3.2/ebin/crypto.app /usr/lib/erlang/lib/crypto-3.2/ebin/crypto.appup /usr/lib/erlang/lib/crypto-3.2/ebin/crypto.beam /usr/lib/erlang/lib/crypto-3.2/ebin/crypto_app.beam /usr/lib/erlang/lib/crypto-3.2/ebin/crypto_server.beam /usr/lib/erlang/lib/crypto-3.2/ebin/crypto_sup.beam /usr/lib/erlang/lib/crypto-3.2/priv/lib/crypto.so /usr/lib/erlang/lib/crypto-3.2/priv/lib/crypto_callback.so /usr/lib/erlang/lib/crypto-3.2/priv/obj/Makefile /usr/lib/erlang/lib/crypto-3.2/priv/obj/crypto.o /usr/lib/erlang/lib/crypto-3.2/priv/obj/crypto_callback.o

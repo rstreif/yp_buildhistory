@@ -1,0 +1,9 @@
+PV = 9a
+PR = r0
+PKG = libjpeg-staticdev
+RPROVIDES = 9a jpeg-staticdev
+RDEPENDS = jpeg-dev (= 9a-r0)
+RRECOMMENDS = 
+PKGSIZE = 2256068
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/jpeg/*.a
+FILELIST = /usr/lib/libjpeg.a

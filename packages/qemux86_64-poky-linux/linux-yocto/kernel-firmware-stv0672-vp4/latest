@@ -1,0 +1,9 @@
+PV = 4.1.8+gitAUTOINC+aed9021602_dbe692d91c
+PR = r0
+PKGV = 4.1.8+git0+aed9021602_dbe692d91c
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 824
+FILES = /lib/firmware/cpia2/stv0672_vp4.bin
+FILELIST = /lib/firmware/cpia2/stv0672_vp4.bin

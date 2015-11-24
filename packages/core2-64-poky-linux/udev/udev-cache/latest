@@ -1,0 +1,8 @@
+PV = 182
+PR = r9
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = update-rc.d
+PKGSIZE = 2300
+FILES = /etc/init.d/udev-cache /etc/default/udev-cache
+FILELIST = /etc/default/udev-cache /etc/init.d/udev-cache

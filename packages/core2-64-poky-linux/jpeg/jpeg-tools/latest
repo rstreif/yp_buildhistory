@@ -1,0 +1,9 @@
+PV = 9a
+PR = r0
+PKG = libjpeg-tools
+RPROVIDES = 9a jpeg-tools
+RDEPENDS = glibc (>= 2.22) jpeg (>= 9a)
+RRECOMMENDS = 
+PKGSIZE = 79528
+FILES = /usr/bin/*
+FILELIST = /usr/bin/cjpeg /usr/bin/djpeg /usr/bin/jpegtran /usr/bin/rdjpgcom /usr/bin/wrjpgcom
