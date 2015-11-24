@@ -1,0 +1,9 @@
+PV = 0.4.0+gitAUTOINC+0d12de7d77
+PR = r0
+PKGV = 0.4.0+git0+0d12de7d77
+RPROVIDES = 
+RDEPENDS = rvi-dev (= 0.4.0+git0+0d12de7d77-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/rvi/*.a
+FILELIST = 

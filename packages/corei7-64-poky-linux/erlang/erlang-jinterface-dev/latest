@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/jinterface-*/src /usr/lib/erlang/lib/jinterface-*/include
+FILELIST = 

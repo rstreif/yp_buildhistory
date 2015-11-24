@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 49312
+FILES = /usr/lib/erlang/lib/toolbar-*
+FILELIST = /usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/canvasbutton.beam /usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar.app /usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar.appup /usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar.beam /usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_graphics.beam /usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_lib.beam /usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_toolconfig.beam

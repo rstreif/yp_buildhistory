@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/megaco-3.17.0.2
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/megaco-3.17.0.2/priv
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/megaco-3.17.0.2/priv/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/megaco-3.17.0.2/priv/lib/.debug
+-rwxr-xr-x root       root            76184 ./usr/lib/erlang/lib/megaco-3.17.0.2/priv/lib/.debug/megaco_flex_scanner_drv.so
+-rwxr-xr-x root       root            78760 ./usr/lib/erlang/lib/megaco-3.17.0.2/priv/lib/.debug/megaco_flex_scanner_drv_mt.so

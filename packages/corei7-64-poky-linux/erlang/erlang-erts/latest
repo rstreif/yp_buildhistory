@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 357473
+FILES = /usr/lib/erlang/lib/erts-*
+FILELIST = /usr/lib/erlang/lib/erts-5.10.4/ebin/erl_prim_loader.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/erlang.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/erts.app /usr/lib/erlang/lib/erts-5.10.4/ebin/erts_internal.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/init.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/otp_ring0.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/prim_eval.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/prim_file.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/prim_inet.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/prim_zip.beam /usr/lib/erlang/lib/erts-5.10.4/ebin/zlib.beam

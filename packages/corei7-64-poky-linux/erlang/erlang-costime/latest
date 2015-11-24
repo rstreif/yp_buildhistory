@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 124251
+FILES = /usr/lib/erlang/lib/cosTime-*
+FILELIST = /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTime_TIO.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTime_TIO_impl.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTime_TimeService.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTime_TimeService_impl.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTime_TimeUnavailable.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTime_UTO.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTime_UTO_impl.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTimerEvent_TimerEventHandler.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTimerEvent_TimerEventHandler_impl.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTimerEvent_TimerEventService.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTimerEvent_TimerEventService_impl.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/CosTimerEvent_TimerEventT.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/TimeBase_IntervalT.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/TimeBase_UtcT.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/cosTime.app /usr/lib/erlang/lib/cosTime-1.1.13/ebin/cosTime.appup /usr/lib/erlang/lib/cosTime-1.1.13/ebin/cosTime.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/oe_CosTime.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/oe_CosTimerEvent.beam /usr/lib/erlang/lib/cosTime-1.1.13/ebin/oe_TimeBase.beam

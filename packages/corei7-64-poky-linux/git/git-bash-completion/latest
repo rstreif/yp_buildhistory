@@ -1,0 +1,8 @@
+PV = 2.5.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 56558
+FILES = /usr/share/bash-completion/completions/*
+FILELIST = /usr/share/bash-completion/completions/git

@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 63665
+FILES = /usr/lib/erlang/lib/toolbar-*/src /usr/lib/erlang/lib/toolbar-*/include
+FILELIST = /usr/lib/erlang/lib/toolbar-1.4.2.3/src/canvasbutton.erl /usr/lib/erlang/lib/toolbar-1.4.2.3/src/toolbar.erl /usr/lib/erlang/lib/toolbar-1.4.2.3/src/toolbar.hrl /usr/lib/erlang/lib/toolbar-1.4.2.3/src/toolbar_graphics.erl /usr/lib/erlang/lib/toolbar-1.4.2.3/src/toolbar_lib.erl /usr/lib/erlang/lib/toolbar-1.4.2.3/src/toolbar_toolconfig.erl

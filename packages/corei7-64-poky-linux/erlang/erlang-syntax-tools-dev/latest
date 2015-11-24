@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 572730
+FILES = /usr/lib/erlang/lib/syntax_tools-*/src /usr/lib/erlang/lib/syntax_tools-*/include
+FILELIST = /usr/lib/erlang/lib/syntax_tools-1.6.13/src/epp_dodger.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_comment_scan.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_prettypr.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_recomment.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_syntax.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_syntax_lib.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/erl_tidy.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/igor.erl /usr/lib/erlang/lib/syntax_tools-1.6.13/src/prettypr.erl

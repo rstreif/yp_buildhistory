@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg
+PKGSIZE = 154944
+FILES = /usr/lib/erlang/lib/megaco-*/bin/.debug /usr/lib/erlang/lib/megaco-*/lib/.debug /usr/lib/erlang/lib/megaco-*/priv/lib/.debug /usr/lib/erlang/lib/megaco-*/priv/obj/.debug /usr/lib/erlang/lib/megaco-*/priv/bin/.debug
+FILELIST = /usr/lib/erlang/lib/megaco-3.17.0.2/priv/lib/.debug/megaco_flex_scanner_drv.so /usr/lib/erlang/lib/megaco-3.17.0.2/priv/lib/.debug/megaco_flex_scanner_drv_mt.so

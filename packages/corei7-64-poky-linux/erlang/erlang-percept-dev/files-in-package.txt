@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/percept-0.8.8.2
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/percept-0.8.8.2/src
+-rw-r--r-- root       root             8177 ./usr/lib/erlang/lib/percept-0.8.8.2/src/egd.erl
+-rw-r--r-- root       root             5195 ./usr/lib/erlang/lib/percept-0.8.8.2/src/egd_font.erl
+-rw-r--r-- root       root             2943 ./usr/lib/erlang/lib/percept-0.8.8.2/src/egd_png.erl
+-rw-r--r-- root       root            15893 ./usr/lib/erlang/lib/percept-0.8.8.2/src/egd_primitives.erl
+-rw-r--r-- root       root            21743 ./usr/lib/erlang/lib/percept-0.8.8.2/src/egd_render.erl
+-rw-r--r-- root       root             9760 ./usr/lib/erlang/lib/percept-0.8.8.2/src/percept.erl
+-rw-r--r-- root       root            12233 ./usr/lib/erlang/lib/percept-0.8.8.2/src/percept_analyzer.erl
+-rw-r--r-- root       root            21510 ./usr/lib/erlang/lib/percept-0.8.8.2/src/percept_db.erl
+-rw-r--r-- root       root             5386 ./usr/lib/erlang/lib/percept-0.8.8.2/src/percept_graph.erl
+-rw-r--r-- root       root            22591 ./usr/lib/erlang/lib/percept-0.8.8.2/src/percept_html.erl
+-rw-r--r-- root       root            10805 ./usr/lib/erlang/lib/percept-0.8.8.2/src/percept_image.erl

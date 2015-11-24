@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 361230
+FILES = /usr/lib/erlang/lib/erts-*/src /usr/lib/erlang/lib/erts-*/include
+FILELIST = /usr/lib/erlang/lib/erts-5.10.4/src/erl_prim_loader.erl /usr/lib/erlang/lib/erts-5.10.4/src/erlang.erl /usr/lib/erlang/lib/erts-5.10.4/src/erts_internal.erl /usr/lib/erlang/lib/erts-5.10.4/src/init.erl /usr/lib/erlang/lib/erts-5.10.4/src/otp_ring0.erl /usr/lib/erlang/lib/erts-5.10.4/src/prim_eval.S /usr/lib/erlang/lib/erts-5.10.4/src/prim_eval.erl /usr/lib/erlang/lib/erts-5.10.4/src/prim_file.erl /usr/lib/erlang/lib/erts-5.10.4/src/prim_inet.erl /usr/lib/erlang/lib/erts-5.10.4/src/prim_zip.erl /usr/lib/erlang/lib/erts-5.10.4/src/zlib.erl

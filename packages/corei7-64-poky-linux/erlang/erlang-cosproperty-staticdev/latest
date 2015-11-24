@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/cosProperty-*/lib/*.a /usr/lib/erlang/lib/cosProperty-*/priv/lib/*.a
+FILELIST = 

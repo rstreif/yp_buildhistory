@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 358896
+FILES = /usr/lib/erlang/lib/sasl-*/src /usr/lib/erlang/lib/sasl-*/include
+FILELIST = /usr/lib/erlang/lib/sasl-2.3.4/src/alarm_handler.erl /usr/lib/erlang/lib/sasl-2.3.4/src/erlsrv.erl /usr/lib/erlang/lib/sasl-2.3.4/src/format_lib_supp.erl /usr/lib/erlang/lib/sasl-2.3.4/src/misc_supp.erl /usr/lib/erlang/lib/sasl-2.3.4/src/overload.erl /usr/lib/erlang/lib/sasl-2.3.4/src/rb.erl /usr/lib/erlang/lib/sasl-2.3.4/src/rb_format_supp.erl /usr/lib/erlang/lib/sasl-2.3.4/src/release_handler.erl /usr/lib/erlang/lib/sasl-2.3.4/src/release_handler_1.erl /usr/lib/erlang/lib/sasl-2.3.4/src/sasl.erl /usr/lib/erlang/lib/sasl-2.3.4/src/sasl_report.erl /usr/lib/erlang/lib/sasl-2.3.4/src/sasl_report_file_h.erl /usr/lib/erlang/lib/sasl-2.3.4/src/sasl_report_tty_h.erl /usr/lib/erlang/lib/sasl-2.3.4/src/si.erl /usr/lib/erlang/lib/sasl-2.3.4/src/si_sasl_supp.erl /usr/lib/erlang/lib/sasl-2.3.4/src/systools.erl /usr/lib/erlang/lib/sasl-2.3.4/src/systools.hrl /usr/lib/erlang/lib/sasl-2.3.4/src/systools_lib.erl /usr/lib/erlang/lib/sasl-2.3.4/src/systools_make.erl /usr/lib/erlang/lib/sasl-2.3.4/src/systools_rc.erl /usr/lib/erlang/lib/sasl-2.3.4/src/systools_relup.erl

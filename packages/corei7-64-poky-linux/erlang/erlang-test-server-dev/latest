@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 348405
+FILES = /usr/lib/erlang/lib/test_server-*/src /usr/lib/erlang/lib/test_server-*/include
+FILELIST = /usr/lib/erlang/lib/test_server-3.6.4/include/test_server.hrl /usr/lib/erlang/lib/test_server-3.6.4/include/test_server_line.hrl /usr/lib/erlang/lib/test_server-3.6.4/src/erl2html2.erl /usr/lib/erlang/lib/test_server-3.6.4/src/test_server.erl /usr/lib/erlang/lib/test_server-3.6.4/src/test_server_ctrl.erl /usr/lib/erlang/lib/test_server-3.6.4/src/test_server_gl.erl /usr/lib/erlang/lib/test_server-3.6.4/src/test_server_internal.hrl /usr/lib/erlang/lib/test_server-3.6.4/src/test_server_io.erl /usr/lib/erlang/lib/test_server-3.6.4/src/test_server_node.erl /usr/lib/erlang/lib/test_server-3.6.4/src/test_server_sup.erl

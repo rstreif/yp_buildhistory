@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 163554
+FILES = /usr/lib/erlang/lib/os_mon-*
+FILELIST = /usr/lib/erlang/lib/os_mon-2.2.14/ebin/cpu_sup.beam /usr/lib/erlang/lib/os_mon-2.2.14/ebin/disksup.beam /usr/lib/erlang/lib/os_mon-2.2.14/ebin/memsup.beam /usr/lib/erlang/lib/os_mon-2.2.14/ebin/nteventlog.beam /usr/lib/erlang/lib/os_mon-2.2.14/ebin/os_mon.app /usr/lib/erlang/lib/os_mon-2.2.14/ebin/os_mon.appup /usr/lib/erlang/lib/os_mon-2.2.14/ebin/os_mon.beam /usr/lib/erlang/lib/os_mon-2.2.14/ebin/os_mon_mib.beam /usr/lib/erlang/lib/os_mon-2.2.14/ebin/os_mon_sysinfo.beam /usr/lib/erlang/lib/os_mon-2.2.14/ebin/os_sup.beam /usr/lib/erlang/lib/os_mon-2.2.14/mibs/OTP-OS-MON-MIB.funcs /usr/lib/erlang/lib/os_mon-2.2.14/mibs/OTP-OS-MON-MIB.mib /usr/lib/erlang/lib/os_mon-2.2.14/mibs/v1/OTP-OS-MON-MIB.mib.v1 /usr/lib/erlang/lib/os_mon-2.2.14/priv/bin/cpu_sup /usr/lib/erlang/lib/os_mon-2.2.14/priv/bin/memsup /usr/lib/erlang/lib/os_mon-2.2.14/priv/mibs/OTP-OS-MON-MIB.bin

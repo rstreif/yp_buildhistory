@@ -5,9 +5,9 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 drwxr-xr-x 1000       1000             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root          5551856 ./usr/lib/.debug/libperl.so.5.22.0
-drwxr-xr-x 1000       1000             4096 ./usr/lib/perl
-drwxr-xr-x 1000       1000             4096 ./usr/lib/perl/5.22.0
-drwxr-xr-x 1000       1000             4096 ./usr/lib/perl/5.22.0/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/B
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/B/.debug
 -rwxr-xr-x root       root           239136 ./usr/lib/perl/5.22.0/auto/B/.debug/B.so
@@ -166,7 +166,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/Time/HiRe
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/Time/Piece
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/Time/Piece/.debug
 -rwxr-xr-x root       root            70472 ./usr/lib/perl/5.22.0/auto/Time/Piece/.debug/Piece.so
-drwxr-xr-x 1000       1000             4096 ./usr/lib/perl/5.22.0/auto/Unicode
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/Unicode
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/Unicode/Collate
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/auto/Unicode/Collate/.debug
 -rwxr-xr-x root       root            94632 ./usr/lib/perl/5.22.0/auto/Unicode/Collate/.debug/Collate.so

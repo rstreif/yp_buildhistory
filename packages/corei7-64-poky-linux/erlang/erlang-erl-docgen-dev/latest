@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 61492
+FILES = /usr/lib/erlang/lib/erl_docgen-*/src /usr/lib/erlang/lib/erl_docgen-*/include
+FILELIST = /usr/lib/erlang/lib/erl_docgen-0.3.4.1/src/docgen_edoc_xml_cb.erl /usr/lib/erlang/lib/erl_docgen-0.3.4.1/src/docgen_otp_specs.erl /usr/lib/erlang/lib/erl_docgen-0.3.4.1/src/docgen_xmerl_xml_cb.erl

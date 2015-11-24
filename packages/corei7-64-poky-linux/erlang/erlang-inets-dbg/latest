@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/inets-*/bin/.debug /usr/lib/erlang/lib/inets-*/lib/.debug /usr/lib/erlang/lib/inets-*/priv/lib/.debug /usr/lib/erlang/lib/inets-*/priv/obj/.debug /usr/lib/erlang/lib/inets-*/priv/bin/.debug
+FILELIST = 

@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erts-5.10.4
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erts-5.10.4/ebin
+-rw-r--r-- root       root            54696 ./usr/lib/erlang/lib/erts-5.10.4/ebin/erl_prim_loader.beam
+-rw-r--r-- root       root            94264 ./usr/lib/erlang/lib/erts-5.10.4/ebin/erlang.beam
+-rw-r--r-- root       root             1013 ./usr/lib/erlang/lib/erts-5.10.4/ebin/erts.app
+-rw-r--r-- root       root             3272 ./usr/lib/erlang/lib/erts-5.10.4/ebin/erts_internal.beam
+-rw-r--r-- root       root            48652 ./usr/lib/erlang/lib/erts-5.10.4/ebin/init.beam
+-rw-r--r-- root       root             1464 ./usr/lib/erlang/lib/erts-5.10.4/ebin/otp_ring0.beam
+-rw-r--r-- root       root             1340 ./usr/lib/erlang/lib/erts-5.10.4/ebin/prim_eval.beam
+-rw-r--r-- root       root            44264 ./usr/lib/erlang/lib/erts-5.10.4/ebin/prim_file.beam
+-rw-r--r-- root       root            72280 ./usr/lib/erlang/lib/erts-5.10.4/ebin/prim_inet.beam
+-rw-r--r-- root       root            23428 ./usr/lib/erlang/lib/erts-5.10.4/ebin/prim_zip.beam
+-rw-r--r-- root       root            12800 ./usr/lib/erlang/lib/erts-5.10.4/ebin/zlib.beam

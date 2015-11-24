@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/eldap-1.0.2
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/eldap-1.0.2/asn1
+-rw-r--r-- root       root             9528 ./usr/lib/erlang/lib/eldap-1.0.2/asn1/ELDAPv3.asn1
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/eldap-1.0.2/ebin
+-rw-r--r-- root       root            79324 ./usr/lib/erlang/lib/eldap-1.0.2/ebin/ELDAPv3.beam
+-rw-r--r-- root       root              173 ./usr/lib/erlang/lib/eldap-1.0.2/ebin/eldap.app
+-rw-r--r-- root       root               43 ./usr/lib/erlang/lib/eldap-1.0.2/ebin/eldap.appup
+-rw-r--r-- root       root            40172 ./usr/lib/erlang/lib/eldap-1.0.2/ebin/eldap.beam

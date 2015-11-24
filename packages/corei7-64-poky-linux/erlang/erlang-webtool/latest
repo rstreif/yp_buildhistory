@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 41594
+FILES = /usr/lib/erlang/lib/webtool-*
+FILELIST = /usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool.app /usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool.appup /usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool.beam /usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool_sup.beam /usr/lib/erlang/lib/webtool-0.8.9.2/priv/bin/start_webtool /usr/lib/erlang/lib/webtool-0.8.9.2/priv/root/conf/mime.types /usr/lib/erlang/lib/webtool-0.8.9.2/priv/root/doc/index.html /usr/lib/erlang/lib/webtool-0.8.9.2/priv/root/doc/start_info.html /usr/lib/erlang/lib/webtool-0.8.9.2/priv/root/doc/tool_management.html

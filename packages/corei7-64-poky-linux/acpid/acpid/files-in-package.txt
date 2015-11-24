@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/acpi
+drwxr-xr-x root       root             4096 ./etc/acpi/events
+drwxr-xr-x root       root             4096 ./etc/init.d
+-rwxr-xr-x root       root              728 ./etc/init.d/acpid
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            11312 ./usr/bin/acpi_listen
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            48416 ./usr/sbin/acpid
+-rwxr-xr-x root       root            19160 ./usr/sbin/kacpimon

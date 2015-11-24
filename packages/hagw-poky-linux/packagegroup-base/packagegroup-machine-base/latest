@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r83
+RPROVIDES = 
+RDEPENDS = kernel-module-r8168
+RRECOMMENDS = eee-acpi-scripts kernel-modules linux-firmware v86d
+PKGSIZE = 0
+FILES = 
+FILELIST = 

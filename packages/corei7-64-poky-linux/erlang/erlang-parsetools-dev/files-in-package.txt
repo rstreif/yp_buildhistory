@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/parsetools-2.0.10
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/parsetools-2.0.10/include
+-rw-r--r-- root       root            12598 ./usr/lib/erlang/lib/parsetools-2.0.10/include/leexinc.hrl
+-rw-r--r-- root       root             6847 ./usr/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/parsetools-2.0.10/src
+-rw-r--r-- root       root            64202 ./usr/lib/erlang/lib/parsetools-2.0.10/src/leex.erl
+-rw-r--r-- root       root            96866 ./usr/lib/erlang/lib/parsetools-2.0.10/src/yecc.erl
+-rw-r--r-- root       root            23415 ./usr/lib/erlang/lib/parsetools-2.0.10/src/yeccparser.erl
+-rw-r--r-- root       root             1824 ./usr/lib/erlang/lib/parsetools-2.0.10/src/yeccscan.erl

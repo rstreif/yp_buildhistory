@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 166556
+FILES = /usr/lib/erlang/lib/appmon-*/src /usr/lib/erlang/lib/appmon-*/include
+FILELIST = /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon.erl /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon_a.erl /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon_dg.erl /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon_dg.hrl /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon_lb.erl /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon_place.erl /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon_txt.erl /usr/lib/erlang/lib/appmon-2.1.14.2/src/appmon_web.erl /usr/lib/erlang/lib/appmon-2.1.14.2/src/process_info.erl

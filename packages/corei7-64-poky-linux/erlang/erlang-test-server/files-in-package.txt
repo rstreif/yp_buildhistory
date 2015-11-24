@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/test_server-3.6.4
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/test_server-3.6.4/ebin
+-rw-r--r-- root       root             7760 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/erl2html2.beam
+-rw-r--r-- root       root             1092 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server.app
+-rw-r--r-- root       root               16 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server.appup
+-rw-r--r-- root       root            79432 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server.beam
+-rw-r--r-- root       root           181116 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_ctrl.beam
+-rw-r--r-- root       root            10104 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_gl.beam
+-rw-r--r-- root       root            16600 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_io.beam
+-rw-r--r-- root       root            26044 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_node.beam
+-rw-r--r-- root       root            21324 ./usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_sup.beam

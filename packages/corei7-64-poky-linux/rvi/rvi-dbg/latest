@@ -1,0 +1,9 @@
+PV = 0.4.0+gitAUTOINC+0d12de7d77
+PR = r0
+PKGV = 0.4.0+git0+0d12de7d77
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = bluez5-dbg glibc-dbg
+PKGSIZE = 0
+FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/rvi/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/rvi/.debug /usr/lib/matchbox-panel/.debug /usr/lib/rvi/rvi/.debug /usr/src/debug
+FILELIST = 

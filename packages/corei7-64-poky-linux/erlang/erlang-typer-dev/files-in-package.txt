@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/typer-0.9.5
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/typer-0.9.5/src
+-rw-r--r-- root       root            39281 ./usr/lib/erlang/lib/typer-0.9.5/src/typer.erl

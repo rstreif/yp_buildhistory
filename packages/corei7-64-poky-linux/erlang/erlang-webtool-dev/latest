@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev
+PKGSIZE = 40965
+FILES = /usr/lib/erlang/lib/webtool-*/src /usr/lib/erlang/lib/webtool-*/include
+FILELIST = /usr/lib/erlang/lib/webtool-0.8.9.2/src/webtool.erl /usr/lib/erlang/lib/webtool-0.8.9.2/src/webtool_sup.erl

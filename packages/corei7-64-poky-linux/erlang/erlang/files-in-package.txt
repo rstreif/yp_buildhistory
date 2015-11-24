@@ -1,0 +1,69 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+lrwxrwxrwx root       root               24 ./usr/bin/ct_run -> ../lib/erlang/bin/ct_run
+lrwxrwxrwx root       root               26 ./usr/bin/dialyzer -> ../lib/erlang/bin/dialyzer
+lrwxrwxrwx root       root               22 ./usr/bin/epmd -> ../lib/erlang/bin/epmd
+lrwxrwxrwx root       root               21 ./usr/bin/erl -> ../lib/erlang/bin/erl
+lrwxrwxrwx root       root               22 ./usr/bin/erlc -> ../lib/erlang/bin/erlc
+lrwxrwxrwx root       root               25 ./usr/bin/escript -> ../lib/erlang/bin/escript
+lrwxrwxrwx root       root               25 ./usr/bin/run_erl -> ../lib/erlang/bin/run_erl
+lrwxrwxrwx root       root               24 ./usr/bin/to_erl -> ../lib/erlang/bin/to_erl
+lrwxrwxrwx root       root               23 ./usr/bin/typer -> ../lib/erlang/bin/typer
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/bin
+-rwxr-xr-x root       root            27464 ./usr/lib/erlang/bin/ct_run
+-rwxr-xr-x root       root            26280 ./usr/lib/erlang/bin/dialyzer
+lrwxrwxrwx root       root               23 ./usr/lib/erlang/bin/epmd -> ../erts-5.10.4/bin/epmd
+-rwxr-xr-x root       root              864 ./usr/lib/erlang/bin/erl
+-rwxr-xr-x root       root            31624 ./usr/lib/erlang/bin/erlc
+-rwxr-xr-x root       root            27560 ./usr/lib/erlang/bin/escript
+-rw-r--r-- root       root             5276 ./usr/lib/erlang/bin/no_dot_erlang.boot
+-rwxr-xr-x root       root            20456 ./usr/lib/erlang/bin/run_erl
+-rwxr-xr-x root       root             1163 ./usr/lib/erlang/bin/start
+-rw-r--r-- root       root             5304 ./usr/lib/erlang/bin/start.boot
+-rw-r--r-- root       root             6253 ./usr/lib/erlang/bin/start.script
+-rw-r--r-- root       root             5304 ./usr/lib/erlang/bin/start_clean.boot
+-rwxr-xr-x root       root             1259 ./usr/lib/erlang/bin/start_erl
+-rw-r--r-- root       root             6432 ./usr/lib/erlang/bin/start_sasl.boot
+-rwxr-xr-x root       root            11240 ./usr/lib/erlang/bin/to_erl
+-rwxr-xr-x root       root            25608 ./usr/lib/erlang/bin/typer
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/erts-5.10.4
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/erts-5.10.4/bin
+-rwxr-xr-x root       root          2309992 ./usr/lib/erlang/erts-5.10.4/bin/beam
+-rwxr-xr-x root       root          2503336 ./usr/lib/erlang/erts-5.10.4/bin/beam.smp
+-rwxr-xr-x root       root            13152 ./usr/lib/erlang/erts-5.10.4/bin/child_setup
+-rwxr-xr-x root       root            27464 ./usr/lib/erlang/erts-5.10.4/bin/ct_run
+-rwxr-xr-x root       root            26280 ./usr/lib/erlang/erts-5.10.4/bin/dialyzer
+-rwxr-xr-x root       root             9760 ./usr/lib/erlang/erts-5.10.4/bin/dyn_erl
+-rwxr-xr-x root       root            48200 ./usr/lib/erlang/erts-5.10.4/bin/epmd
+-rwxr-xr-x root       root              864 ./usr/lib/erlang/erts-5.10.4/bin/erl
+-rwxr-xr-x root       root              866 ./usr/lib/erlang/erts-5.10.4/bin/erl.src
+-rwxr-xr-x root       root            31624 ./usr/lib/erlang/erts-5.10.4/bin/erlc
+-rwxr-xr-x root       root            48680 ./usr/lib/erlang/erts-5.10.4/bin/erlexec
+-rwxr-xr-x root       root            27560 ./usr/lib/erlang/erts-5.10.4/bin/escript
+-rwxr-xr-x root       root            10944 ./usr/lib/erlang/erts-5.10.4/bin/heart
+-rwxr-xr-x root       root            44048 ./usr/lib/erlang/erts-5.10.4/bin/inet_gethost
+-rwxr-xr-x root       root            20456 ./usr/lib/erlang/erts-5.10.4/bin/run_erl
+-rwxr-xr-x root       root             1163 ./usr/lib/erlang/erts-5.10.4/bin/start
+-rw-r--r-- root       root             1163 ./usr/lib/erlang/erts-5.10.4/bin/start.src
+-rw-r--r-- root       root             1259 ./usr/lib/erlang/erts-5.10.4/bin/start_erl.src
+-rwxr-xr-x root       root            11240 ./usr/lib/erlang/erts-5.10.4/bin/to_erl
+-rwxr-xr-x root       root            25608 ./usr/lib/erlang/erts-5.10.4/bin/typer
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/releases
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/releases/R16B03-1
+-rw-r--r-- root       root             5276 ./usr/lib/erlang/releases/R16B03-1/no_dot_erlang.boot
+-rw-r--r-- root       root              777 ./usr/lib/erlang/releases/R16B03-1/no_dot_erlang.rel
+-rw-r--r-- root       root             6223 ./usr/lib/erlang/releases/R16B03-1/no_dot_erlang.script
+-rw-r--r-- root       root             5304 ./usr/lib/erlang/releases/R16B03-1/start.boot
+-rw-r--r-- root       root             6253 ./usr/lib/erlang/releases/R16B03-1/start.script
+-rw-r--r-- root       root              881 ./usr/lib/erlang/releases/R16B03-1/start_all_example.rel
+-rw-r--r-- root       root             5304 ./usr/lib/erlang/releases/R16B03-1/start_clean.boot
+-rw-r--r-- root       root              786 ./usr/lib/erlang/releases/R16B03-1/start_clean.rel
+-rw-r--r-- root       root             6253 ./usr/lib/erlang/releases/R16B03-1/start_clean.script
+-rw-r--r-- root       root             6432 ./usr/lib/erlang/releases/R16B03-1/start_sasl.boot
+-rw-r--r-- root       root              805 ./usr/lib/erlang/releases/R16B03-1/start_sasl.rel
+-rw-r--r-- root       root             7703 ./usr/lib/erlang/releases/R16B03-1/start_sasl.script
+-rw-r--r-- root       root              265 ./usr/lib/erlang/releases/RELEASES
+-rw-r--r-- root       root              250 ./usr/lib/erlang/releases/RELEASES.src
+-rw-r--r-- root       root               16 ./usr/lib/erlang/releases/start_erl.data

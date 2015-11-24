@@ -1,0 +1,8 @@
+PV = 5.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 886886
+FILES = /usr/bin/x86_64-poky-linux-cpp* /lib/cpp /usr/lib/gcc/gcc/x86_64-poky-linux/5.2.0/cc1
+FILELIST = /lib/cpp /usr/bin/x86_64-poky-linux-cpp

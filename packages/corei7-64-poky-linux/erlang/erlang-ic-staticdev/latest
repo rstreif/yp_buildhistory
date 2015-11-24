@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 326164
+FILES = /usr/lib/erlang/lib/ic-*/lib/*.a /usr/lib/erlang/lib/ic-*/priv/lib/*.a
+FILELIST = /usr/lib/erlang/lib/ic-4.3.4/priv/lib/libic.a

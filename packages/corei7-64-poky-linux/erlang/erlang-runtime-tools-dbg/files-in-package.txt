@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/runtime_tools-1.8.13
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/lib/.debug
+-rwxr-xr-x root       root            12224 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/lib/.debug/dyntrace.so
+-rwxr-xr-x root       root            23200 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/lib/.debug/trace_file_drv.so
+-rwxr-xr-x root       root            29128 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/lib/.debug/trace_ip_drv.so
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/obj
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/obj/.debug
+-rw-r--r-- root       root            14024 ./usr/lib/erlang/lib/runtime_tools-1.8.13/priv/obj/.debug/dyntrace.o

@@ -1,0 +1,8 @@
+PV = R16B03-1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 417295
+FILES = /usr/lib/erlang/lib/edoc-*
+FILELIST = /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc.app /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc.appup /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_data.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_doclet.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_extract.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_layout.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_lib.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_macros.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_parser.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_refs.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_report.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_run.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_scanner.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_specs.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_tags.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_types.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/edoc_wiki.beam /usr/lib/erlang/lib/edoc-0.7.12.1/ebin/otpsgml_layout.beam /usr/lib/erlang/lib/edoc-0.7.12.1/priv/edoc.dtd /usr/lib/erlang/lib/edoc-0.7.12.1/priv/edoc_generate /usr/lib/erlang/lib/edoc-0.7.12.1/priv/erlang.png /usr/lib/erlang/lib/edoc-0.7.12.1/priv/stylesheet.css

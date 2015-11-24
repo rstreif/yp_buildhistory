@@ -1,0 +1,8 @@
+PV = 0.2
+PR = r6
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 15256
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/test-libacpi
