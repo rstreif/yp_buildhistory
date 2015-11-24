@@ -1,0 +1,8 @@
+PV = 8.040.00
+PR = r0
+RPROVIDES = kernel-module-r8168
+RDEPENDS = kernel-module-r8168
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

@@ -1,0 +1,4 @@
+PV = 8.040.00
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = r8168-dbg r8168-staticdev r8168-dev r8168-doc r8168-locale r8168 kernel-module-r8168

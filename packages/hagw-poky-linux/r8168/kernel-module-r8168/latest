@@ -1,0 +1,8 @@
+PV = 8.040.00
+PR = r0
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 580832
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/ethernet/realtek/r8168.ko /etc/modules-load.d/r8168.conf /etc/modprobe.d/r8168.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/ethernet/realtek/r8168.ko
