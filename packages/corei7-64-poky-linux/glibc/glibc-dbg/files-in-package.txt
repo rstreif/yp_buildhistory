@@ -104,7 +104,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.22-r0/git/cr
 -rw-r--r-- root       root             2397 ./usr/src/debug/glibc/2.22-r0/git/crypt/crypt-private.h
 -rw-r--r-- root       root             3149 ./usr/src/debug/glibc/2.22-r0/git/crypt/crypt.c
 -rw-r--r-- root       root             2259 ./usr/src/debug/glibc/2.22-r0/git/crypt/crypt.h
--rw-rw-r-- root       root             1299 ./usr/src/debug/glibc/2.22-r0/git/crypt/crypt_common.c
+-rw-r--r-- root       root             1299 ./usr/src/debug/glibc/2.22-r0/git/crypt/crypt_common.c
 -rw-r--r-- root       root            24739 ./usr/src/debug/glibc/2.22-r0/git/crypt/crypt_util.c
 -rw-r--r-- root       root             6003 ./usr/src/debug/glibc/2.22-r0/git/crypt/md5-block.c
 -rw-r--r-- root       root            10337 ./usr/src/debug/glibc/2.22-r0/git/crypt/md5-crypt.c
@@ -700,7 +700,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.22-r0/git/lo
 -rw-r--r-- root       root              263 ./usr/src/debug/glibc/2.22-r0/git/locale/SYS_libc.c
 -rw-r--r-- root       root             2066 ./usr/src/debug/glibc/2.22-r0/git/locale/broken_cur_max.c
 -rw-r--r-- root       root            20889 ./usr/src/debug/glibc/2.22-r0/git/locale/categories.def
--rw-rw-r-- root       root             1741 ./usr/src/debug/glibc/2.22-r0/git/locale/catnames.c
+-rw-r--r-- root       root             1741 ./usr/src/debug/glibc/2.22-r0/git/locale/catnames.c
 -rw-r--r-- root       root             2621 ./usr/src/debug/glibc/2.22-r0/git/locale/coll-lookup.c
 -rw-r--r-- root       root             1192 ./usr/src/debug/glibc/2.22-r0/git/locale/coll-lookup.h
 -rw-r--r-- root       root             2738 ./usr/src/debug/glibc/2.22-r0/git/locale/duplocale.c
@@ -1412,7 +1412,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.22-r0/git/po
 -rw-r--r-- root       root            22384 ./usr/src/debug/glibc/2.22-r0/git/posix/regex.h
 -rw-r--r-- root       root            48300 ./usr/src/debug/glibc/2.22-r0/git/posix/regex_internal.c
 -rw-r--r-- root       root            22108 ./usr/src/debug/glibc/2.22-r0/git/posix/regex_internal.h
--rw-rw-r-- root       root             1497 ./usr/src/debug/glibc/2.22-r0/git/posix/regexec-compat.c
+-rw-r--r-- root       root             1497 ./usr/src/debug/glibc/2.22-r0/git/posix/regexec-compat.c
 -rw-r--r-- root       root           129999 ./usr/src/debug/glibc/2.22-r0/git/posix/regexec.c
 -rw-r--r-- root       root             4659 ./usr/src/debug/glibc/2.22-r0/git/posix/sched.h
 -rw-r--r-- root       root              920 ./usr/src/debug/glibc/2.22-r0/git/posix/sched_cpualloc.c

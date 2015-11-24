@@ -1,0 +1,117 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/systemd
+drwxrwxr-x root       root             4096 ./usr/lib/systemd/ptest
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/.debug
+-rwxr-xr-x root       root          1322200 ./usr/lib/systemd/ptest/.debug/test-udev
+-rw-r--r-- root       root          1227377 ./usr/lib/systemd/ptest/Makefile
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/build-aux
+-rwxr-xr-x root       root             4640 ./usr/lib/systemd/ptest/build-aux/test-driver
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/rules
+-rw-r--r-- root       root             3878 ./usr/lib/systemd/ptest/rules/99-systemd.rules
+-rwxr-xr-x root       root               99 ./usr/lib/systemd/ptest/run-ptest
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/test
+-rwxr-xr-x root       root           363112 ./usr/lib/systemd/ptest/test-udev
+-rw-r--r-- root       root              398 ./usr/lib/systemd/ptest/test/Makefile
+-rw-r--r-- root       root             1409 ./usr/lib/systemd/ptest/test/README.testsuite
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/test/TEST-01-BASIC
+-rw-r--r-- root       root              313 ./usr/lib/systemd/ptest/test/TEST-01-BASIC/Makefile
+-rwxr-xr-x root       root             2033 ./usr/lib/systemd/ptest/test/TEST-01-BASIC/test.sh
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/test/TEST-02-CRYPTSETUP
+lrwxrwxrwx root       root               25 ./usr/lib/systemd/ptest/test/TEST-02-CRYPTSETUP/Makefile -> ../TEST-01-BASIC/Makefile
+-rwxr-xr-x root       root             3062 ./usr/lib/systemd/ptest/test/TEST-02-CRYPTSETUP/test.sh
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/test/TEST-03-JOBS
+lrwxrwxrwx root       root               25 ./usr/lib/systemd/ptest/test/TEST-03-JOBS/Makefile -> ../TEST-01-BASIC/Makefile
+-rwxr-xr-x root       root             1863 ./usr/lib/systemd/ptest/test/TEST-03-JOBS/test-jobs.sh
+-rwxr-xr-x root       root             1918 ./usr/lib/systemd/ptest/test/TEST-03-JOBS/test.sh
+-rw-r--r-- root       root               88 ./usr/lib/systemd/ptest/test/a.service
+-rw-r--r-- root       root               68 ./usr/lib/systemd/ptest/test/b.service
+lrwxrwxrwx root       root               21 ./usr/lib/systemd/ptest/test/basic.target -> ../units/basic.target
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/test/bus-policy
+-rw-r--r-- root       root              446 ./usr/lib/systemd/ptest/test/bus-policy/check-own-rules.conf
+-rw-r--r-- root       root              373 ./usr/lib/systemd/ptest/test/bus-policy/hello.conf
+-rw-r--r-- root       root             2749 ./usr/lib/systemd/ptest/test/bus-policy/many-rules.conf
+-rw-r--r-- root       root              677 ./usr/lib/systemd/ptest/test/bus-policy/methods.conf
+-rw-r--r-- root       root              649 ./usr/lib/systemd/ptest/test/bus-policy/ownerships.conf
+-rw-r--r-- root       root              403 ./usr/lib/systemd/ptest/test/bus-policy/signals.conf
+-rw-r--r-- root       root              871 ./usr/lib/systemd/ptest/test/bus-policy/test.conf
+-rw-r--r-- root       root               71 ./usr/lib/systemd/ptest/test/c.service
+-rw-r--r-- root       root              111 ./usr/lib/systemd/ptest/test/d.service
+-rw-r--r-- root       root               99 ./usr/lib/systemd/ptest/test/daughter.service
+-rw-r--r-- root       root              108 ./usr/lib/systemd/ptest/test/e.service
+-rw-r--r-- root       root              109 ./usr/lib/systemd/ptest/test/end.service.in
+-rw-r--r-- root       root              251 ./usr/lib/systemd/ptest/test/exec-environment-empty.service
+-rw-r--r-- root       root              251 ./usr/lib/systemd/ptest/test/exec-environment-multiple.service
+-rw-r--r-- root       root              232 ./usr/lib/systemd/ptest/test/exec-environment.service
+-rw-r--r-- root       root              115 ./usr/lib/systemd/ptest/test/exec-group.service
+-rw-r--r-- root       root              122 ./usr/lib/systemd/ptest/test/exec-ignoresigpipe-no.service
+-rw-r--r-- root       root              124 ./usr/lib/systemd/ptest/test/exec-ignoresigpipe-yes.service
+-rw-r--r-- root       root              167 ./usr/lib/systemd/ptest/test/exec-personality-x86-64.service
+-rw-r--r-- root       root              159 ./usr/lib/systemd/ptest/test/exec-personality-x86.service
+-rw-r--r-- root       root              132 ./usr/lib/systemd/ptest/test/exec-privatedevices-no.service
+-rw-r--r-- root       root              136 ./usr/lib/systemd/ptest/test/exec-privatedevices-yes.service
+-rw-r--r-- root       root              145 ./usr/lib/systemd/ptest/test/exec-privatetmp-no.service
+-rw-r--r-- root       root              149 ./usr/lib/systemd/ptest/test/exec-privatetmp-yes.service
+-rw-r--r-- root       root              142 ./usr/lib/systemd/ptest/test/exec-systemcallerrornumber.service
+-rw-r--r-- root       root              175 ./usr/lib/systemd/ptest/test/exec-systemcallfilter-failing.service
+-rw-r--r-- root       root              184 ./usr/lib/systemd/ptest/test/exec-systemcallfilter-failing2.service
+-rw-r--r-- root       root              222 ./usr/lib/systemd/ptest/test/exec-systemcallfilter-not-failing.service
+-rw-r--r-- root       root              104 ./usr/lib/systemd/ptest/test/exec-systemcallfilter-not-failing2.service
+-rw-r--r-- root       root              193 ./usr/lib/systemd/ptest/test/exec-umask-0177.service
+-rw-r--r-- root       root              190 ./usr/lib/systemd/ptest/test/exec-umask-default.service
+-rw-r--r-- root       root              109 ./usr/lib/systemd/ptest/test/exec-user.service
+-rw-r--r-- root       root              206 ./usr/lib/systemd/ptest/test/exec-workingdirectory.service
+-rw-r--r-- root       root               52 ./usr/lib/systemd/ptest/test/f.service
+-rw-r--r-- root       root               72 ./usr/lib/systemd/ptest/test/g.service
+-rw-r--r-- root       root              106 ./usr/lib/systemd/ptest/test/grandchild.service
+-rw-r--r-- root       root               68 ./usr/lib/systemd/ptest/test/h.service
+-rw-r--r-- root       root              130 ./usr/lib/systemd/ptest/test/hello-after-sleep.target
+-rw-r--r-- root       root               76 ./usr/lib/systemd/ptest/test/hello.service
+-rw-r--r-- root       root               30 ./usr/lib/systemd/ptest/test/loopy.service
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/test/loopy.service.d
+-rw-r--r-- root       root               61 ./usr/lib/systemd/ptest/test/loopy.service.d/compat.conf
+lrwxrwxrwx root       root               13 ./usr/lib/systemd/ptest/test/loopy2.service -> loopy.service
+-rw-r--r-- root       root               63 ./usr/lib/systemd/ptest/test/loopy3.service
+lrwxrwxrwx root       root               14 ./usr/lib/systemd/ptest/test/loopy4.service -> loopy3.service
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/test/mocks
+-rwxr-xr-x root       root              474 ./usr/lib/systemd/ptest/test/mocks/fsck
+-rw-r--r-- root       root               63 ./usr/lib/systemd/ptest/test/parent-deep.slice
+-rw-r--r-- root       root               59 ./usr/lib/systemd/ptest/test/parent.slice
+-rw-r--r-- root       root              117 ./usr/lib/systemd/ptest/test/path-changed.path
+lrwxrwxrwx root       root               20 ./usr/lib/systemd/ptest/test/path-changed.service -> path-service.service
+-rw-r--r-- root       root              140 ./usr/lib/systemd/ptest/test/path-directorynotempty.path
+lrwxrwxrwx root       root               20 ./usr/lib/systemd/ptest/test/path-directorynotempty.service -> path-service.service
+-rw-r--r-- root       root              114 ./usr/lib/systemd/ptest/test/path-exists.path
+lrwxrwxrwx root       root               20 ./usr/lib/systemd/ptest/test/path-exists.service -> path-service.service
+-rw-r--r-- root       root              127 ./usr/lib/systemd/ptest/test/path-existsglob.path
+lrwxrwxrwx root       root               20 ./usr/lib/systemd/ptest/test/path-existsglob.service -> path-service.service
+-rw-r--r-- root       root              185 ./usr/lib/systemd/ptest/test/path-makedirectory.path
+lrwxrwxrwx root       root               20 ./usr/lib/systemd/ptest/test/path-makedirectory.service -> path-service.service
+-rw-r--r-- root       root              120 ./usr/lib/systemd/ptest/test/path-modified.path
+lrwxrwxrwx root       root               20 ./usr/lib/systemd/ptest/test/path-modified.service -> path-service.service
+-rw-r--r-- root       root               87 ./usr/lib/systemd/ptest/test/path-mycustomunit.service
+-rw-r--r-- root       root               91 ./usr/lib/systemd/ptest/test/path-service.service
+-rw-r--r-- root       root              143 ./usr/lib/systemd/ptest/test/path-unit.path
+lrwxrwxrwx root       root               21 ./usr/lib/systemd/ptest/test/paths.target -> ../units/paths.target
+-rw-r--r-- root       root             2637 ./usr/lib/systemd/ptest/test/rule-syntax-check.py
+-rw-r--r-- root       root              102 ./usr/lib/systemd/ptest/test/sched_idle_bad.service
+-rw-r--r-- root       root               97 ./usr/lib/systemd/ptest/test/sched_idle_ok.service
+-rw-r--r-- root       root              149 ./usr/lib/systemd/ptest/test/sched_rr_bad.service
+-rw-r--r-- root       root              158 ./usr/lib/systemd/ptest/test/sched_rr_change.service
+-rw-r--r-- root       root               93 ./usr/lib/systemd/ptest/test/sched_rr_ok.service
+lrwxrwxrwx root       root               24 ./usr/lib/systemd/ptest/test/shutdown.target -> ../units/shutdown.target
+-rw-r--r-- root       root               86 ./usr/lib/systemd/ptest/test/sleep.service
+lrwxrwxrwx root       root               23 ./usr/lib/systemd/ptest/test/sockets.target -> ../units/sockets.target
+-rw-r--r-- root       root              108 ./usr/lib/systemd/ptest/test/son.service
+-rw-r--r-- root       root           289238 ./usr/lib/systemd/ptest/test/splash.bmp
+-rw-r--r-- root       root           165116 ./usr/lib/systemd/ptest/test/sys.tar.xz
+lrwxrwxrwx root       root               23 ./usr/lib/systemd/ptest/test/sysinit.target -> ../units/sysinit.target
+-rw-r--r-- root       root            16806 ./usr/lib/systemd/ptest/test/sysv-generator-test.py
+-rwxr-xr-x root       root             1731 ./usr/lib/systemd/ptest/test/test-efi-create-disk.sh
+-rw-r--r-- root       root            35441 ./usr/lib/systemd/ptest/test/test-functions
+-rw-r--r-- root       root              128 ./usr/lib/systemd/ptest/test/testsuite.target
+lrwxrwxrwx root       root               22 ./usr/lib/systemd/ptest/test/timers.target -> ../units/timers.target
+-rwxr-xr-x root       root            66483 ./usr/lib/systemd/ptest/test/udev-test.pl
+-rw-r--r-- root       root              143 ./usr/lib/systemd/ptest/test/unstoppable.service
+drwxr-xr-x root       root             4096 ./usr/lib/udev
+drwxr-xr-x root       root             4096 ./usr/lib/udev/rules.d
