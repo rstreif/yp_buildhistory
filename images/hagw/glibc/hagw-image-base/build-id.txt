@@ -3,7 +3,7 @@ hagw: hagw-image-base configured for poky 2.0
 Build Configuration:
 BB_VERSION        = "1.28.0"
 BUILD_SYS         = "x86_64-linux"
-NATIVELSBSTRING   = "Fedora-20"
+NATIVELSBSTRING   = "Fedora-22"
 TARGET_SYS        = "x86_64-poky-linux"
 MACHINE           = "hagw"
 DISTRO            = "poky"
@@ -13,6 +13,7 @@ TARGET_FPU        = ""
 meta              
 meta-yocto        = "rjs:1b25a70991589ed1f123015c16ee4806c46e3199"
 meta-oe           = "master:b9ae51570d1ba7136700c81d309663342275193a"
-meta-rvi          
+meta-rvi          = "<unknown>:<unknown>"
+meta-jlrdemo      = "master:49cb700431ae8dec8d539e67f1d80242c28e3040"
 meta-hagw         = "<unknown>:<unknown>"
 

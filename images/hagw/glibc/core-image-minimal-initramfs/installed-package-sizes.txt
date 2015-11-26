@@ -1,8 +1,8 @@
 5797	KiB grub
 4325	KiB libc6
+1099	KiB udev
 608	KiB libfreetype6
 580	KiB busybox
-564	KiB udev
 523	KiB parted
 463	KiB e2fsprogs-mke2fs
 383	KiB libreadline6
@@ -14,8 +14,10 @@
 84	KiB libz1
 74	KiB libkmod2
 70	KiB util-linux-blkid
+31	KiB libacl1
 28	KiB libe2p2
 22	KiB ncurses-terminfo-base
+17	KiB libattr1
 15	KiB libuuid1
 12	KiB libcom-err2
 7	KiB initramfs-live-install-efi
@@ -24,4 +26,3 @@
 6	KiB initramfs-live-boot
 4	KiB update-alternatives-opkg
 3	KiB busybox-udhcpc
-2	KiB udev-cache

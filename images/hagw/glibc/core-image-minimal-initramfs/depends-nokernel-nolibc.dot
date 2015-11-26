@@ -27,6 +27,9 @@ digraph depends {
 "initramfs-live-install-efi" -> "e2fsprogs-mke2fs";
 "initramfs-live-install-efi" -> "parted";
 "initramfs-live-install-efi" -> "util-linux-blkid";
+"libacl1" -> "busybox";
+"libacl1" -> "libattr1";
+"libattr1" -> "busybox";
 "libblkid1" -> "busybox";
 "libblkid1" -> "libuuid1";
 "libcom-err2" -> "busybox";
@@ -51,10 +54,10 @@ digraph depends {
 "parted" -> "libuuid1";
 "parted" -> "parted";
 "udev" -> "busybox";
+"udev" -> "libacl1";
+"udev" -> "libattr1";
 "udev" -> "libblkid1";
 "udev" -> "libkmod2";
-"udev" -> "udev-cache" [style=dotted];
-"udev-cache" -> "busybox";
 "udev-extraconf" -> "busybox";
 "udev-extraconf" -> "udev";
 "update-alternatives-opkg" -> "busybox";

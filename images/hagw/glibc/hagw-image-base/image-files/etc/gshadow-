@@ -39,7 +39,11 @@ games:*::
 shutdown:*::
 users:*::
 nogroup:*::
-sshd:!::
-rpc:!::
 avahi:!::
+rpc:!::
+sshd:!::
 netdev:!::
+messagebus:!::
+lock:!::
+systemd-journal:!::
+systemd-journal-gateway:!::

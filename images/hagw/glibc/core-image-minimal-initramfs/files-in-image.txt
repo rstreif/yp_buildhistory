@@ -54,6 +54,7 @@ lrwxrwxrwx root       root               19 ./bin/sync -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./bin/tar -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./bin/touch -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./bin/true -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           440944 ./bin/udevadm
 lrwxrwxrwx root       root               19 ./bin/umount -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./bin/uname -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./bin/usleep -> /bin/busybox.nosuid
@@ -67,8 +68,6 @@ drwxr-xr-x root       root             4096 ./etc/bash_completion.d
 -rw-r--r-- root       root            11184 ./etc/bash_completion.d/grub
 -rw-r--r-- root       root             2288 ./etc/busybox.links.nosuid
 -rw-r--r-- root       root               91 ./etc/busybox.links.suid
-drwxr-xr-x root       root             4096 ./etc/default
--rwxr-xr-x root       root              134 ./etc/default/udev-cache
 -rw-r--r-- root       root              473 ./etc/group
 drwxr-xr-x root       root             4096 ./etc/grub.d
 -rwxr-xr-x root       root             7513 ./etc/grub.d/00_header
@@ -79,15 +78,13 @@ drwxr-xr-x root       root             4096 ./etc/grub.d
 -rwxr-xr-x root       root              216 ./etc/grub.d/41_custom
 -rw-r--r-- root       root              483 ./etc/grub.d/README
 drwxr-xr-x root       root             4096 ./etc/init.d
--rwxr-xr-x root       root             4788 ./etc/init.d/udev
--rwxr-xr-x root       root             2166 ./etc/init.d/udev-cache
--rw-r--r-- root       root             1771 ./etc/ld.so.cache
+-rwxr-xr-x root       root             3183 ./etc/init.d/systemd-udevd
+-rw-r--r-- root       root             1879 ./etc/ld.so.cache
 -rw-r--r-- root       root                0 ./etc/ld.so.conf
 -rw-r--r-- root       root              956 ./etc/mke2fs.conf
 -rw-r--r-- root       root              720 ./etc/passwd
 drwxr-xr-x root       root             4096 ./etc/rcS.d
-lrwxrwxrwx root       root               14 ./etc/rcS.d/S04udev -> ../init.d/udev
-lrwxrwxrwx root       root               20 ./etc/rcS.d/S36udev-cache -> ../init.d/udev-cache
+lrwxrwxrwx root       root               23 ./etc/rcS.d/S03systemd-udevd -> ../init.d/systemd-udevd
 drwxr-xr-x root       root             4096 ./etc/rpm
 -rw-r--r-- root       root              148 ./etc/rpm/platform
 drwxr-xr-x root       root             4096 ./etc/rpm/sysinfo
@@ -118,17 +115,17 @@ lrwxrwxrwx root       root               11 ./etc/terminfo/x/xterm -> xterm-colo
 -rw-r--r-- root       root             2240 ./etc/terminfo/x/xterm-xfree86
 -rw-r--r-- root       root               15 ./etc/timestamp
 drwxr-xr-x root       root             4096 ./etc/udev
--rw-r--r-- root       root                0 ./etc/udev/cache.data
+drwxr-xr-x root       root             4096 ./etc/udev/hwdb.d
 -rw-r--r-- root       root               51 ./etc/udev/mount.blacklist
 drwxr-xr-x root       root             4096 ./etc/udev/rules.d
 -rw-r--r-- root       root              847 ./etc/udev/rules.d/automount.rules
 -rw-r--r-- root       root              757 ./etc/udev/rules.d/autonet.rules
--rw-r--r-- root       root              885 ./etc/udev/rules.d/local.rules
 -rw-r--r-- root       root              843 ./etc/udev/rules.d/localextra.rules
+-rw-r--r-- root       root              855 ./etc/udev/rules.d/touchscreen.rules
 drwxr-xr-x root       root             4096 ./etc/udev/scripts
 -rwxr-xr-x root       root             2436 ./etc/udev/scripts/mount.sh
 -rwxr-xr-x root       root             1402 ./etc/udev/scripts/network.sh
--rw-r--r-- root       root               69 ./etc/udev/udev.conf
+-rw-r--r-- root       root               49 ./etc/udev/udev.conf
 drwxr-xr-x root       root             4096 ./etc/udhcpc.d
 -rwxr-xr-x root       root             2592 ./etc/udhcpc.d/50default
 -rw-r--r-- root       root               15 ./etc/version
@@ -140,8 +137,12 @@ drwxr-xr-x root       root             4096 ./lib
 lrwxrwxrwx root       root               10 ./lib/ld-linux-x86-64.so.2 -> ld-2.22.so
 -rwxr-xr-x root       root             6136 ./lib/libBrokenLocale-2.22.so
 lrwxrwxrwx root       root               23 ./lib/libBrokenLocale.so.1 -> libBrokenLocale-2.22.so
+lrwxrwxrwx root       root               15 ./lib/libacl.so.1 -> libacl.so.1.1.0
+-rw-r--r-- root       root            31864 ./lib/libacl.so.1.1.0
 -rwxr-xr-x root       root            14824 ./lib/libanl-2.22.so
 lrwxrwxrwx root       root               14 ./lib/libanl.so.1 -> libanl-2.22.so
+lrwxrwxrwx root       root               16 ./lib/libattr.so.1 -> libattr.so.1.1.0
+-rw-r--r-- root       root            17872 ./lib/libattr.so.1.1.0
 lrwxrwxrwx root       root               17 ./lib/libblkid.so.1 -> libblkid.so.1.1.0
 -rwxr-xr-x root       root           258656 ./lib/libblkid.so.1.1.0
 -rwxr-xr-x root       root          1709744 ./lib/libc-2.22.so
@@ -182,101 +183,54 @@ lrwxrwxrwx root       root               16 ./lib/libuuid.so.1 -> libuuid.so.1.3
 -rwxr-xr-x root       root            15520 ./lib/libuuid.so.1.3.0
 lrwxrwxrwx root       root               13 ./lib/libz.so.1 -> libz.so.1.2.8
 -rwxr-xr-x root       root            86000 ./lib/libz.so.1.2.8
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              664 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
+drwxr-xr-x root       root             4096 ./lib/systemd/system/sockets.target.wants
+lrwxrwxrwx root       root               31 ./lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
+lrwxrwxrwx root       root               30 ./lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> ../systemd-udevd-kernel.socket
+drwxr-xr-x root       root             4096 ./lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx root       root               31 ./lib/systemd/system/sysinit.target.wants/systemd-udev-trigger.service -> ../systemd-udev-trigger.service
+lrwxrwxrwx root       root               24 ./lib/systemd/system/sysinit.target.wants/systemd-udevd.service -> ../systemd-udevd.service
+-rw-r--r-- root       root              823 ./lib/systemd/system/systemd-udev-settle.service
+-rw-r--r-- root       root              743 ./lib/systemd/system/systemd-udev-trigger.service
+-rw-r--r-- root       root              578 ./lib/systemd/system/systemd-udevd-control.socket
+-rw-r--r-- root       root              570 ./lib/systemd/system/systemd-udevd-kernel.socket
+-rw-r--r-- root       root              842 ./lib/systemd/system/systemd-udevd.service
+-rwxr-xr-x root       root           445072 ./lib/systemd/systemd-udevd
 drwxr-xr-x root       root             4096 ./lib/udev
--rwxr-xr-x root       root            33752 ./lib/udev/accelerometer
--rwxr-xr-x root       root            19656 ./lib/udev/ata_id
--rwxr-xr-x root       root            31456 ./lib/udev/cdrom_id
--rwxr-xr-x root       root            17432 ./lib/udev/collect
-drwxr-xr-x root       root             4096 ./lib/udev/devices
--rwxr-xr-x root       root             2613 ./lib/udev/findkeyboards
--rwxr-xr-x root       root              621 ./lib/udev/keyboard-force-release.sh
--rwxr-xr-x root       root            45432 ./lib/udev/keymap
-drwxr-xr-x root       root             4096 ./lib/udev/keymaps
--rw-r--r-- root       root              649 ./lib/udev/keymaps/acer
--rw-r--r-- root       root              163 ./lib/udev/keymaps/acer-aspire_5720
--rw-r--r-- root       root               78 ./lib/udev/keymaps/acer-aspire_5920g
--rw-r--r-- root       root               86 ./lib/udev/keymaps/acer-aspire_6920
--rw-r--r-- root       root              157 ./lib/udev/keymaps/acer-aspire_8930
--rw-r--r-- root       root              110 ./lib/udev/keymaps/acer-travelmate_c300
--rw-r--r-- root       root               40 ./lib/udev/keymaps/asus
--rw-r--r-- root       root               54 ./lib/udev/keymaps/compaq-e_evo
--rw-r--r-- root       root             1169 ./lib/udev/keymaps/dell
--rw-r--r-- root       root              115 ./lib/udev/keymaps/dell-latitude-xt2
--rw-r--r-- root       root              139 ./lib/udev/keymaps/everex-xt5000
-drwxr-xr-x root       root             4096 ./lib/udev/keymaps/force-release
--rw-r--r-- root       root               45 ./lib/udev/keymaps/force-release/common-volume-keys
--rw-r--r-- root       root                5 ./lib/udev/keymaps/force-release/dell-touchpad
--rw-r--r-- root       root               94 ./lib/udev/keymaps/force-release/hp-other
--rw-r--r-- root       root              317 ./lib/udev/keymaps/force-release/samsung-other
--rw-r--r-- root       root              152 ./lib/udev/keymaps/fujitsu-amilo_li_2732
--rw-r--r-- root       root               41 ./lib/udev/keymaps/fujitsu-amilo_pa_2548
--rw-r--r-- root       root              101 ./lib/udev/keymaps/fujitsu-amilo_pro_edition_v3505
--rw-r--r-- root       root               82 ./lib/udev/keymaps/fujitsu-amilo_pro_v3205
--rw-r--r-- root       root               84 ./lib/udev/keymaps/fujitsu-amilo_si_1520
--rw-r--r-- root       root               70 ./lib/udev/keymaps/fujitsu-esprimo_mobile_v5
--rw-r--r-- root       root               38 ./lib/udev/keymaps/fujitsu-esprimo_mobile_v6
--rw-r--r-- root       root              720 ./lib/udev/keymaps/genius-slimstar-320
--rw-r--r-- root       root              262 ./lib/udev/keymaps/hewlett-packard
--rw-r--r-- root       root               47 ./lib/udev/keymaps/hewlett-packard-2510p_2530p
--rw-r--r-- root       root               59 ./lib/udev/keymaps/hewlett-packard-compaq_elitebook
--rw-r--r-- root       root               78 ./lib/udev/keymaps/hewlett-packard-pavilion
--rw-r--r-- root       root               38 ./lib/udev/keymaps/hewlett-packard-presario-2100
--rw-r--r-- root       root               82 ./lib/udev/keymaps/hewlett-packard-tablet
--rw-r--r-- root       root              104 ./lib/udev/keymaps/hewlett-packard-tx2
--rw-r--r-- root       root              129 ./lib/udev/keymaps/ibm-thinkpad-usb-keyboard-trackpoint
--rw-r--r-- root       root               22 ./lib/udev/keymaps/inventec-symphony_6.0_7.0
--rw-r--r-- root       root              146 ./lib/udev/keymaps/lenovo-3000
--rw-r--r-- root       root              399 ./lib/udev/keymaps/lenovo-ideapad
--rw-r--r-- root       root              381 ./lib/udev/keymaps/lenovo-thinkpad-usb-keyboard-trackpoint
--rw-r--r-- root       root              138 ./lib/udev/keymaps/lenovo-thinkpad_x200_tablet
--rw-r--r-- root       root              195 ./lib/udev/keymaps/lenovo-thinkpad_x6_tablet
--rw-r--r-- root       root              324 ./lib/udev/keymaps/lg-x110
--rw-r--r-- root       root              495 ./lib/udev/keymaps/logitech-wave
--rw-r--r-- root       root              316 ./lib/udev/keymaps/logitech-wave-cordless
--rw-r--r-- root       root              198 ./lib/udev/keymaps/logitech-wave-pro-cordless
--rw-r--r-- root       root              139 ./lib/udev/keymaps/maxdata-pro_7000
--rw-r--r-- root       root               60 ./lib/udev/keymaps/medion-fid2060
--rw-r--r-- root       root              103 ./lib/udev/keymaps/medionnb-a555
--rw-r--r-- root       root              331 ./lib/udev/keymaps/micro-star
--rw-r--r-- root       root              174 ./lib/udev/keymaps/module-asus-w3j
--rw-r--r-- root       root              418 ./lib/udev/keymaps/module-ibm
--rw-r--r-- root       root              439 ./lib/udev/keymaps/module-lenovo
--rw-r--r-- root       root              188 ./lib/udev/keymaps/module-sony
--rw-r--r-- root       root               23 ./lib/udev/keymaps/module-sony-old
--rw-r--r-- root       root              152 ./lib/udev/keymaps/module-sony-vgn
--rw-r--r-- root       root             1223 ./lib/udev/keymaps/olpc-xo
--rw-r--r-- root       root              316 ./lib/udev/keymaps/onkyo
--rw-r--r-- root       root               71 ./lib/udev/keymaps/oqo-model2
--rw-r--r-- root       root              476 ./lib/udev/keymaps/samsung-other
--rw-r--r-- root       root               60 ./lib/udev/keymaps/samsung-sq1us
--rw-r--r-- root       root               67 ./lib/udev/keymaps/samsung-sx20s
--rw-r--r-- root       root               21 ./lib/udev/keymaps/toshiba-satellite_a100
--rw-r--r-- root       root              158 ./lib/udev/keymaps/toshiba-satellite_a110
--rw-r--r-- root       root              118 ./lib/udev/keymaps/toshiba-satellite_m30x
--rw-r--r-- root       root              495 ./lib/udev/keymaps/zepto-znote
--rwxr-xr-x root       root             5592 ./lib/udev/mtd_probe
+-rwxr-xr-x root       root            39440 ./lib/udev/ata_id
+-rwxr-xr-x root       root            51736 ./lib/udev/cdrom_id
+-rwxr-xr-x root       root            22912 ./lib/udev/collect
+-rwxr-xr-x root       root            10528 ./lib/udev/mtd_probe
 drwxr-xr-x root       root             4096 ./lib/udev/rules.d
--rw-r--r-- root       root             3025 ./lib/udev/rules.d/42-usb-hid-pm.rules
--rw-r--r-- root       root             3652 ./lib/udev/rules.d/50-udev-default.rules
--rw-r--r-- root       root              646 ./lib/udev/rules.d/60-cdrom_id.rules
+-rw-r--r-- root       root              121 ./lib/udev/rules.d/50-firmware.rules
+-rw-r--r-- root       root             3310 ./lib/udev/rules.d/50-udev-default.rules
+-rw-r--r-- root       root              606 ./lib/udev/rules.d/60-block.rules
+-rw-r--r-- root       root              910 ./lib/udev/rules.d/60-cdrom_id.rules
+-rw-r--r-- root       root              153 ./lib/udev/rules.d/60-drm.rules
+-rw-r--r-- root       root              738 ./lib/udev/rules.d/60-evdev.rules
 -rw-r--r-- root       root              616 ./lib/udev/rules.d/60-persistent-alsa.rules
--rw-r--r-- root       root             2400 ./lib/udev/rules.d/60-persistent-input.rules
--rw-r--r-- root       root              947 ./lib/udev/rules.d/60-persistent-serial.rules
+-rw-r--r-- root       root             2464 ./lib/udev/rules.d/60-persistent-input.rules
 -rw-r--r-- root       root             1420 ./lib/udev/rules.d/60-persistent-storage-tape.rules
--rw-r--r-- root       root             5622 ./lib/udev/rules.d/60-persistent-storage.rules
+-rw-r--r-- root       root             4907 ./lib/udev/rules.d/60-persistent-storage.rules
 -rw-r--r-- root       root              769 ./lib/udev/rules.d/60-persistent-v4l.rules
--rw-r--r-- root       root              166 ./lib/udev/rules.d/61-accelerometer.rules
--rw-r--r-- root       root              570 ./lib/udev/rules.d/75-net-description.rules
--rw-r--r-- root       root              255 ./lib/udev/rules.d/75-probe_mtd.rules
--rw-r--r-- root       root              570 ./lib/udev/rules.d/75-tty-description.rules
--rw-r--r-- root       root             4174 ./lib/udev/rules.d/78-sound-card.rules
--rw-r--r-- root       root              565 ./lib/udev/rules.d/80-drivers.rules
--rw-r--r-- root       root             3328 ./lib/udev/rules.d/95-keyboard-force-release.rules
--rw-r--r-- root       root            11644 ./lib/udev/rules.d/95-keymap.rules
--rw-r--r-- root       root              155 ./lib/udev/rules.d/95-udev-late.rules
--rwxr-xr-x root       root            32160 ./lib/udev/scsi_id
--rwxr-xr-x root       root           161000 ./lib/udev/udevd
--rwxr-xr-x root       root             5432 ./lib/udev/v4l_id
+-rw-r--r-- root       root             1190 ./lib/udev/rules.d/60-serial.rules
+-rw-r--r-- root       root              418 ./lib/udev/rules.d/64-btrfs.rules
+-rw-r--r-- root       root              734 ./lib/udev/rules.d/70-mouse.rules
+-rw-r--r-- root       root              834 ./lib/udev/rules.d/70-power-switch.rules
+-rw-r--r-- root       root             2591 ./lib/udev/rules.d/70-uaccess.rules
+-rw-r--r-- root       root             2710 ./lib/udev/rules.d/71-seat.rules
+-rw-r--r-- root       root              596 ./lib/udev/rules.d/73-seat-late.rules
+-rw-r--r-- root       root              452 ./lib/udev/rules.d/75-net-description.rules
+-rw-r--r-- root       root              174 ./lib/udev/rules.d/75-probe_mtd.rules
+-rw-r--r-- root       root             4505 ./lib/udev/rules.d/78-sound-card.rules
+-rw-r--r-- root       root              618 ./lib/udev/rules.d/80-drivers.rules
+-rw-r--r-- root       root              292 ./lib/udev/rules.d/80-net-setup-link.rules
+-rw-r--r-- root       root              437 ./lib/udev/rules.d/90-vconsole.rules
+-rw-r--r-- root       root             3878 ./lib/udev/rules.d/99-systemd.rules
+-rwxr-xr-x root       root            52264 ./lib/udev/scsi_id
+-rwxr-xr-x root       root            14704 ./lib/udev/v4l_id
 drwxr-xr-x root       root             4096 ./sbin
 lrwxrwxrwx root       root               22 ./sbin/blkid -> /sbin/blkid.util-linux
 -rwxr-xr-x root       root            71528 ./sbin/blkid.util-linux
@@ -328,6 +282,7 @@ lrwxrwxrwx root       root               19 ./sbin/swapon -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./sbin/switch_root -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./sbin/sysctl -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./sbin/syslogd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               26 ./sbin/udevd -> /lib/systemd/systemd-udevd
 lrwxrwxrwx root       root               19 ./sbin/udhcpc -> /bin/busybox.nosuid
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
@@ -409,7 +364,6 @@ lrwxrwxrwx root       root               19 ./usr/bin/top -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/tr -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               17 ./usr/bin/traceroute -> /bin/busybox.suid
 lrwxrwxrwx root       root               19 ./usr/bin/tty -> /bin/busybox.nosuid
--rwxr-xr-x root       root           163664 ./usr/bin/udevadm
 lrwxrwxrwx root       root               19 ./usr/bin/uniq -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/unlink -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/unzip -> /bin/busybox.nosuid
@@ -1092,6 +1046,9 @@ lrwxrwxrwx root       root               19 ./usr/sbin/rdate -> /bin/busybox.nos
 lrwxrwxrwx root       root               19 ./usr/sbin/rfkill -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/sbin/udhcpd -> /bin/busybox.nosuid
 drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/bash-completion
+drwxr-xr-x root       root             4096 ./usr/share/bash-completion/completions
+-rw-r--r-- root       root             3726 ./usr/share/bash-completion/completions/udevadm
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/base-passwd
 -rw-r--r-- 1000       1000            18011 ./usr/share/common-licenses/base-passwd/COPYING
@@ -1131,7 +1088,6 @@ lrwxrwxrwx root       root               16 ./usr/share/common-licenses/freetype
 -rw-rw-r-- 1000       1000             6746 ./usr/share/common-licenses/generic_FreeType
 -rw-rw-r-- 1000       1000            17611 ./usr/share/common-licenses/generic_GPL-2.0
 -rw-rw-r-- 1000       1000            17611 ./usr/share/common-licenses/generic_GPLv2
--rw-rw-r-- 1000       1000            17611 ./usr/share/common-licenses/generic_GPLv2.0
 -rw-rw-r-- 1000       1000            34694 ./usr/share/common-licenses/generic_GPLv3
 -rw-rw-r-- 1000       1000            25878 ./usr/share/common-licenses/generic_LGPL-2.1
 -rw-rw-r-- 1000       1000            24925 ./usr/share/common-licenses/generic_LGPLv2
@@ -1158,6 +1114,17 @@ drwxr-xr-x root       root             4096 ./usr/share/common-licenses/initramf
 lrwxrwxrwx root       root               14 ./usr/share/common-licenses/initramfs-live-install-efi/generic_MIT -> ../generic_MIT
 -rw-rw-r-- 1000       1000             1035 ./usr/share/common-licenses/initramfs-live-install/COPYING.MIT
 lrwxrwxrwx root       root               14 ./usr/share/common-licenses/initramfs-live-install/generic_MIT -> ../generic_MIT
+drwxr-xr-x root       root             4096 ./usr/share/common-licenses/libacl
+-rw-r--r-- 1000       1000            18311 ./usr/share/common-licenses/libacl/COPYING
+-rw-r--r-- 1000       1000            26762 ./usr/share/common-licenses/libacl/COPYING.LGPL
+lrwxrwxrwx root       root               16 ./usr/share/common-licenses/libacl/generic_GPLv2 -> ../generic_GPLv2
+lrwxrwxrwx root       root               19 ./usr/share/common-licenses/libacl/generic_LGPLv2.1 -> ../generic_LGPLv2.1
+drwxr-xr-x root       root             4096 ./usr/share/common-licenses/libattr
+-rw-r--r-- 1000       1000            18312 ./usr/share/common-licenses/libattr/COPYING
+-rw-r--r-- 1000       1000             6145 ./usr/share/common-licenses/libattr/attr.c
+lrwxrwxrwx root       root               16 ./usr/share/common-licenses/libattr/generic_GPLv2 -> ../generic_GPLv2
+lrwxrwxrwx root       root               19 ./usr/share/common-licenses/libattr/generic_LGPLv2.1 -> ../generic_LGPLv2.1
+-rw-r--r-- 1000       1000            10385 ./usr/share/common-licenses/libattr/libattr.c
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/libcomerr
 -rw-r--r-- 1000       1000             1391 ./usr/share/common-licenses/libcomerr/COPYING
 -rw-r--r-- 1000       1000             2641 ./usr/share/common-licenses/libcomerr/e2p.h
@@ -1195,7 +1162,7 @@ drwxr-xr-x root       root             4096 ./usr/share/common-licenses/libkmod
 -rw-r--r-- 1000       1000            26432 ./usr/share/common-licenses/libkmod/COPYING
 lrwxrwxrwx root       root               18 ./usr/share/common-licenses/libkmod/generic_GPL-2.0 -> ../generic_GPL-2.0
 lrwxrwxrwx root       root               19 ./usr/share/common-licenses/libkmod/generic_LGPL-2.1 -> ../generic_LGPL-2.1
--rw-r--r-- root       root             2886 ./usr/share/common-licenses/license.manifest
+-rw-r--r-- root       root             2990 ./usr/share/common-licenses/license.manifest
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/ncurses-libtinfo
 lrwxrwxrwx root       root               14 ./usr/share/common-licenses/ncurses-libtinfo/generic_MIT -> ../generic_MIT
 -rw-r--r-- 1000       1000             2579 ./usr/share/common-licenses/ncurses-libtinfo/version.c
@@ -1213,16 +1180,13 @@ drwxr-xr-x root       root             4096 ./usr/share/common-licenses/run-post
 -rw-rw-r-- 1000       1000              515 ./usr/share/common-licenses/run-postinsts/LICENSE
 lrwxrwxrwx root       root               14 ./usr/share/common-licenses/run-postinsts/generic_MIT -> ../generic_MIT
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/udev
-drwxr-xr-x root       root             4096 ./usr/share/common-licenses/udev-cache
--rw-r--r-- 1000       1000            26526 ./usr/share/common-licenses/udev-cache/COPYING
-lrwxrwxrwx root       root               18 ./usr/share/common-licenses/udev-cache/generic_GPLv2.0 -> ../generic_GPLv2.0
-lrwxrwxrwx root       root               19 ./usr/share/common-licenses/udev-cache/generic_LGPLv2.1 -> ../generic_LGPLv2.1
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/udev-extraconf
 -rw-rw-r-- 1000       1000             1035 ./usr/share/common-licenses/udev-extraconf/COPYING.MIT
 -rw-rw-r-- 1000       1000              515 ./usr/share/common-licenses/udev-extraconf/LICENSE
 lrwxrwxrwx root       root               14 ./usr/share/common-licenses/udev-extraconf/generic_MIT -> ../generic_MIT
--rw-r--r-- 1000       1000            26526 ./usr/share/common-licenses/udev/COPYING
-lrwxrwxrwx root       root               18 ./usr/share/common-licenses/udev/generic_GPLv2.0 -> ../generic_GPLv2.0
+-rw-r--r-- 1000       1000            17987 ./usr/share/common-licenses/udev/LICENSE.GPL2
+-rw-r--r-- 1000       1000            26530 ./usr/share/common-licenses/udev/LICENSE.LGPL2.1
+lrwxrwxrwx root       root               16 ./usr/share/common-licenses/udev/generic_GPLv2 -> ../generic_GPLv2
 lrwxrwxrwx root       root               19 ./usr/share/common-licenses/udev/generic_LGPLv2.1 -> ../generic_LGPLv2.1
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/update-alternatives-opkg
 -rw-r--r-- 1000       1000            17992 ./usr/share/common-licenses/update-alternatives-opkg/COPYING
