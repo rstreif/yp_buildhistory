@@ -18,7 +18,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/syslinux/6.03-r0/sys
 drwxr-xr-x root       root             4096 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/bios/libinstaller
 -rw-r--r-- root       root             3274 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/bios/libinstaller/bootsect_bin.c
 -rw-r--r-- root       root           420361 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/bios/libinstaller/ldlinux_bin.c
--rw-r--r-- root       root           749284 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/bios/libinstaller/ldlinuxc32_bin.c
+-rw-r--r-- root       root           714984 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/bios/libinstaller/ldlinuxc32_bin.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/bios/utils
 -rw-r--r-- root       root            17655 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/bios/utils/isohdpfx.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/extlinux
@@ -50,8 +50,8 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/syslinux/6.03-r0/sys
 -rw-r--r-- root       root             4013 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/setadv.c
 -rw-r--r-- root       root              473 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/setadv.h
 -rw-r--r-- root       root             2165 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslinux.h
--rw-rw-r-- root       root             4576 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslinuxext.c
--rw-rw-r-- root       root              107 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslinuxext.h
+-rw-r--r-- root       root             4576 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslinuxext.c
+-rw-r--r-- root       root              107 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslinuxext.h
 -rw-r--r-- root       root             6109 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslxcom.c
 -rw-r--r-- root       root              393 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslxcom.h
 -rw-r--r-- root       root              771 ./usr/src/debug/syslinux/6.03-r0/syslinux-6.03/libinstaller/syslxfs.h

@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 171460
+PKGSIZE = 171864
 FILES = /usr/lib/erlang/lib/appmon-*
 FILELIST = /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon.app /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon.appup /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon.beam /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon_a.beam /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon_dg.beam /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon_lb.beam /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon_place.beam /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon_txt.beam /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/appmon_web.beam /usr/lib/erlang/lib/appmon-2.1.14.2/ebin/process_info.beam /usr/lib/erlang/lib/appmon-2.1.14.2/priv/appmon.gif /usr/lib/erlang/lib/appmon-2.1.14.2/priv/appmon.tool /usr/lib/erlang/lib/appmon-2.1.14.2/priv/appmon_help.txt /usr/lib/erlang/lib/appmon-2.1.14.2/priv/blank.html /usr/lib/erlang/lib/appmon-2.1.14.2/priv/info_frames.html /usr/lib/erlang/lib/appmon-2.1.14.2/priv/main_frame.html /usr/lib/erlang/lib/appmon-2.1.14.2/priv/start_info.html

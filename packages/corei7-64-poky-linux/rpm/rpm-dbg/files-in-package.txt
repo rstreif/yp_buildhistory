@@ -444,7 +444,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.
 -rw-r--r-- root       root             3757 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpm2cpio.c
 -rw-r--r-- root       root            14958 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpmcache.c
 -rw-r--r-- root       root             1855 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpmcmp.c
--rw-rw-r-- root       root             2855 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpmdeps-oecore.c
+-rw-r--r-- root       root             2855 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpmdeps-oecore.c
 -rw-r--r-- root       root            15310 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpmdeps.c
 -rw-r--r-- root       root            26206 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpmdigest.c
 -rw-r--r-- root       root            74664 ./usr/src/debug/rpm/5.4.14-r0/rpm-5.4.14/tools/rpmfind.c

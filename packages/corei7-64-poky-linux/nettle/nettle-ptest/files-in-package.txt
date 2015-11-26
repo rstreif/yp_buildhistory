@@ -140,9 +140,9 @@ drwxr-xr-x root       root             4096 ./usr/lib/nettle/ptest/testsuite/.de
 -rwxr-xr-x root       root            40848 ./usr/lib/nettle/ptest/testsuite/meta-armor-test
 -rwxr-xr-x root       root            41000 ./usr/lib/nettle/ptest/testsuite/meta-cipher-test
 -rwxr-xr-x root       root            40928 ./usr/lib/nettle/ptest/testsuite/meta-hash-test
--rwxr-xr-x root       root              729 ./usr/lib/nettle/ptest/testsuite/nettle-pbkdf2-test
+-rwxr-xr-x 1000       1000              729 ./usr/lib/nettle/ptest/testsuite/nettle-pbkdf2-test
 -rwxr-xr-x root       root            45000 ./usr/lib/nettle/ptest/testsuite/pbkdf2-test
--rwxr-xr-x root       root             2045 ./usr/lib/nettle/ptest/testsuite/pkcs1-conv-test
+-rwxr-xr-x 1000       1000             2045 ./usr/lib/nettle/ptest/testsuite/pkcs1-conv-test
 -rwxr-xr-x root       root            40816 ./usr/lib/nettle/ptest/testsuite/pkcs1-test
 -rwxr-xr-x root       root            40840 ./usr/lib/nettle/ptest/testsuite/poly1305-test
 -rwxr-xr-x root       root            40824 ./usr/lib/nettle/ptest/testsuite/random-prime-test
@@ -153,7 +153,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/nettle/ptest/testsuite/.de
 -rwxr-xr-x root       root            44960 ./usr/lib/nettle/ptest/testsuite/rsa2sexp-test
 -rwxr-xr-x root       root            44928 ./usr/lib/nettle/ptest/testsuite/salsa20-test
 -rwxr-xr-x root       root            44992 ./usr/lib/nettle/ptest/testsuite/serpent-test
--rwxr-xr-x root       root             2506 ./usr/lib/nettle/ptest/testsuite/sexp-conv-test
+-rwxr-xr-x 1000       1000             2506 ./usr/lib/nettle/ptest/testsuite/sexp-conv-test
 -rwxr-xr-x root       root            44960 ./usr/lib/nettle/ptest/testsuite/sexp-format-test
 -rwxr-xr-x root       root            44984 ./usr/lib/nettle/ptest/testsuite/sexp-test
 -rwxr-xr-x root       root            40848 ./usr/lib/nettle/ptest/testsuite/sexp2rsa-test
@@ -170,7 +170,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/nettle/ptest/testsuite/.de
 -rwxr-xr-x root       root            40808 ./usr/lib/nettle/ptest/testsuite/sha512-224-test
 -rwxr-xr-x root       root            40808 ./usr/lib/nettle/ptest/testsuite/sha512-256-test
 -rwxr-xr-x root       root            40808 ./usr/lib/nettle/ptest/testsuite/sha512-test
--rwxr-xr-x root       root             1195 ./usr/lib/nettle/ptest/testsuite/symbols-test
+-rwxr-xr-x 1000       1000             1195 ./usr/lib/nettle/ptest/testsuite/symbols-test
 -rwxr-xr-x root       root            40808 ./usr/lib/nettle/ptest/testsuite/twofish-test
 -rwxr-xr-x root       root            53224 ./usr/lib/nettle/ptest/testsuite/umac-test
 -rwxr-xr-x root       root            40920 ./usr/lib/nettle/ptest/testsuite/yarrow-test

@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 343488
+PKGSIZE = 344004
 FILES = /usr/lib/erlang/lib/test_server-*
 FILELIST = /usr/lib/erlang/lib/test_server-3.6.4/ebin/erl2html2.beam /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server.app /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server.appup /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server.beam /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_ctrl.beam /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_gl.beam /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_io.beam /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_node.beam /usr/lib/erlang/lib/test_server-3.6.4/ebin/test_server_sup.beam

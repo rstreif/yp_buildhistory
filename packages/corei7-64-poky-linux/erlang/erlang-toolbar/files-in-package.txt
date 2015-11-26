@@ -4,10 +4,10 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/toolbar-1.4.2.3
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin
--rw-r--r-- root       root             5948 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/canvasbutton.beam
+-rw-r--r-- root       root             5996 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/canvasbutton.beam
 -rw-r--r-- root       root              947 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar.app
 -rw-r--r-- root       root              701 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar.appup
--rw-r--r-- root       root            12428 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar.beam
--rw-r--r-- root       root             9612 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_graphics.beam
--rw-r--r-- root       root             5596 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_lib.beam
--rw-r--r-- root       root            14080 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_toolconfig.beam
+-rw-r--r-- root       root            12480 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar.beam
+-rw-r--r-- root       root             9660 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_graphics.beam
+-rw-r--r-- root       root             5640 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_lib.beam
+-rw-r--r-- root       root            14132 ./usr/lib/erlang/lib/toolbar-1.4.2.3/ebin/toolbar_toolconfig.beam

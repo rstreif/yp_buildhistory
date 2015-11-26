@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 127081
+PKGSIZE = 127841
 FILES = /usr/lib/erlang/lib/pman-*
 FILELIST = /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman.app /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman.appup /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_buf.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_buf_buffer.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_buf_converter.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_buf_printer.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_buf_utils.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_main.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_module_info.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_options.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_process.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_relay.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_relay_server.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_shell.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_tool.beam /usr/lib/erlang/lib/pman-2.7.1.4/ebin/pman_win.beam /usr/lib/erlang/lib/pman-2.7.1.4/priv/pman.gif /usr/lib/erlang/lib/pman-2.7.1.4/priv/pman.tool

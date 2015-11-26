@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 295638
+PKGSIZE = 296218
 FILES = /usr/lib/erlang/lib/et-*
 FILELIST = /usr/lib/erlang/lib/et-1.4.4.5/ebin/et.app /usr/lib/erlang/lib/et-1.4.4.5/ebin/et.appup /usr/lib/erlang/lib/et-1.4.4.5/ebin/et.beam /usr/lib/erlang/lib/et-1.4.4.5/ebin/et_collector.beam /usr/lib/erlang/lib/et-1.4.4.5/ebin/et_gs_contents_viewer.beam /usr/lib/erlang/lib/et-1.4.4.5/ebin/et_gs_viewer.beam /usr/lib/erlang/lib/et-1.4.4.5/ebin/et_selector.beam /usr/lib/erlang/lib/et-1.4.4.5/ebin/et_viewer.beam /usr/lib/erlang/lib/et-1.4.4.5/ebin/et_wx_contents_viewer.beam /usr/lib/erlang/lib/et-1.4.4.5/ebin/et_wx_viewer.beam /usr/lib/erlang/lib/et-1.4.4.5/examples/et_demo.erl /usr/lib/erlang/lib/et-1.4.4.5/examples/et_display_demo.erl /usr/lib/erlang/lib/et-1.4.4.5/examples/et_trace_demo.erl

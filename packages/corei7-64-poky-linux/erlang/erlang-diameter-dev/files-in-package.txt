@@ -55,7 +55,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/diameter-1.5/sr
 -rw-r--r-- root       root            13774 ./usr/lib/erlang/lib/diameter-1.5/src/dict/base_rfc6733.dia
 -rw-r--r-- root       root              759 ./usr/lib/erlang/lib/diameter-1.5/src/dict/relay.dia
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/diameter-1.5/src/gen
--rw-r--r-- root       root            66647 ./usr/lib/erlang/lib/diameter-1.5/src/gen/diameter_dict_parser.erl
+-rw-r--r-- root       root            66644 ./usr/lib/erlang/lib/diameter-1.5/src/gen/diameter_dict_parser.erl
 -rw-r--r-- root       root            26134 ./usr/lib/erlang/lib/diameter-1.5/src/gen/diameter_gen_acct_rfc6733.erl
 -rw-r--r-- root       root            26503 ./usr/lib/erlang/lib/diameter-1.5/src/gen/diameter_gen_base_accounting.erl
 -rw-r--r-- root       root            46266 ./usr/lib/erlang/lib/diameter-1.5/src/gen/diameter_gen_base_rfc3588.erl

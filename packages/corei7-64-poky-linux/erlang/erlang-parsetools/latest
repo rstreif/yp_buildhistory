@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 207793
+PKGSIZE = 208117
 FILES = /usr/lib/erlang/lib/parsetools-*
 FILELIST = /usr/lib/erlang/lib/parsetools-2.0.10/ebin/leex.beam /usr/lib/erlang/lib/parsetools-2.0.10/ebin/parsetools.app /usr/lib/erlang/lib/parsetools-2.0.10/ebin/parsetools.appup /usr/lib/erlang/lib/parsetools-2.0.10/ebin/yecc.beam /usr/lib/erlang/lib/parsetools-2.0.10/ebin/yeccparser.beam /usr/lib/erlang/lib/parsetools-2.0.10/ebin/yeccscan.beam

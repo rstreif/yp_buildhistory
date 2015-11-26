@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 49268
+PKGSIZE = 49320
 FILES = /usr/lib/erlang/lib/typer-*
 FILELIST = /usr/lib/erlang/lib/typer-0.9.5/ebin/typer.app /usr/lib/erlang/lib/typer-0.9.5/ebin/typer.appup /usr/lib/erlang/lib/typer-0.9.5/ebin/typer.beam

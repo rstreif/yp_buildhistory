@@ -4,9 +4,9 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/parsetools-2.0.10
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin
--rw-r--r-- root       root            66680 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/leex.beam
+-rw-r--r-- root       root            66768 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/leex.beam
 -rw-r--r-- root       root              339 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/parsetools.app
 -rw-r--r-- root       root               18 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/parsetools.appup
--rw-r--r-- root       root           116072 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/yecc.beam
--rw-r--r-- root       root            22032 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/yeccparser.beam
--rw-r--r-- root       root             2652 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/yeccscan.beam
+-rw-r--r-- root       root           116160 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/yecc.beam
+-rw-r--r-- root       root            22108 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/yeccparser.beam
+-rw-r--r-- root       root             2724 ./usr/lib/erlang/lib/parsetools-2.0.10/ebin/yeccscan.beam

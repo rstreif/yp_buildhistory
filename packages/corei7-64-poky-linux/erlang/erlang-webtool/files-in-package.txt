@@ -6,8 +6,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/webtool-0.8.9.2
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/webtool-0.8.9.2/ebin
 -rw-r--r-- root       root              875 ./usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool.app
 -rw-r--r-- root       root              701 ./usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool.appup
--rw-r--r-- root       root            35304 ./usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool.beam
--rw-r--r-- root       root             1356 ./usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool_sup.beam
+-rw-r--r-- root       root            35356 ./usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool.beam
+-rw-r--r-- root       root             1408 ./usr/lib/erlang/lib/webtool-0.8.9.2/ebin/webtool_sup.beam
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/webtool-0.8.9.2/priv
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/webtool-0.8.9.2/priv/bin
 -rwxr-xr-x root       root               58 ./usr/lib/erlang/lib/webtool-0.8.9.2/priv/bin/start_webtool

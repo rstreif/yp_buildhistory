@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 23140
+PKGSIZE = 23192
 FILES = /usr/lib/erlang/lib/sasl-*/examples
 FILELIST = /usr/lib/erlang/lib/sasl-2.3.4/examples/ebin/target_system.beam /usr/lib/erlang/lib/sasl-2.3.4/examples/src/Makefile /usr/lib/erlang/lib/sasl-2.3.4/examples/src/target_system.erl

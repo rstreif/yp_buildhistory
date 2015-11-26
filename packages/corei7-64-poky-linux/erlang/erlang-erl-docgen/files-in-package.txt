@@ -4,9 +4,9 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin
--rw-r--r-- root       root            42268 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/docgen_edoc_xml_cb.beam
--rw-r--r-- root       root            38136 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/docgen_otp_specs.beam
--rw-r--r-- root       root             5700 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/docgen_xmerl_xml_cb.beam
+-rw-r--r-- root       root            42364 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/docgen_edoc_xml_cb.beam
+-rw-r--r-- root       root            38228 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/docgen_otp_specs.beam
+-rw-r--r-- root       root             5788 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/docgen_xmerl_xml_cb.beam
 -rw-r--r-- root       root              276 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/erl_docgen.app
 -rw-r--r-- root       root               19 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/ebin/erl_docgen.appup
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_docgen-0.3.4.1/priv

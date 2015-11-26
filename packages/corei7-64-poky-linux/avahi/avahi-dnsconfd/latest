@@ -3,6 +3,6 @@ PR = r11.1
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libavahi-common (>= 0.6.31) libdaemon (>= 0.14)
 RRECOMMENDS = update-rc.d
-PKGSIZE = 24265
-FILES = /usr/sbin/avahi-dnsconfd /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd
-FILELIST = /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd /usr/sbin/avahi-dnsconfd
+PKGSIZE = 25241
+FILES = /usr/sbin/avahi-dnsconfd /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd /lib/systemd/system/avahi-dnsconfd.service /lib/systemd/system/avahi-daemon.socket /lib/systemd/system/avahi-daemon.service
+FILELIST = /etc/avahi/avahi-dnsconfd.action /etc/init.d/avahi-dnsconfd /lib/systemd/system/avahi-dnsconfd.service /usr/sbin/avahi-dnsconfd

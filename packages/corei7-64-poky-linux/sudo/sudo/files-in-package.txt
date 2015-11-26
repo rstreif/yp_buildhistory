@@ -14,6 +14,8 @@ lrwxrwxrwx root       root               21 ./usr/lib/sudo/libsudo_util.so.0 -> 
 -rw-r--r-- root       root             5992 ./usr/lib/sudo/sudo_noexec.so
 -rw-r--r-- root       root           272480 ./usr/lib/sudo/sudoers.so
 -rw-r--r-- root       root             6168 ./usr/lib/sudo/system_group.so
+drwxr-xr-x root       root             4096 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root              313 ./usr/lib/tmpfiles.d/sudo.conf
 drwxr-xr-x root       root             4096 ./usr/sbin
 -rwxr-xr-x root       root           181104 ./usr/sbin/visudo
 drwxr-xr-x root       root             4096 ./var

@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) mtools
 RRECOMMENDS = 
-PKGSIZE = 210824
+PKGSIZE = 204680
 FILES = /usr/bin/syslinux
 FILELIST = /usr/bin/syslinux

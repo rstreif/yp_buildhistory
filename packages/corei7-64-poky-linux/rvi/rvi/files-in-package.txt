@@ -4,6 +4,10 @@ drwxr-xr-x root       root             4096 ./etc/init.d
 drwxr-xr-x root       root             4096 ./etc/opt
 drwxr-xr-x root       root             4096 ./etc/opt/rvi
 -rw-r--r-- root       root            11694 ./etc/opt/rvi/rvi.config
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              374 ./lib/systemd/system/rvi.service
 drwxr-xr-x root       root             4096 ./opt
 drwxr-xr-x root       root             4096 ./opt/rvi
 -rwxr-xr-x root       root             6458 ./opt/rvi/nodetool

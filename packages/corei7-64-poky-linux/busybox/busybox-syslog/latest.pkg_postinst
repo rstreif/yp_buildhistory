@@ -10,3 +10,16 @@ if type update-rc.d >/dev/null 2>/dev/null; then
 	fi
 	update-rc.d $OPT syslog defaults
 fi
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS enable busybox-syslog.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl restart busybox-syslog.service
+	fi
+fi

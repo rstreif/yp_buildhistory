@@ -1,4 +1,4 @@
 PV = 0.0.0+gitAUTOINC+6f0afff90a
 PR = r0
-DEPENDS = initscripts update-rc.d update-rc.d-native
+DEPENDS = initscripts systemd-systemctl-native update-rc.d update-rc.d-native
 PACKAGES = pixieserver-dbg pixieserver-staticdev pixieserver-dev pixieserver-doc pixieserver-locale pixieserver

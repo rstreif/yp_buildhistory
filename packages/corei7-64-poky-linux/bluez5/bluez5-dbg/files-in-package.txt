@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./lib
 drwxr-xr-x root       root             4096 ./lib/udev
 drwxr-xr-x root       root             4096 ./lib/udev/.debug
--rwxr-xr-x root       root            27320 ./lib/udev/.debug/hid2hci
+-rwxr-xr-x root       root            27432 ./lib/udev/.debug/hid2hci
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
@@ -9,13 +9,13 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            87888 ./usr/bin/.debug/bluemoon
 -rwxr-xr-x root       root           234400 ./usr/bin/.debug/bluetooth-player
 -rwxr-xr-x root       root           300296 ./usr/bin/.debug/bluetoothctl
--rwxr-xr-x root       root          1039896 ./usr/bin/.debug/btmon
+-rwxr-xr-x root       root          1043520 ./usr/bin/.debug/btmon
 -rwxr-xr-x root       root           276560 ./usr/bin/.debug/ciptool
 -rwxr-xr-x root       root           625632 ./usr/bin/.debug/gatttool
 -rwxr-xr-x root       root           242920 ./usr/bin/.debug/hciattach
 -rwxr-xr-x root       root           194416 ./usr/bin/.debug/hciconfig
 -rwxr-xr-x root       root          1308704 ./usr/bin/.debug/hcidump
--rwxr-xr-x root       root           213920 ./usr/bin/.debug/hcitool
+-rwxr-xr-x root       root           215944 ./usr/bin/.debug/hcitool
 -rwxr-xr-x root       root            26216 ./usr/bin/.debug/hex2hcd
 -rwxr-xr-x root       root           119800 ./usr/bin/.debug/l2ping
 -rwxr-xr-x root       root           148344 ./usr/bin/.debug/l2test
