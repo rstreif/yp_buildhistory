@@ -1,5 +1,5 @@
-meta              = rjs:1b25a70991589ed1f123015c16ee4806c46e3199
-meta-yocto        = rjs:1b25a70991589ed1f123015c16ee4806c46e3199
+meta              = rjs:77b5a52375c699e81b01e9cadbf7b066286b51ba
+meta-yocto        = rjs:77b5a52375c699e81b01e9cadbf7b066286b51ba
 meta-oe           = master:b9ae51570d1ba7136700c81d309663342275193a
 meta-rvi          = <unknown>:<unknown>
 meta-jlrdemo      = master:49cb700431ae8dec8d539e67f1d80242c28e3040
