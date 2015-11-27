@@ -76,6 +76,7 @@ digraph depends {
 "bluez5" -> "libglib-2.0-0";
 "bluez5" -> "libreadline6";
 "bluez5" -> "libudev1";
+"bluez5" -> "update-rc.d" [style=dotted];
 "busybox" -> "busybox";
 "busybox" -> "busybox-syslog" [style=dotted];
 "busybox" -> "busybox-udhcpc" [style=dotted];
@@ -1741,6 +1742,7 @@ digraph depends {
 "linux-firmware" -> "linux-firmware-bcm4329";
 "linux-firmware" -> "linux-firmware-bcm4330";
 "linux-firmware" -> "linux-firmware-bcm4334";
+"linux-firmware" -> "linux-firmware-bcm4339";
 "linux-firmware" -> "linux-firmware-bcm4354";
 "linux-firmware" -> "linux-firmware-broadcom-license";
 "linux-firmware" -> "linux-firmware-iwlwifi-135-6";
@@ -1791,6 +1793,9 @@ digraph depends {
 "linux-firmware-bcm4334" -> "busybox";
 "linux-firmware-bcm4334" -> "linux-firmware-broadcom-license";
 "linux-firmware-bcm4334" -> "update-alternatives-opkg";
+"linux-firmware-bcm4339" -> "busybox";
+"linux-firmware-bcm4339" -> "linux-firmware-broadcom-license";
+"linux-firmware-bcm4339" -> "update-alternatives-opkg";
 "linux-firmware-bcm4354" -> "linux-firmware-broadcom-license";
 "linux-firmware-iwlwifi-135-6" -> "linux-firmware-iwlwifi-license";
 "linux-firmware-iwlwifi-3160-7" -> "linux-firmware-iwlwifi-license";

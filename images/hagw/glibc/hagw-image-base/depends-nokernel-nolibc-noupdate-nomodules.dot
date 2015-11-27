@@ -410,6 +410,7 @@ digraph depends {
 "linux-firmware" -> "linux-firmware-bcm4329";
 "linux-firmware" -> "linux-firmware-bcm4330";
 "linux-firmware" -> "linux-firmware-bcm4334";
+"linux-firmware" -> "linux-firmware-bcm4339";
 "linux-firmware" -> "linux-firmware-bcm4354";
 "linux-firmware" -> "linux-firmware-broadcom-license";
 "linux-firmware" -> "linux-firmware-iwlwifi-135-6";
@@ -457,6 +458,8 @@ digraph depends {
 "linux-firmware-bcm4330" -> "linux-firmware-broadcom-license";
 "linux-firmware-bcm4334" -> "busybox";
 "linux-firmware-bcm4334" -> "linux-firmware-broadcom-license";
+"linux-firmware-bcm4339" -> "busybox";
+"linux-firmware-bcm4339" -> "linux-firmware-broadcom-license";
 "linux-firmware-bcm4354" -> "linux-firmware-broadcom-license";
 "linux-firmware-iwlwifi-135-6" -> "linux-firmware-iwlwifi-license";
 "linux-firmware-iwlwifi-3160-7" -> "linux-firmware-iwlwifi-license";

@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./bin
 lrwxrwxrwx root       root               19 ./bin/ash -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               25 ./bin/base64 -> /usr/bin/base64.coreutils
--rwxr-xr-x root       root           988264 ./bin/bash
+-rwxr-xr-x root       root           988200 ./bin/bash
 lrwxrwxrwx root       root               14 ./bin/busybox -> busybox.nosuid
 -rwxr-xr-x root       root           538792 ./bin/busybox.nosuid
 -rwsr-xr-x root       root            53064 ./bin/busybox.suid
@@ -194,6 +194,7 @@ drwxr-xr-x root       root             4096 ./etc/init.d
 -rwxr-xr-x root       root              811 ./etc/init.d/alsa-state
 -rwxr-xr-x root       root             4491 ./etc/init.d/avahi-daemon
 -rwxr-xr-x root       root              492 ./etc/init.d/banner.sh
+-rwxr-xr-x root       root             1347 ./etc/init.d/bluetooth
 -rwxr-xr-x root       root             1922 ./etc/init.d/bootmisc.sh
 -rwxr-xr-x root       root             3581 ./etc/init.d/checkroot.sh
 -rwxr-xr-x root       root             2887 ./etc/init.d/dbus-1
@@ -282,6 +283,7 @@ drwxr-xr-x root       root             4096 ./etc/rc0.d
 lrwxrwxrwx root       root               14 ./etc/rc0.d/K09sshd -> ../init.d/sshd
 lrwxrwxrwx root       root               22 ./etc/rc0.d/K19avahi-daemon -> ../init.d/avahi-daemon
 lrwxrwxrwx root       root               15 ./etc/rc0.d/K20acpid -> ../init.d/acpid
+lrwxrwxrwx root       root               19 ./etc/rc0.d/K20bluetooth -> ../init.d/bluetooth
 lrwxrwxrwx root       root               16 ./etc/rc0.d/K20dbus-1 -> ../init.d/dbus-1
 lrwxrwxrwx root       root               20 ./etc/rc0.d/K20hwclock.sh -> ../init.d/hwclock.sh
 lrwxrwxrwx root       root               21 ./etc/rc0.d/K20pixieserver -> ../init.d/pixieserver
@@ -303,6 +305,7 @@ drwxr-xr-x root       root             4096 ./etc/rc1.d
 lrwxrwxrwx root       root               14 ./etc/rc1.d/K09sshd -> ../init.d/sshd
 lrwxrwxrwx root       root               22 ./etc/rc1.d/K19avahi-daemon -> ../init.d/avahi-daemon
 lrwxrwxrwx root       root               15 ./etc/rc1.d/K20acpid -> ../init.d/acpid
+lrwxrwxrwx root       root               19 ./etc/rc1.d/K20bluetooth -> ../init.d/bluetooth
 lrwxrwxrwx root       root               16 ./etc/rc1.d/K20dbus-1 -> ../init.d/dbus-1
 lrwxrwxrwx root       root               20 ./etc/rc1.d/K20hwclock.sh -> ../init.d/hwclock.sh
 lrwxrwxrwx root       root               21 ./etc/rc1.d/K20pixieserver -> ../init.d/pixieserver
@@ -324,6 +327,7 @@ lrwxrwxrwx root       root               14 ./etc/rc2.d/S09sshd -> ../init.d/ssh
 lrwxrwxrwx root       root               17 ./etc/rc2.d/S12rpcbind -> ../init.d/rpcbind
 lrwxrwxrwx root       root               21 ./etc/rc2.d/S15mountnfs.sh -> ../init.d/mountnfs.sh
 lrwxrwxrwx root       root               15 ./etc/rc2.d/S20acpid -> ../init.d/acpid
+lrwxrwxrwx root       root               19 ./etc/rc2.d/S20bluetooth -> ../init.d/bluetooth
 lrwxrwxrwx root       root               20 ./etc/rc2.d/S20hwclock.sh -> ../init.d/hwclock.sh
 lrwxrwxrwx root       root               16 ./etc/rc2.d/S20syslog -> ../init.d/syslog
 lrwxrwxrwx root       root               22 ./etc/rc2.d/S21avahi-daemon -> ../init.d/avahi-daemon
@@ -337,6 +341,7 @@ lrwxrwxrwx root       root               14 ./etc/rc3.d/S09sshd -> ../init.d/ssh
 lrwxrwxrwx root       root               17 ./etc/rc3.d/S12rpcbind -> ../init.d/rpcbind
 lrwxrwxrwx root       root               21 ./etc/rc3.d/S15mountnfs.sh -> ../init.d/mountnfs.sh
 lrwxrwxrwx root       root               15 ./etc/rc3.d/S20acpid -> ../init.d/acpid
+lrwxrwxrwx root       root               19 ./etc/rc3.d/S20bluetooth -> ../init.d/bluetooth
 lrwxrwxrwx root       root               20 ./etc/rc3.d/S20hwclock.sh -> ../init.d/hwclock.sh
 lrwxrwxrwx root       root               16 ./etc/rc3.d/S20syslog -> ../init.d/syslog
 lrwxrwxrwx root       root               22 ./etc/rc3.d/S21avahi-daemon -> ../init.d/avahi-daemon
@@ -352,6 +357,7 @@ lrwxrwxrwx root       root               14 ./etc/rc4.d/S09sshd -> ../init.d/ssh
 lrwxrwxrwx root       root               17 ./etc/rc4.d/S12rpcbind -> ../init.d/rpcbind
 lrwxrwxrwx root       root               21 ./etc/rc4.d/S15mountnfs.sh -> ../init.d/mountnfs.sh
 lrwxrwxrwx root       root               15 ./etc/rc4.d/S20acpid -> ../init.d/acpid
+lrwxrwxrwx root       root               19 ./etc/rc4.d/S20bluetooth -> ../init.d/bluetooth
 lrwxrwxrwx root       root               20 ./etc/rc4.d/S20hwclock.sh -> ../init.d/hwclock.sh
 lrwxrwxrwx root       root               16 ./etc/rc4.d/S20syslog -> ../init.d/syslog
 lrwxrwxrwx root       root               22 ./etc/rc4.d/S21avahi-daemon -> ../init.d/avahi-daemon
@@ -365,6 +371,7 @@ lrwxrwxrwx root       root               14 ./etc/rc5.d/S09sshd -> ../init.d/ssh
 lrwxrwxrwx root       root               17 ./etc/rc5.d/S12rpcbind -> ../init.d/rpcbind
 lrwxrwxrwx root       root               21 ./etc/rc5.d/S15mountnfs.sh -> ../init.d/mountnfs.sh
 lrwxrwxrwx root       root               15 ./etc/rc5.d/S20acpid -> ../init.d/acpid
+lrwxrwxrwx root       root               19 ./etc/rc5.d/S20bluetooth -> ../init.d/bluetooth
 lrwxrwxrwx root       root               20 ./etc/rc5.d/S20hwclock.sh -> ../init.d/hwclock.sh
 lrwxrwxrwx root       root               16 ./etc/rc5.d/S20syslog -> ../init.d/syslog
 lrwxrwxrwx root       root               22 ./etc/rc5.d/S21avahi-daemon -> ../init.d/avahi-daemon
@@ -378,6 +385,7 @@ drwxr-xr-x root       root             4096 ./etc/rc6.d
 lrwxrwxrwx root       root               14 ./etc/rc6.d/K09sshd -> ../init.d/sshd
 lrwxrwxrwx root       root               22 ./etc/rc6.d/K19avahi-daemon -> ../init.d/avahi-daemon
 lrwxrwxrwx root       root               15 ./etc/rc6.d/K20acpid -> ../init.d/acpid
+lrwxrwxrwx root       root               19 ./etc/rc6.d/K20bluetooth -> ../init.d/bluetooth
 lrwxrwxrwx root       root               16 ./etc/rc6.d/K20dbus-1 -> ../init.d/dbus-1
 lrwxrwxrwx root       root               20 ./etc/rc6.d/K20hwclock.sh -> ../init.d/hwclock.sh
 lrwxrwxrwx root       root               21 ./etc/rc6.d/K20pixieserver -> ../init.d/pixieserver
@@ -713,7 +721,7 @@ lrwxrwxrwx root       root               11 ./etc/terminfo/x/xterm -> xterm-colo
 drwxr-xr-x root       root             4096 ./etc/tmpfiles.d
 -rw-r--r-- root       root              225 ./etc/tmpfiles.d/00-create-volatile.conf
 drwxr-xr-x root       root             4096 ./etc/udev
--r--r--r-- 1000       1000          6656088 ./etc/udev/hwdb.bin
+-r--r--r-- root       root          6656088 ./etc/udev/hwdb.bin
 drwxr-xr-x root       root             4096 ./etc/udev/hwdb.d
 drwxr-xr-x root       root             4096 ./etc/udev/rules.d
 -rw-r--r-- root       root              855 ./etc/udev/rules.d/touchscreen.rules
@@ -757,7 +765,7 @@ drwxr-xr-x root       root             4096 ./lib/.debug
 lrwxrwxrwx root       root               30 ./lib/cpp -> /usr/bin/x86_64-poky-linux-cpp
 drwxr-xr-x root       root             4096 ./lib/depmod.d
 -rw-r--r-- root       root               71 ./lib/depmod.d/search.conf
-drwxr-xr-x root       root            16384 ./lib/firmware
+drwxr-xr-x root       root            12288 ./lib/firmware
 drwxr-xr-x root       root             4096 ./lib/firmware/3com
 -rw-r--r-- root       root            24880 ./lib/firmware/3com/3C359.bin
 -rw-r--r-- root       root            44548 ./lib/firmware/3com/typhoon.bin
@@ -1020,7 +1028,7 @@ drwxr-xr-x root       root             4096 ./lib/firmware/brcm
 -rw-r--r-- root       root           269595 ./lib/firmware/brcm/bcm4329-fullmac-4.bin
 -rw-r--r-- root       root            96224 ./lib/firmware/brcm/bcm43xx-0.fw
 -rw-r--r-- root       root              180 ./lib/firmware/brcm/bcm43xx_hdr-0.fw
-lrwxrwxrwx root       root               40 ./lib/firmware/brcm/brcmfmac-sdio.bin -> /lib/firmware/brcm/brcmfmac4330-sdio.bin
+lrwxrwxrwx root       root               40 ./lib/firmware/brcm/brcmfmac-sdio.bin -> /lib/firmware/brcm/brcmfmac4329-sdio.bin
 -rw-r--r-- root       root           385067 ./lib/firmware/brcm/brcmfmac43143-sdio.bin
 -rw-r--r-- root       root           397312 ./lib/firmware/brcm/brcmfmac43143.bin
 -rw-r--r-- root       root           348160 ./lib/firmware/brcm/brcmfmac43236b.bin
@@ -1941,7 +1949,7 @@ lrwxrwxrwx root       root               15 ./lib/libtinfo.so.5 -> libtinfo.so.5
 lrwxrwxrwx root       root               16 ./lib/libudev.so.1 -> libudev.so.1.6.4
 -rwxr-xr-x root       root           130776 ./lib/libudev.so.1.6.4
 lrwxrwxrwx root       root               19 ./lib/libusb-1.0.so.0 -> libusb-1.0.so.0.1.0
--rwxr-xr-x root       root            94320 ./lib/libusb-1.0.so.0.1.0
+-rwxr-xr-x root       root            95536 ./lib/libusb-1.0.so.0.1.0
 -rwxr-xr-x root       root            10520 ./lib/libutil-2.22.so
 lrwxrwxrwx root       root               15 ./lib/libutil.so.1 -> libutil-2.22.so
 lrwxrwxrwx root       root               16 ./lib/libuuid.so.1 -> libuuid.so.1.3.0
@@ -2540,7 +2548,7 @@ lrwxrwxrwx root       root               39 ./lib/systemd/system/reboot.target.w
 -rw-r--r-- root       root              486 ./lib/systemd/system/rescue.target
 drwxr-xr-x root       root             4096 ./lib/systemd/system/rescue.target.wants
 lrwxrwxrwx root       root               39 ./lib/systemd/system/rescue.target.wants/systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
--rw-r--r-- root       root              215 ./lib/systemd/system/rpcbind.service
+-rw-r--r-- root       root              212 ./lib/systemd/system/rpcbind.service
 -rw-r--r-- root       root              132 ./lib/systemd/system/rpcbind.socket
 -rw-r--r-- root       root              500 ./lib/systemd/system/rpcbind.target
 -rw-r--r-- root       root              385 ./lib/systemd/system/run-postinsts.service
@@ -4673,7 +4681,7 @@ lrwxrwxrwx root       root               18 ./usr/bin/less -> /usr/bin/less.less
 -rwxr-xr-x root       root           151192 ./usr/bin/less.less
 -rwxr-xr-x root       root             7240 ./usr/bin/lessecho
 -rwxr-xr-x root       root            14024 ./usr/bin/lesskey
--rwxr-xr-x root       root           370258 ./usr/bin/libtool
+-rwxr-xr-x root       root           370255 ./usr/bin/libtool
 -rwxr-xr-x root       root           129155 ./usr/bin/libtoolize
 lrwxrwxrwx root       root               23 ./usr/bin/link -> /usr/bin/link.coreutils
 -rwxr-xr-x root       root            31752 ./usr/bin/link.coreutils
@@ -4808,7 +4816,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/readlink -> /bin/busybox.n
 -rwxr-xr-x root       root            45168 ./usr/bin/readlink.coreutils
 lrwxrwxrwx root       root               19 ./usr/bin/realpath -> /bin/busybox.nosuid
 -rwxr-xr-x root       root            64720 ./usr/bin/realpath.coreutils
--rwxr-xr-x root       root           169658 ./usr/bin/rebar
+-rwxr-xr-x root       root           169662 ./usr/bin/rebar
 -rwxr-xr-x root       root            12216 ./usr/bin/recode-sr-latin
 -rwxr-xr-x root       root            10976 ./usr/bin/rename
 lrwxrwxrwx root       root               26 ./usr/bin/renice -> /usr/bin/renice.util-linux
@@ -6055,7 +6063,7 @@ drwxr-xr-x root       root             4096 ./usr/include/gnu
 -rw-r--r-- root       root            17248 ./usr/include/libio.h
 -rw-r--r-- root       root             4489 ./usr/include/limits.h
 -rw-r--r-- root       root             7206 ./usr/include/link.h
-drwxr-xr-x root       root            20480 ./usr/include/linux
+drwxr-xr-x root       root            16384 ./usr/include/linux
 -rw-r--r-- root       root                0 ./usr/include/linux/.install
 -rw-r--r-- root       root             7319 ./usr/include/linux/a.out.h
 -rw-r--r-- root       root             3670 ./usr/include/linux/acct.h
@@ -7063,7 +7071,7 @@ lrwxrwxrwx root       root               23 ./usr/lib/erlang/bin/epmd -> ../erts
 -rwxr-xr-x root       root            20456 ./usr/lib/erlang/bin/run_erl
 -rwxr-xr-x root       root             1163 ./usr/lib/erlang/bin/start
 -rw-r--r-- root       root             5304 ./usr/lib/erlang/bin/start.boot
--rw-r--r-- root       root             6255 ./usr/lib/erlang/bin/start.script
+-rw-r--r-- root       root             6253 ./usr/lib/erlang/bin/start.script
 -rw-r--r-- root       root             5304 ./usr/lib/erlang/bin/start_clean.boot
 -rwxr-xr-x root       root             1259 ./usr/lib/erlang/bin/start_erl
 -rw-r--r-- root       root             6432 ./usr/lib/erlang/bin/start_sasl.boot
@@ -7482,16 +7490,16 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang/releases
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/releases/R16B03-1
 -rw-r--r-- root       root             5276 ./usr/lib/erlang/releases/R16B03-1/no_dot_erlang.boot
 -rw-r--r-- root       root              777 ./usr/lib/erlang/releases/R16B03-1/no_dot_erlang.rel
--rw-r--r-- root       root             6225 ./usr/lib/erlang/releases/R16B03-1/no_dot_erlang.script
+-rw-r--r-- root       root             6223 ./usr/lib/erlang/releases/R16B03-1/no_dot_erlang.script
 -rw-r--r-- root       root             5304 ./usr/lib/erlang/releases/R16B03-1/start.boot
--rw-r--r-- root       root             6255 ./usr/lib/erlang/releases/R16B03-1/start.script
+-rw-r--r-- root       root             6253 ./usr/lib/erlang/releases/R16B03-1/start.script
 -rw-r--r-- root       root              881 ./usr/lib/erlang/releases/R16B03-1/start_all_example.rel
 -rw-r--r-- root       root             5304 ./usr/lib/erlang/releases/R16B03-1/start_clean.boot
 -rw-r--r-- root       root              786 ./usr/lib/erlang/releases/R16B03-1/start_clean.rel
--rw-r--r-- root       root             6255 ./usr/lib/erlang/releases/R16B03-1/start_clean.script
+-rw-r--r-- root       root             6253 ./usr/lib/erlang/releases/R16B03-1/start_clean.script
 -rw-r--r-- root       root             6432 ./usr/lib/erlang/releases/R16B03-1/start_sasl.boot
 -rw-r--r-- root       root              805 ./usr/lib/erlang/releases/R16B03-1/start_sasl.rel
--rw-r--r-- root       root             7705 ./usr/lib/erlang/releases/R16B03-1/start_sasl.script
+-rw-r--r-- root       root             7703 ./usr/lib/erlang/releases/R16B03-1/start_sasl.script
 -rw-r--r-- root       root              265 ./usr/lib/erlang/releases/RELEASES
 -rw-r--r-- root       root              250 ./usr/lib/erlang/releases/RELEASES.src
 -rw-r--r-- root       root               16 ./usr/lib/erlang/releases/start_erl.data
@@ -7867,18 +7875,18 @@ lrwxrwxrwx root       root               21 ./usr/lib/libgettextpo.so.0 -> libge
 -rwxr-xr-x root       root           280976 ./usr/lib/libgettextsrc-0.19.4.so
 -rwxr-xr-x root       root              994 ./usr/lib/libgettextsrc.la
 lrwxrwxrwx root       root               23 ./usr/lib/libgettextsrc.so -> libgettextsrc-0.19.4.so
-lrwxrwxrwx root       root               22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.4400.1
--rwxr-xr-x root       root          1550784 ./usr/lib/libgio-2.0.so.0.4400.1
-lrwxrwxrwx root       root               23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.4400.1
--rwxr-xr-x root       root          1280344 ./usr/lib/libglib-2.0.so.0.4400.1
-lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.4400.1
--rwxr-xr-x root       root            12160 ./usr/lib/libgmodule-2.0.so.0.4400.1
+lrwxrwxrwx root       root               22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.4600.1
+-rwxr-xr-x root       root          1560576 ./usr/lib/libgio-2.0.so.0.4600.1
+lrwxrwxrwx root       root               23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.4600.1
+-rwxr-xr-x root       root          1276248 ./usr/lib/libglib-2.0.so.0.4600.1
+lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.4600.1
+-rwxr-xr-x root       root            12160 ./usr/lib/libgmodule-2.0.so.0.4600.1
 lrwxrwxrwx root       root               16 ./usr/lib/libgmp.so.10 -> libgmp.so.10.2.0
 -rwxr-xr-x root       root           477664 ./usr/lib/libgmp.so.10.2.0
 lrwxrwxrwx root       root               20 ./usr/lib/libgnutls.so.28 -> libgnutls.so.28.41.9
 -rwxr-xr-x root       root          1149352 ./usr/lib/libgnutls.so.28.41.9
-lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.4400.1
--rwxr-xr-x root       root           342680 ./usr/lib/libgobject-2.0.so.0.4400.1
+lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.4600.1
+-rwxr-xr-x root       root           342888 ./usr/lib/libgobject-2.0.so.0.4600.1
 -rwxr-xr-x root       root             1049 ./usr/lib/libgomp-plugin-host_nonshm.la
 lrwxrwxrwx root       root               35 ./usr/lib/libgomp-plugin-host_nonshm.so -> libgomp-plugin-host_nonshm.so.1.0.0
 lrwxrwxrwx root       root               35 ./usr/lib/libgomp-plugin-host_nonshm.so.1 -> libgomp-plugin-host_nonshm.so.1.0.0
@@ -7890,8 +7898,8 @@ lrwxrwxrwx root       root               16 ./usr/lib/libgomp.so.1 -> libgomp.so
 -rw-r--r-- root       root              169 ./usr/lib/libgomp.spec
 lrwxrwxrwx root       root               22 ./usr/lib/libgpg-error.so.0 -> libgpg-error.so.0.15.0
 -rwxr-xr-x root       root            72872 ./usr/lib/libgpg-error.so.0.15.0
-lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.4400.1
--rwxr-xr-x root       root             5064 ./usr/lib/libgthread-2.0.so.0.4400.1
+lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.4600.1
+-rwxr-xr-x root       root             5064 ./usr/lib/libgthread-2.0.so.0.4600.1
 lrwxrwxrwx root       root               17 ./usr/lib/libhistory.so.6 -> libhistory.so.6.3
 -rwxr-xr-x root       root            34368 ./usr/lib/libhistory.so.6.3
 lrwxrwxrwx root       root               17 ./usr/lib/libhogweed.so.4 -> libhogweed.so.4.1
@@ -8005,7 +8013,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/libutil.so -> ../../lib/li
 lrwxrwxrwx root       root               19 ./usr/lib/libxcb-xkb.so.1 -> libxcb-xkb.so.1.0.0
 -rwxr-xr-x root       root           108024 ./usr/lib/libxcb-xkb.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libxcb.so.1 -> libxcb.so.1.1.0
--rwxr-xr-x root       root           126480 ./usr/lib/libxcb.so.1.1.0
+-rwxr-xr-x root       root           127552 ./usr/lib/libxcb.so.1.1.0
 lrwxrwxrwx root       root               25 ./usr/lib/libxkbcommon-x11.so.0 -> libxkbcommon-x11.so.0.0.0
 -rwxr-xr-x root       root            28672 ./usr/lib/libxkbcommon-x11.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libxkbcommon.so.0 -> libxkbcommon.so.0.0.0
@@ -10297,7 +10305,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               30 ./usr/lib/opkg/alternatives/bin-lsmod
 -rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/blkid
 -rw-r--r-- root       root               44 ./usr/lib/opkg/alternatives/blockdev
--rw-r--r-- root       root              169 ./usr/lib/opkg/alternatives/brcmfmac-sdio.bin
+-rw-r--r-- root       root              213 ./usr/lib/opkg/alternatives/brcmfmac-sdio.bin
 -rw-r--r-- root       root               67 ./usr/lib/opkg/alternatives/bunzip2
 -rw-r--r-- root       root               56 ./usr/lib/opkg/alternatives/bzImage
 -rw-r--r-- root       root               63 ./usr/lib/opkg/alternatives/bzcat
@@ -10651,13 +10659,13 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/Compress/Raw
 -r--r--r-- root       root            47378 ./usr/lib/perl/5.22.0/Compress/Raw/Zlib.pm
 -r--r--r-- root       root            43922 ./usr/lib/perl/5.22.0/Compress/Zlib.pm
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/Config
--rw-r--r-- root       root             4268 ./usr/lib/perl/5.22.0/Config.pm
+-r--r--r-- root       root             4268 ./usr/lib/perl/5.22.0/Config.pm
 -r--r--r-- root       root             1358 ./usr/lib/perl/5.22.0/Config/Extensions.pm
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/Config/Perl
 -r--r--r-- root       root            14242 ./usr/lib/perl/5.22.0/Config/Perl/V.pm
 -r--r--r-- root       root              409 ./usr/lib/perl/5.22.0/Config_git.pl
 lrwxrwxrwx root       root               15 ./usr/lib/perl/5.22.0/Config_heavy-target.pl -> Config_heavy.pl
--rw-r--r-- root       root            48119 ./usr/lib/perl/5.22.0/Config_heavy.pl
+-r--r--r-- root       root            48119 ./usr/lib/perl/5.22.0/Config_heavy.pl
 -r--r--r-- root       root            22863 ./usr/lib/perl/5.22.0/Cwd.pm
 -r--r--r-- root       root            18922 ./usr/lib/perl/5.22.0/DB.pm
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/DBM_Filter
@@ -10757,7 +10765,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/ExtUtils/Const
 -r--r--r-- root       root            14363 ./usr/lib/perl/5.22.0/ExtUtils/Installed.pm
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/ExtUtils/Liblist
 -r--r--r-- root       root             9462 ./usr/lib/perl/5.22.0/ExtUtils/Liblist.pm
--rw-r--r-- root       root            24655 ./usr/lib/perl/5.22.0/ExtUtils/Liblist/Kid.pm
+-r--r--r-- root       root            24655 ./usr/lib/perl/5.22.0/ExtUtils/Liblist/Kid.pm
 -r--r--r-- root       root             2115 ./usr/lib/perl/5.22.0/ExtUtils/MM.pm
 -r--r--r-- root       root             1572 ./usr/lib/perl/5.22.0/ExtUtils/MM_AIX.pm
 -r--r--r-- root       root            75516 ./usr/lib/perl/5.22.0/ExtUtils/MM_Any.pm
@@ -10826,7 +10834,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/File/Spec
 -r--r--r-- root       root            11182 ./usr/lib/perl/5.22.0/File/Spec/Win32.pm
 -r--r--r-- root       root            78940 ./usr/lib/perl/5.22.0/File/Temp.pm
 -r--r--r-- root       root            10078 ./usr/lib/perl/5.22.0/File/stat.pm
--rw-r--r-- root       root             5572 ./usr/lib/perl/5.22.0/FileCache.pm
+-r--r--r-- root       root             5572 ./usr/lib/perl/5.22.0/FileCache.pm
 -r--r--r-- root       root             6778 ./usr/lib/perl/5.22.0/FileHandle.pm
 drwxr-xr-x root       root             4096 ./usr/lib/perl/5.22.0/Filter
 -r--r--r-- root       root            23830 ./usr/lib/perl/5.22.0/Filter/Simple.pm
@@ -13416,7 +13424,7 @@ lrwxrwxrwx root       root               19 ./usr/sbin/rfkill -> /bin/busybox.no
 -rwxr-xr-x root       root             1029 ./usr/sbin/split_combined_hex
 -rwxr-xr-x root       root           728760 ./usr/sbin/sshd
 -rwxr-xr-x root       root            11224 ./usr/sbin/swaplabel
--rwxr-xr-x root       root           233104 ./usr/sbin/tcf-agent
+-rwxr-xr-x root       root           233136 ./usr/sbin/tcf-agent
 -rwxr-xr-x root       root           152648 ./usr/sbin/tcf-client
 lrwxrwxrwx root       root               19 ./usr/sbin/udhcpd -> /bin/busybox.nosuid
 -rwxr-xr-x root       root             5485 ./usr/sbin/update-ca-certificates
@@ -16010,7 +16018,7 @@ drwxr-xr-x root       root             4096 ./usr/share/common-licenses/libxml-p
 -rw-r--r-- 1000       1000             3430 ./usr/share/common-licenses/libxml-parser-perl/README
 lrwxrwxrwx root       root               23 ./usr/share/common-licenses/libxml-parser-perl/generic_Artistic-1.0 -> ../generic_Artistic-1.0
 lrwxrwxrwx root       root               18 ./usr/share/common-licenses/libxml-parser-perl/generic_GPL-1.0 -> ../generic_GPL-1.0
--rw-r--r-- root       root           176347 ./usr/share/common-licenses/license.manifest
+-rw-r--r-- root       root           176495 ./usr/share/common-licenses/license.manifest
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/linux-firmware
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/linux-firmware-ar3k
 -rw-r--r-- 1000       1000             1071 ./usr/share/common-licenses/linux-firmware-ar3k/LICENCE.Abilis
@@ -16628,6 +16636,83 @@ lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-fi
 lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4334/generic_Firmware-xc4000 -> ../generic_Firmware-xc4000
 lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4334/generic_Firmware-xc5000 -> ../generic_Firmware-xc5000
 lrwxrwxrwx root       root               27 ./usr/share/common-licenses/linux-firmware-bcm4334/generic_Firmware-xc5000c -> ../generic_Firmware-xc5000c
+drwxr-xr-x root       root             4096 ./usr/share/common-licenses/linux-firmware-bcm4339
+-rw-r--r-- 1000       1000             1071 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.Abilis
+-rw-r--r-- 1000       1000             2041 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.IntcSST2
+-rw-r--r-- 1000       1000             2074 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.Marvell
+-rw-r--r-- 1000       1000             1777 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.OLPC
+-rw-r--r-- 1000       1000             3539 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.agere
+-rw-r--r-- 1000       1000             1946 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.atheros_firmware
+-rw-r--r-- 1000       1000             4178 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.broadcom_bcm43xx
+-rw-r--r-- 1000       1000             2494 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.ca0132
+-rw-r--r-- 1000       1000             1485 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.chelsio_firmware
+-rw-r--r-- 1000       1000             1954 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.cw1200
+-rw-r--r-- 1000       1000              738 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.ene_firmware
+-rw-r--r-- 1000       1000             1892 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.fw_sst_0f28
+-rw-r--r-- 1000       1000            20217 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.go7007
+-rw-r--r-- 1000       1000             1889 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.i2400m
+-rw-r--r-- 1000       1000             2040 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.ibt_firmware
+-rw-r--r-- 1000       1000              851 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.it913x
+-rw-r--r-- 1000       1000             2046 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.iwlwifi_firmware
+-rw-r--r-- 1000       1000             2463 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.mwl8335
+-rw-r--r-- 1000       1000             1450 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.myri10ge_firmware
+-rw-r--r-- 1000       1000             1873 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.phanfw
+-rw-r--r-- 1000       1000             2041 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.qat_dh895xcc_firmware
+-rw-r--r-- 1000       1000             1843 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.qla2xxx
+-rw-r--r-- 1000       1000             1451 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.r8a779x_usb3
+-rw-r--r-- 1000       1000             2103 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.ralink-firmware.txt
+-rw-r--r-- 1000       1000             2100 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.ralink_a_mediatek_company_firmware
+-rw-r--r-- 1000       1000             2115 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.rtlwifi_firmware.txt
+-rw-r--r-- 1000       1000             1439 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.siano
+-rw-r--r-- 1000       1000             2183 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.tda7706-firmware.txt
+-rw-r--r-- 1000       1000             2042 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.ti-connectivity
+-rw-r--r-- 1000       1000             2052 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.ueagle-atm4-firmware
+-rw-r--r-- 1000       1000             1256 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.via_vt6656
+-rw-r--r-- 1000       1000             2903 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.wl1251
+-rw-r--r-- 1000       1000             1187 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.xc4000
+-rw-r--r-- 1000       1000             1179 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.xc5000
+-rw-r--r-- 1000       1000             1227 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENCE.xc5000c
+-rw-r--r-- 1000       1000             3758 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENSE.amd-ucode
+-rw-r--r-- 1000       1000             1039 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENSE.dib0700
+-rw-r--r-- 1000       1000             2943 ./usr/share/common-licenses/linux-firmware-bcm4339/LICENSE.radeon
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-Abilis -> ../generic_Firmware-Abilis
+lrwxrwxrwx root       root               28 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-IntcSST2 -> ../generic_Firmware-IntcSST2
+lrwxrwxrwx root       root               27 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-Marvell -> ../generic_Firmware-Marvell
+lrwxrwxrwx root       root               24 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-OLPC -> ../generic_Firmware-OLPC
+lrwxrwxrwx root       root               25 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-agere -> ../generic_Firmware-agere
+lrwxrwxrwx root       root               29 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-amd-ucode -> ../generic_Firmware-amd-ucode
+lrwxrwxrwx root       root               36 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-atheros_firmware -> ../generic_Firmware-atheros_firmware
+lrwxrwxrwx root       root               36 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-broadcom_bcm43xx -> ../generic_Firmware-broadcom_bcm43xx
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-ca0132 -> ../generic_Firmware-ca0132
+lrwxrwxrwx root       root               36 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-chelsio_firmware -> ../generic_Firmware-chelsio_firmware
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-cw1200 -> ../generic_Firmware-cw1200
+lrwxrwxrwx root       root               27 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-dib0700 -> ../generic_Firmware-dib0700
+lrwxrwxrwx root       root               32 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-ene_firmware -> ../generic_Firmware-ene_firmware
+lrwxrwxrwx root       root               31 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-fw_sst_0f28 -> ../generic_Firmware-fw_sst_0f28
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-go7007 -> ../generic_Firmware-go7007
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-i2400m -> ../generic_Firmware-i2400m
+lrwxrwxrwx root       root               32 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-ibt_firmware -> ../generic_Firmware-ibt_firmware
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-it913x -> ../generic_Firmware-it913x
+lrwxrwxrwx root       root               36 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-iwlwifi_firmware -> ../generic_Firmware-iwlwifi_firmware
+lrwxrwxrwx root       root               27 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-mwl8335 -> ../generic_Firmware-mwl8335
+lrwxrwxrwx root       root               37 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-myri10ge_firmware -> ../generic_Firmware-myri10ge_firmware
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-phanfw -> ../generic_Firmware-phanfw
+lrwxrwxrwx root       root               41 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-qat_dh895xcc_firmware -> ../generic_Firmware-qat_dh895xcc_firmware
+lrwxrwxrwx root       root               27 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-qla2xxx -> ../generic_Firmware-qla2xxx
+lrwxrwxrwx root       root               32 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-r8a779x_usb3 -> ../generic_Firmware-r8a779x_usb3
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-radeon -> ../generic_Firmware-radeon
+lrwxrwxrwx root       root               35 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-ralink-firmware -> ../generic_Firmware-ralink-firmware
+lrwxrwxrwx root       root               54 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-ralink_a_mediatek_company_firmware -> ../generic_Firmware-ralink_a_mediatek_company_firmware
+lrwxrwxrwx root       root               36 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-rtlwifi_firmware -> ../generic_Firmware-rtlwifi_firmware
+lrwxrwxrwx root       root               25 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-siano -> ../generic_Firmware-siano
+lrwxrwxrwx root       root               36 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-tda7706-firmware -> ../generic_Firmware-tda7706-firmware
+lrwxrwxrwx root       root               35 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-ti-connectivity -> ../generic_Firmware-ti-connectivity
+lrwxrwxrwx root       root               40 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-ueagle-atm4-firmware -> ../generic_Firmware-ueagle-atm4-firmware
+lrwxrwxrwx root       root               30 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-via_vt6656 -> ../generic_Firmware-via_vt6656
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-wl1251 -> ../generic_Firmware-wl1251
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-xc4000 -> ../generic_Firmware-xc4000
+lrwxrwxrwx root       root               26 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-xc5000 -> ../generic_Firmware-xc5000
+lrwxrwxrwx root       root               27 ./usr/share/common-licenses/linux-firmware-bcm4339/generic_Firmware-xc5000c -> ../generic_Firmware-xc5000c
 drwxr-xr-x root       root             4096 ./usr/share/common-licenses/linux-firmware-bcm4354
 -rw-r--r-- 1000       1000             1071 ./usr/share/common-licenses/linux-firmware-bcm4354/LICENCE.Abilis
 -rw-r--r-- 1000       1000             2041 ./usr/share/common-licenses/linux-firmware-bcm4354/LICENCE.IntcSST2
@@ -27051,27 +27136,27 @@ drwxr-xr-x messagebus messagebus       4096 ./var/lib/dbus
 drwxr-xr-x root       root             4096 ./var/lib/misc
 drwxr-xr-x root       root             4096 ./var/lib/rpm
 -rw-r--r-- root       root            28672 ./var/lib/rpm/Arch
--rw-r--r-- root       root           696320 ./var/lib/rpm/Basenames
+-rw-r--r-- root       root           700416 ./var/lib/rpm/Basenames
 -rw-r--r-- root       root             8192 ./var/lib/rpm/Conflictname
 -rw-r--r-- root       root             1006 ./var/lib/rpm/DB_CONFIG
--rw-r--r-- root       root           393216 ./var/lib/rpm/Dirnames
--rw-r--r-- root       root           626688 ./var/lib/rpm/Filedigests
--rw-r--r-- root       root          2326528 ./var/lib/rpm/Filepaths
--rw-r--r-- root       root            28672 ./var/lib/rpm/Group
+-rw-r--r-- root       root           425984 ./var/lib/rpm/Dirnames
+-rw-r--r-- root       root           630784 ./var/lib/rpm/Filedigests
+-rw-r--r-- root       root          2322432 ./var/lib/rpm/Filepaths
+-rw-r--r-- root       root            36864 ./var/lib/rpm/Group
 -rw-r--r-- root       root            28672 ./var/lib/rpm/Installtid
--rw-r--r-- root       root            86016 ./var/lib/rpm/Name
--rw-r--r-- root       root           147456 ./var/lib/rpm/Nvra
+-rw-r--r-- root       root            81920 ./var/lib/rpm/Name
+-rw-r--r-- root       root           151552 ./var/lib/rpm/Nvra
 -rw-r--r-- root       root             8192 ./var/lib/rpm/Obsoletename
 -rw-r--r-- root       root            28672 ./var/lib/rpm/Os
 -rw-r--r-- root       root            32768 ./var/lib/rpm/Packagecolor
--rw-r--r-- root       root         10313728 ./var/lib/rpm/Packages
--rw-r--r-- root       root           151552 ./var/lib/rpm/Providename
+-rw-r--r-- root       root         10326016 ./var/lib/rpm/Packages
+-rw-r--r-- root       root           155648 ./var/lib/rpm/Providename
 -rw-r--r-- root       root            12288 ./var/lib/rpm/Pubkeys
 -rw-r--r-- root       root            28672 ./var/lib/rpm/Release
--rw-r--r-- root       root           299008 ./var/lib/rpm/Requirename
+-rw-r--r-- root       root           294912 ./var/lib/rpm/Requirename
 -rw-r--r-- root       root             8192 ./var/lib/rpm/Seqno
--rw-r--r-- root       root           163840 ./var/lib/rpm/Sha1header
--rw-r--r-- root       root            86016 ./var/lib/rpm/Sigmd5
+-rw-r--r-- root       root           172032 ./var/lib/rpm/Sha1header
+-rw-r--r-- root       root            81920 ./var/lib/rpm/Sigmd5
 -rw-r--r-- root       root             8192 ./var/lib/rpm/Sourcepkgid
 -rw-r--r-- root       root             8192 ./var/lib/rpm/Triggername
 -rw-r--r-- root       root            36864 ./var/lib/rpm/Version

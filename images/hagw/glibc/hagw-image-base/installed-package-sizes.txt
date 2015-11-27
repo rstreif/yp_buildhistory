@@ -1,5 +1,5 @@
 205260	KiB git
-79155	KiB linux-firmware
+78673	KiB linux-firmware
 60255	KiB gcc
 38894	KiB libc6-dbg
 14127	KiB binutils
@@ -20,8 +20,8 @@
 3912	KiB file
 3585	KiB python-codecs
 3478	KiB linux-libc-headers-dev
-3119	KiB libglib-2.0-0
-3088	KiB bluez5
+3125	KiB libglib-2.0-0
+3089	KiB bluez5
 2843	KiB erlang-stdlib
 2684	KiB perl-module-encode-jp
 2677	KiB perl-module-unicore
@@ -102,6 +102,7 @@
 528	KiB libsystemd0
 492	KiB strace
 483	KiB nettle
+482	KiB linux-firmware-bcm4339
 481	KiB kbd-keymaps
 473	KiB kernel-module-ath9k-hw
 466	KiB libgmp10
@@ -219,9 +220,9 @@
 130	KiB kmod
 129	KiB libc6-extra-nss
 128	KiB libudev1
+125	KiB libxcb1
 125	KiB kernel-module-nf-conntrack
 124	KiB linux-firmware-sd8686
-124	KiB libxcb1
 124	KiB kernel-module-uvcvideo
 124	KiB kernel-module-floppy
 123	KiB libnl-3-200
@@ -255,8 +256,8 @@
 96	KiB libmpc3
 95	KiB pkgconfig
 94	KiB kernel-module-pwc
+93	KiB libusb-1.0-0
 92	KiB python-stringold
-92	KiB libusb-1.0-0
 90	KiB pciutils
 90	KiB libelf1
 90	KiB kernel-module-rt2800lib

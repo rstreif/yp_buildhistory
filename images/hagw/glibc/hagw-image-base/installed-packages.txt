@@ -497,8 +497,8 @@ libgdbm-compat4-1.11-r0.corei7_64.rpm
 libgdbm4-1.11-r0.corei7_64.rpm
 libgettextlib-0.19.4-r0.corei7_64.rpm
 libgettextsrc-0.19.4-r0.corei7_64.rpm
-libglib-2.0-0-2.44.1-r0.corei7_64.rpm
-libglib-2.0-locale-en-gb-2.44.1-r0.corei7_64.rpm
+libglib-2.0-0-2.46.1-r0.corei7_64.rpm
+libglib-2.0-locale-en-gb-2.46.1-r0.corei7_64.rpm
 libgmp10-6.0.0-r0.corei7_64.rpm
 libgnutls28-3.3.17.1-r0.corei7_64.rpm
 libgomp-5.2.0-r0.corei7_64.rpm
@@ -550,12 +550,12 @@ libtsan0-5.2.0-r0.corei7_64.rpm
 libubsan-dev-5.2.0-r0.corei7_64.rpm
 libubsan0-5.2.0-r0.corei7_64.rpm
 libudev1-225+git0+e1439a1472-r0.corei7_64.rpm
-libusb-1.0-0-1.0.19-r0.corei7_64.rpm
+libusb-1.0-0-1.0.20-r0.corei7_64.rpm
 libuuid1-2.26.2-r0.corei7_64.rpm
 libx11-6-1.6.3-r0.corei7_64.rpm
 libxau6-1.0.8-r0.corei7_64.rpm
-libxcb-xkb1-1.11-r0.corei7_64.rpm
-libxcb1-1.11-r0.corei7_64.rpm
+libxcb-xkb1-1.11.1-r0.corei7_64.rpm
+libxcb1-1.11.1-r0.corei7_64.rpm
 libxdmcp6-1.1.2-r0.corei7_64.rpm
 libxkbcommon-0.5.0-r0.corei7_64.rpm
 libxml-parser-perl-2.44-r0.corei7_64.rpm
@@ -569,6 +569,7 @@ linux-firmware-atheros-license-0.0+git0+75cc3ef8ba-r0.all.rpm
 linux-firmware-bcm4329-0.0+git0+75cc3ef8ba-r0.all.rpm
 linux-firmware-bcm4330-0.0+git0+75cc3ef8ba-r0.all.rpm
 linux-firmware-bcm4334-0.0+git0+75cc3ef8ba-r0.all.rpm
+linux-firmware-bcm4339-0.0+git0+75cc3ef8ba-r0.all.rpm
 linux-firmware-bcm4354-0.0+git0+75cc3ef8ba-r0.all.rpm
 linux-firmware-broadcom-license-0.0+git0+75cc3ef8ba-r0.all.rpm
 linux-firmware-iwlwifi-135-6-0.0+git0+75cc3ef8ba-r0.all.rpm
