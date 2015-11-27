@@ -519,7 +519,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/coreutils/8.24-r0/co
 -rw-r--r-- root       root            75632 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/dd.c
 -rw-r--r-- root       root            52722 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/df.c
 -rw-r--r-- root       root            12889 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/dircolors.c
--rw-r--r-- root       root            18687 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/dircolors.h
+-r--r--r-- root       root            18687 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/dircolors.h
 -rw-r--r-- root       root             3198 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/dirname.c
 -rw-r--r-- root       root            34091 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/du.c
 -rw-r--r-- root       root             7642 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/echo.c
@@ -534,7 +534,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/coreutils/8.24-r0/co
 -rw-r--r-- root       root              836 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/find-mount-point.h
 -rw-r--r-- root       root            28189 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/fmt.c
 -rw-r--r-- root       root             7963 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/fold.c
--rw-r--r-- root       root             4107 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/fs-is-local.h
+-r--r--r-- root       root             4107 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/fs-is-local.h
 -rw-r--r-- root       root             3121 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/group-list.c
 -rw-r--r-- root       root              865 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/group-list.h
 -rw-r--r-- root       root             3849 ./usr/src/debug/coreutils/8.24-r0/coreutils-8.24/src/groups.c

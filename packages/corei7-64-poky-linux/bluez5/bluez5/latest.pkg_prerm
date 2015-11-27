@@ -1,4 +1,7 @@
 #!/bin/sh
+if [ -z "$D" ]; then
+	/etc/init.d/bluetooth stop
+fi
 OPTS=""
 
 if [ -n "$D" ]; then

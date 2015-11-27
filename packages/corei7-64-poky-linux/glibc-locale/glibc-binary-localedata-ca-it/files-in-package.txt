@@ -1,7 +1,7 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/locale
-drwxr-xr-x root       root             4096 ./usr/lib/locale/ca_IT
+drwxr-xr-x 1000       1000             4096 ./usr
+drwxr-xr-x 1000       1000             4096 ./usr/lib
+drwxr-xr-x 1000       1000             4096 ./usr/lib/locale
+drwxr-xr-x 1000       1000             4096 ./usr/lib/locale/ca_IT
 -rw-r--r-- root       root              142 ./usr/lib/locale/ca_IT/LC_ADDRESS
 -rw-r--r-- root       root          1243792 ./usr/lib/locale/ca_IT/LC_COLLATE
 -rw-r--r-- root       root           278308 ./usr/lib/locale/ca_IT/LC_CTYPE

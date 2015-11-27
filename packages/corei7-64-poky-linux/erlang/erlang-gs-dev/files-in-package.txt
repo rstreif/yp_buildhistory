@@ -23,7 +23,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/gs-1.5.15.2/src
 -rw-r--r-- root       root             8261 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_font.erl
 -rw-r--r-- root       root             9533 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_frame.erl
 -rw-r--r-- root       root            38266 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_generic.erl
--rw-r--r-- root       root            92220 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_generic.hrl
+-rw-r--r-- root       root            92219 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_generic.hrl
 -rw-r--r-- root       root            10266 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_grid.erl
 -rw-r--r-- root       root            11081 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_gridline.erl
 -rw-r--r-- root       root             1530 ./usr/lib/erlang/lib/gs-1.5.15.2/src/gstk_gs.erl

@@ -32,7 +32,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/.debug
 drwxr-xr-x root       root             4096 ./usr/lib/bluez5
 drwxr-xr-x root       root             4096 ./usr/lib/bluez5/bluetooth
 drwxr-xr-x root       root             4096 ./usr/lib/bluez5/bluetooth/.debug
--rwxr-xr-x root       root          3192504 ./usr/lib/bluez5/bluetooth/.debug/bluetoothd
+-rwxr-xr-x root       root          3192536 ./usr/lib/bluez5/bluetooth/.debug/bluetoothd
 -rwxr-xr-x root       root          1291480 ./usr/lib/bluez5/bluetooth/.debug/obexd
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug

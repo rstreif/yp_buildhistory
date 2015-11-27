@@ -549,7 +549,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/systemd/1_225+gitAUT
 -rw-r--r-- root       root             2267 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/scsi_id/scsi_id.h
 -rw-r--r-- root       root            37382 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/scsi_id/scsi_serial.c
 -rw-r--r-- root       root            11777 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/udev-builtin-blkid.c
--rw-rw-r-- root       root             5065 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/udev-builtin-firmware.c
+-rw-r--r-- root       root             5065 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/udev-builtin-firmware.c
 -rw-r--r-- root       root             9463 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/udev-builtin-keyboard.c
 -rw-r--r-- root       root             3894 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/udev-builtin-kmod.c
 -rw-r--r-- root       root            20895 ./usr/src/debug/systemd/1_225+gitAUTOINC+e1439a1472-r0/git/src/udev/udev-builtin-net_id.c

@@ -4,7 +4,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd
 drwxrwxr-x root       root             4096 ./usr/lib/systemd/ptest
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/.debug
 -rwxr-xr-x root       root          1322200 ./usr/lib/systemd/ptest/.debug/test-udev
--rw-r--r-- root       root          1227377 ./usr/lib/systemd/ptest/Makefile
+-rw-r--r-- root       root          1227394 ./usr/lib/systemd/ptest/Makefile
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/build-aux
 -rwxr-xr-x root       root             4640 ./usr/lib/systemd/ptest/build-aux/test-driver
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/ptest/rules

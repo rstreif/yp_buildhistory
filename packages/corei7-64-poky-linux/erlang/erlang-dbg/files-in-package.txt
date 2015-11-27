@@ -13,7 +13,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang/bin/.debug
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/erts-5.10.4
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/erts-5.10.4/bin
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/erts-5.10.4/bin/.debug
--rwxr-xr-x root       root          8997800 ./usr/lib/erlang/erts-5.10.4/bin/.debug/beam
+-rwxr-xr-x root       root          8997816 ./usr/lib/erlang/erts-5.10.4/bin/.debug/beam
 -rwxr-xr-x root       root         11384168 ./usr/lib/erlang/erts-5.10.4/bin/.debug/beam.smp
 -rwxr-xr-x root       root            41864 ./usr/lib/erlang/erts-5.10.4/bin/.debug/child_setup
 -rwxr-xr-x root       root            98704 ./usr/lib/erlang/erts-5.10.4/bin/.debug/ct_run

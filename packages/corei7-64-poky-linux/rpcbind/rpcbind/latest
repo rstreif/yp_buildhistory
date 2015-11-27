@@ -3,6 +3,6 @@ PR = r0
 RPROVIDES = 
 RDEPENDS = base-files base-passwd glibc (>= 2.22) initscripts-functions libsystemd (>= 225+git0+e1439a1472) libtirpc (>= 0.2.5) shadow
 RRECOMMENDS = update-rc.d
-PKGSIZE = 75720
+PKGSIZE = 75717
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/rpcbind/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/rpcbind /usr/lib/rpcbind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket
 FILELIST = /etc/init.d/rpcbind /etc/rpcbind.conf /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket /usr/sbin/rpcbind /usr/sbin/rpcinfo

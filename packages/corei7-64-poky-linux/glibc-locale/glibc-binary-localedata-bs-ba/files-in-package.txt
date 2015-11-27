@@ -1,6 +1,6 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x 1000       1000             4096 ./usr
+drwxr-xr-x 1000       1000             4096 ./usr/lib
+drwxr-xr-x 1000       1000             4096 ./usr/lib/locale
 drwxr-xr-x root       root             4096 ./usr/lib/locale/bs_BA
 -rw-r--r-- root       root              147 ./usr/lib/locale/bs_BA/LC_ADDRESS
 -rw-r--r-- root       root          1245124 ./usr/lib/locale/bs_BA/LC_COLLATE
