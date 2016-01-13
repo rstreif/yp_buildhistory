@@ -39,9 +39,9 @@ games:*::
 shutdown:*::
 users:*::
 nogroup:*::
+sshd:!::
 avahi:!::
 rpc:!::
-sshd:!::
 netdev:!::
 messagebus:!::
 lock:!::
