@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg zlib-dbg
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/cosNotification-*/bin/.debug /usr/lib/erlang/lib/cosNotification-*/lib/.debug /usr/lib/erlang/lib/cosNotification-*/priv/lib/.debug /usr/lib/erlang/lib/cosNotification-*/priv/obj/.debug /usr/lib/erlang/lib/cosNotification-*/priv/bin/.debug
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 178640
+FILES = /usr/lib/erlang/lib/et-*/src /usr/lib/erlang/lib/et-*/include
+FILELIST = /usr/lib/erlang/lib/et-1.5.1/include/et.hrl /usr/lib/erlang/lib/et-1.5.1/src/et.erl /usr/lib/erlang/lib/et-1.5.1/src/et_collector.erl /usr/lib/erlang/lib/et-1.5.1/src/et_internal.hrl /usr/lib/erlang/lib/et-1.5.1/src/et_selector.erl /usr/lib/erlang/lib/et-1.5.1/src/et_viewer.erl /usr/lib/erlang/lib/et-1.5.1/src/et_wx_contents_viewer.erl /usr/lib/erlang/lib/et-1.5.1/src/et_wx_viewer.erl

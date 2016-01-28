@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 143866
+FILES = /usr/lib/erlang/lib/eldap-*
+FILELIST = /usr/lib/erlang/lib/eldap-1.2/asn1/ELDAPv3.asn1 /usr/lib/erlang/lib/eldap-1.2/ebin/ELDAPv3.beam /usr/lib/erlang/lib/eldap-1.2/ebin/eldap.app /usr/lib/erlang/lib/eldap-1.2/ebin/eldap.appup /usr/lib/erlang/lib/eldap-1.2/ebin/eldap.beam

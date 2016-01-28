@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_interface-3.8
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_interface-3.8/bin
+-rwxr-xr-x root       root            85192 ./usr/lib/erlang/lib/erl_interface-3.8/bin/erl_call
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_interface-3.8/ebin
+-rw-r--r-- root       root              891 ./usr/lib/erlang/lib/erl_interface-3.8/ebin/erl_interface.app
+-rw-r--r-- root       root              692 ./usr/lib/erlang/lib/erl_interface-3.8/ebin/erl_interface.appup

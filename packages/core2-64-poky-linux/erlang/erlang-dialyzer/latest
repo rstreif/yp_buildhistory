@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 837014
+FILES = /usr/bin/dialyzer /usr/lib/erlang/bin/dialyzer /usr/lib/erlang/lib/dialyzer-* /usr/lib/erlang/erts-7.1/bin/dialyzer
+FILELIST = /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer.app /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer.appup /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_analysis_callgraph.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_behaviours.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_callgraph.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_cl.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_cl_parse.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_codeserver.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_contracts.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_coordinator.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_dataflow.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_dep.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_explanation.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_gui_wx.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_options.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_plt.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_races.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_succ_typings.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_timing.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_typesig.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_utils.beam /usr/lib/erlang/lib/dialyzer-2.8.1/ebin/dialyzer_worker.beam

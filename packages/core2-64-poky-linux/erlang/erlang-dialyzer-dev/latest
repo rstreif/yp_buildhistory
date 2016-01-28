@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 687843
+FILES = /usr/lib/erlang/lib/dialyzer-*/src /usr/lib/erlang/lib/dialyzer-*/include
+FILELIST = /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer.hrl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_analysis_callgraph.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_behaviours.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_callgraph.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_cl.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_cl_parse.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_codeserver.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_contracts.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_coordinator.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_dataflow.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_dep.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_explanation.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_gui_wx.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_gui_wx.hrl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_options.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_plt.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_races.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_succ_typings.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_timing.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_typesig.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_utils.erl /usr/lib/erlang/lib/dialyzer-2.8.1/src/dialyzer_worker.erl

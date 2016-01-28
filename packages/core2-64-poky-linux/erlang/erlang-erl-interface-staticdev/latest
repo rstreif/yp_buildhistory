@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 3140098
+FILES = /usr/lib/erlang/lib/erl_interface-*/lib/*.a /usr/lib/erlang/lib/erl_interface-*/priv/lib/*.a
+FILELIST = /usr/lib/erlang/lib/erl_interface-3.8/lib/libei.a /usr/lib/erlang/lib/erl_interface-3.8/lib/libei_st.a /usr/lib/erlang/lib/erl_interface-3.8/lib/liberl_interface.a /usr/lib/erlang/lib/erl_interface-3.8/lib/liberl_interface_st.a

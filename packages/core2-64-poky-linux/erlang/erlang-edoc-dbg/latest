@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg zlib-dbg
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/edoc-*/bin/.debug /usr/lib/erlang/lib/edoc-*/lib/.debug /usr/lib/erlang/lib/edoc-*/priv/lib/.debug /usr/lib/erlang/lib/edoc-*/priv/obj/.debug /usr/lib/erlang/lib/edoc-*/priv/bin/.debug
+FILELIST = 

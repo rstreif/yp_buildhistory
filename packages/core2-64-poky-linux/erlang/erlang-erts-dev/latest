@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev ncurses-dev ncurses-libtinfo-dev openssl-dev zlib-dev
+PKGSIZE = 375982
+FILES = /usr/lib/erlang/lib/erts-*/src /usr/lib/erlang/lib/erts-*/include
+FILELIST = /usr/lib/erlang/lib/erts-7.1/src/erl_prim_loader.erl /usr/lib/erlang/lib/erts-7.1/src/erlang.erl /usr/lib/erlang/lib/erts-7.1/src/erts_internal.erl /usr/lib/erlang/lib/erts-7.1/src/init.erl /usr/lib/erlang/lib/erts-7.1/src/otp_ring0.erl /usr/lib/erlang/lib/erts-7.1/src/prim_eval.S /usr/lib/erlang/lib/erts-7.1/src/prim_eval.erl /usr/lib/erlang/lib/erts-7.1/src/prim_file.erl /usr/lib/erlang/lib/erts-7.1/src/prim_inet.erl /usr/lib/erlang/lib/erts-7.1/src/prim_zip.erl /usr/lib/erlang/lib/erts-7.1/src/zlib.erl

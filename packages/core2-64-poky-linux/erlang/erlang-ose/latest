@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 10815
+FILES = /usr/lib/erlang/lib/ose-*
+FILELIST = /usr/lib/erlang/lib/ose-1.1/ebin/ose.app /usr/lib/erlang/lib/ose-1.1/ebin/ose.appup /usr/lib/erlang/lib/ose-1.1/ebin/ose.beam

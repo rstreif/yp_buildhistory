@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/sasl-2.6
+drwxrwxr-x root       root             4096 ./usr/lib/erlang/lib/sasl-2.6/examples
+drwxrwxr-x 1000       pulse            4096 ./usr/lib/erlang/lib/sasl-2.6/examples/ebin
+-rw-rw-r-- 1000       pulse           12244 ./usr/lib/erlang/lib/sasl-2.6/examples/ebin/target_system.beam
+drwxrwxr-x 1000       pulse            4096 ./usr/lib/erlang/lib/sasl-2.6/examples/src
+-rw-rw-r-- 1000       pulse            2018 ./usr/lib/erlang/lib/sasl-2.6/examples/src/Makefile
+-rw-rw-r-- 1000       pulse           10178 ./usr/lib/erlang/lib/sasl-2.6/examples/src/target_system.erl

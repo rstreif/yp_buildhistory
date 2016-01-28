@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 201767
+FILES = /usr/lib/erlang/lib/eunit-*
+FILELIST = /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit.app /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit.appup /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_autoexport.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_data.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_lib.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_listener.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_proc.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_serial.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_server.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_striptests.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_surefire.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_test.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_tests.beam /usr/lib/erlang/lib/eunit-2.2.11/ebin/eunit_tty.beam /usr/lib/erlang/lib/eunit-2.2.11/examples/fib.erl /usr/lib/erlang/lib/eunit-2.2.11/examples/tests.txt

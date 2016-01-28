@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg zlib-dbg
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/dialyzer-*/bin/.debug /usr/lib/erlang/lib/dialyzer-*/lib/.debug /usr/lib/erlang/lib/dialyzer-*/priv/lib/.debug /usr/lib/erlang/lib/dialyzer-*/priv/obj/.debug /usr/lib/erlang/lib/dialyzer-*/priv/bin/.debug
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 637062
+FILES = /usr/lib/erlang/lib/syntax_tools-*/src /usr/lib/erlang/lib/syntax_tools-*/include
+FILELIST = /usr/lib/erlang/lib/syntax_tools-1.7/include/merl.hrl /usr/lib/erlang/lib/syntax_tools-1.7/src/epp_dodger.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/erl_comment_scan.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/erl_prettypr.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/erl_recomment.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/erl_syntax.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/erl_syntax_lib.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/erl_tidy.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/igor.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/merl.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/merl_transform.erl /usr/lib/erlang/lib/syntax_tools-1.7/src/prettypr.erl

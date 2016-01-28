@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = erlang erlang-appmon erlang-asn1 erlang-common-test erlang-compiler erlang-cosevent erlang-coseventdomain erlang-cosfiletransfer erlang-cosnotification erlang-cosproperty erlang-costime erlang-costransactions erlang-crypto erlang-debugger erlang-dialyzer erlang-diameter erlang-doc erlang-edoc erlang-eldap erlang-erl-docgen erlang-erl-interface erlang-erts erlang-et erlang-eunit erlang-gs erlang-hipe erlang-ic erlang-inets erlang-jinterface erlang-kernel erlang-kernel-doc erlang-megaco erlang-mnesia erlang-observer erlang-odbc erlang-orber erlang-os-mon erlang-ose erlang-otp-mibs erlang-parsetools erlang-percept erlang-pman erlang-public-key erlang-reltool erlang-runtime-tools erlang-sasl erlang-sasl-doc erlang-snmp erlang-ssh erlang-ssl erlang-stdlib erlang-stdlib-doc erlang-syntax-tools erlang-test-server erlang-toolbar erlang-tools erlang-tv erlang-typer erlang-webtool erlang-xmerl
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

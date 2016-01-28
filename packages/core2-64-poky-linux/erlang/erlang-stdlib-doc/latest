@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 24440
+FILES = /usr/lib/erlang/lib/sasl-*/examples
+FILELIST = /usr/lib/erlang/lib/sasl-2.6/examples/ebin/target_system.beam /usr/lib/erlang/lib/sasl-2.6/examples/src/Makefile /usr/lib/erlang/lib/sasl-2.6/examples/src/target_system.erl

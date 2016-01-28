@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+lrwxrwxrwx root       root               23 ./usr/bin/typer -> ../lib/erlang/bin/typer
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/bin
+-rwxr-xr-x root       root            26152 ./usr/lib/erlang/bin/typer
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/erts-7.1
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/erts-7.1/bin
+-rwxr-xr-x root       root            26152 ./usr/lib/erlang/erts-7.1/bin/typer
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/typer-0.9.9
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/typer-0.9.9/ebin
+-rw-r--r-- root       root              379 ./usr/lib/erlang/lib/typer-0.9.9/ebin/typer.app
+-rw-r--r-- root       root              776 ./usr/lib/erlang/lib/typer-0.9.9/ebin/typer.appup
+-rw-r--r-- root       root            49376 ./usr/lib/erlang/lib/typer-0.9.9/ebin/typer.beam

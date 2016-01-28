@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/sasl-*/lib/*.a /usr/lib/erlang/lib/sasl-*/priv/lib/*.a
+FILELIST = 

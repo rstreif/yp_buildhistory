@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 39626
+FILES = /usr/lib/erlang/lib/typer-*/src /usr/lib/erlang/lib/typer-*/include
+FILELIST = /usr/lib/erlang/lib/typer-0.9.9/src/typer.erl

@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_interface-3.8
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_interface-3.8/lib
+-rw-r--r-- root       root          1182096 ./usr/lib/erlang/lib/erl_interface-3.8/lib/libei.a
+-rw-r--r-- root       root          1162362 ./usr/lib/erlang/lib/erl_interface-3.8/lib/libei_st.a
+-rw-r--r-- root       root           399420 ./usr/lib/erlang/lib/erl_interface-3.8/lib/liberl_interface.a
+-rw-r--r-- root       root           396220 ./usr/lib/erlang/lib/erl_interface-3.8/lib/liberl_interface_st.a

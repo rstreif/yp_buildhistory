@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 46438
+FILES = /usr/lib/erlang/lib/eldap-*/src /usr/lib/erlang/lib/eldap-*/include
+FILELIST = /usr/lib/erlang/lib/eldap-1.2/include/eldap.hrl /usr/lib/erlang/lib/eldap-1.2/src/eldap.erl

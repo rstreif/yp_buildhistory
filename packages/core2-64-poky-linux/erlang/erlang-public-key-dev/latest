@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 183969
+FILES = /usr/lib/erlang/lib/public_key-*/src /usr/lib/erlang/lib/public_key-*/include
+FILELIST = /usr/lib/erlang/lib/public_key-1.0.1/include/OTP-PUB-KEY.hrl /usr/lib/erlang/lib/public_key-1.0.1/include/PKCS-FRAME.hrl /usr/lib/erlang/lib/public_key-1.0.1/include/public_key.hrl /usr/lib/erlang/lib/public_key-1.0.1/src/pubkey_cert.erl /usr/lib/erlang/lib/public_key-1.0.1/src/pubkey_cert_records.erl /usr/lib/erlang/lib/public_key-1.0.1/src/pubkey_crl.erl /usr/lib/erlang/lib/public_key-1.0.1/src/pubkey_pbe.erl /usr/lib/erlang/lib/public_key-1.0.1/src/pubkey_pem.erl /usr/lib/erlang/lib/public_key-1.0.1/src/pubkey_ssh.erl /usr/lib/erlang/lib/public_key-1.0.1/src/public_key.erl

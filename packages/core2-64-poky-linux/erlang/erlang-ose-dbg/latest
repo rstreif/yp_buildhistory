@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg zlib-dbg
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/ose-*/bin/.debug /usr/lib/erlang/lib/ose-*/lib/.debug /usr/lib/erlang/lib/ose-*/priv/lib/.debug /usr/lib/erlang/lib/ose-*/priv/obj/.debug /usr/lib/erlang/lib/ose-*/priv/bin/.debug
+FILELIST = 

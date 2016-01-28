@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 365248
+FILES = /usr/lib/erlang/lib/sasl-*
+FILELIST = /usr/lib/erlang/lib/sasl-2.6/ebin/alarm_handler.beam /usr/lib/erlang/lib/sasl-2.6/ebin/erlsrv.beam /usr/lib/erlang/lib/sasl-2.6/ebin/format_lib_supp.beam /usr/lib/erlang/lib/sasl-2.6/ebin/misc_supp.beam /usr/lib/erlang/lib/sasl-2.6/ebin/overload.beam /usr/lib/erlang/lib/sasl-2.6/ebin/rb.beam /usr/lib/erlang/lib/sasl-2.6/ebin/rb_format_supp.beam /usr/lib/erlang/lib/sasl-2.6/ebin/release_handler.beam /usr/lib/erlang/lib/sasl-2.6/ebin/release_handler_1.beam /usr/lib/erlang/lib/sasl-2.6/ebin/sasl.app /usr/lib/erlang/lib/sasl-2.6/ebin/sasl.appup /usr/lib/erlang/lib/sasl-2.6/ebin/sasl.beam /usr/lib/erlang/lib/sasl-2.6/ebin/sasl_report.beam /usr/lib/erlang/lib/sasl-2.6/ebin/sasl_report_file_h.beam /usr/lib/erlang/lib/sasl-2.6/ebin/sasl_report_tty_h.beam /usr/lib/erlang/lib/sasl-2.6/ebin/si.beam /usr/lib/erlang/lib/sasl-2.6/ebin/si_sasl_supp.beam /usr/lib/erlang/lib/sasl-2.6/ebin/systools.beam /usr/lib/erlang/lib/sasl-2.6/ebin/systools_lib.beam /usr/lib/erlang/lib/sasl-2.6/ebin/systools_make.beam /usr/lib/erlang/lib/sasl-2.6/ebin/systools_rc.beam /usr/lib/erlang/lib/sasl-2.6/ebin/systools_relup.beam

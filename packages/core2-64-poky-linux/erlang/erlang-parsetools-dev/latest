@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 207422
+FILES = /usr/lib/erlang/lib/parsetools-*/src /usr/lib/erlang/lib/parsetools-*/include
+FILELIST = /usr/lib/erlang/lib/parsetools-2.1/include/leexinc.hrl /usr/lib/erlang/lib/parsetools-2.1/include/yeccpre.hrl /usr/lib/erlang/lib/parsetools-2.1/src/leex.erl /usr/lib/erlang/lib/parsetools-2.1/src/yecc.erl /usr/lib/erlang/lib/parsetools-2.1/src/yeccparser.erl /usr/lib/erlang/lib/parsetools-2.1/src/yeccscan.erl

@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erts-7.1
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erts-7.1/src
+-rw-r--r-- root       root            53671 ./usr/lib/erlang/lib/erts-7.1/src/erl_prim_loader.erl
+-rw-r--r-- root       root           120465 ./usr/lib/erlang/lib/erts-7.1/src/erlang.erl
+-rw-r--r-- root       root             7460 ./usr/lib/erlang/lib/erts-7.1/src/erts_internal.erl
+-rw-r--r-- root       root            40347 ./usr/lib/erlang/lib/erts-7.1/src/init.erl
+-rw-r--r-- root       root             1024 ./usr/lib/erlang/lib/erts-7.1/src/otp_ring0.erl
+-rw-r--r-- root       root             1887 ./usr/lib/erlang/lib/erts-7.1/src/prim_eval.S
+-rw-r--r-- root       root              955 ./usr/lib/erlang/lib/erts-7.1/src/prim_eval.erl
+-rw-r--r-- root       root            42492 ./usr/lib/erlang/lib/erts-7.1/src/prim_file.erl
+-rw-r--r-- root       root            73344 ./usr/lib/erlang/lib/erts-7.1/src/prim_inet.erl
+-rw-r--r-- root       root            19762 ./usr/lib/erlang/lib/erts-7.1/src/prim_zip.erl
+-rw-r--r-- root       root            14575 ./usr/lib/erlang/lib/erts-7.1/src/zlib.erl

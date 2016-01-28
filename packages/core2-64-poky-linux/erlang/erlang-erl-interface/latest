@@ -1,0 +1,8 @@
+PV = 18.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 86775
+FILES = /usr/lib/erlang/lib/erl_interface-*
+FILELIST = /usr/lib/erlang/lib/erl_interface-3.8/bin/erl_call /usr/lib/erlang/lib/erl_interface-3.8/ebin/erl_interface.app /usr/lib/erlang/lib/erl_interface-3.8/ebin/erl_interface.appup
