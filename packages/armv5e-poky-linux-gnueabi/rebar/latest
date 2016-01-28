@@ -1,0 +1,4 @@
+PV = 2.6.1-gitAUTOINC+365ac649dc
+PR = r0
+DEPENDS = erlang-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = rebar-dbg rebar-staticdev rebar-dev rebar-doc rebar-locale rebar

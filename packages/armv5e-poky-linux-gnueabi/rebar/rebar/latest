@@ -1,0 +1,9 @@
+PV = 2.6.1-gitAUTOINC+365ac649dc
+PR = r0
+PKGV = 2.6.1-git0+365ac649dc
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 206461
+FILES = /usr/bin
+FILELIST = /usr/bin/rebar
