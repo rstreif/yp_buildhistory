@@ -1,3 +1,4 @@
 meta              = rjs-buildhistory:3d2c0f5902cacf9d8544bf263b51ef0dd1a7218c
 meta-yocto        = rjs-buildhistory:3d2c0f5902cacf9d8544bf263b51ef0dd1a7218c
 meta-yocto-bsp    = rjs-buildhistory:3d2c0f5902cacf9d8544bf263b51ef0dd1a7218c
+meta-erlang       = master:baaab3b457b60071cb3fd7d4ab0af413e89287a8
