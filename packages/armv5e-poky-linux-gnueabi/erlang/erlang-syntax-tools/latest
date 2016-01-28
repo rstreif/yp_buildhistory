@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 470695
+FILES = /usr/lib/erlang/lib/syntax_tools-*
+FILELIST = /usr/lib/erlang/lib/syntax_tools-1.7/ebin/epp_dodger.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/erl_comment_scan.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/erl_prettypr.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/erl_recomment.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/erl_syntax.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/erl_syntax_lib.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/erl_tidy.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/igor.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/merl.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/merl_transform.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/prettypr.beam /usr/lib/erlang/lib/syntax_tools-1.7/ebin/syntax_tools.app /usr/lib/erlang/lib/syntax_tools-1.7/ebin/syntax_tools.appup /usr/lib/erlang/lib/syntax_tools-1.7/examples/demo.erl

@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg zlib-dbg
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/crypto-*/bin/.debug /usr/lib/erlang/lib/crypto-*/lib/.debug /usr/lib/erlang/lib/crypto-*/priv/lib/.debug /usr/lib/erlang/lib/crypto-*/priv/obj/.debug /usr/lib/erlang/lib/crypto-*/priv/bin/.debug
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 527026
+FILES = /usr/lib/erlang/lib/tools-*/src /usr/lib/erlang/lib/tools-*/include
+FILELIST = /usr/lib/erlang/lib/tools-2.8.2/src/cover.erl /usr/lib/erlang/lib/tools-2.8.2/src/cover_web.erl /usr/lib/erlang/lib/tools-2.8.2/src/cprof.erl /usr/lib/erlang/lib/tools-2.8.2/src/eprof.erl /usr/lib/erlang/lib/tools-2.8.2/src/fprof.erl /usr/lib/erlang/lib/tools-2.8.2/src/instrument.erl /usr/lib/erlang/lib/tools-2.8.2/src/lcnt.erl /usr/lib/erlang/lib/tools-2.8.2/src/make.erl /usr/lib/erlang/lib/tools-2.8.2/src/tags.erl /usr/lib/erlang/lib/tools-2.8.2/src/xref.erl /usr/lib/erlang/lib/tools-2.8.2/src/xref.hrl /usr/lib/erlang/lib/tools-2.8.2/src/xref_base.erl /usr/lib/erlang/lib/tools-2.8.2/src/xref_compiler.erl /usr/lib/erlang/lib/tools-2.8.2/src/xref_parser.erl /usr/lib/erlang/lib/tools-2.8.2/src/xref_parser.yrl /usr/lib/erlang/lib/tools-2.8.2/src/xref_reader.erl /usr/lib/erlang/lib/tools-2.8.2/src/xref_scanner.erl /usr/lib/erlang/lib/tools-2.8.2/src/xref_utils.erl

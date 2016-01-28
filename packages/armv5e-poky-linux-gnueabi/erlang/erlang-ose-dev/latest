@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 14144
+FILES = /usr/lib/erlang/lib/ose-*/src /usr/lib/erlang/lib/ose-*/include
+FILELIST = /usr/lib/erlang/lib/ose-1.1/src/ose.erl

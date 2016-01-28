@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 133412
+FILES = /usr/lib/erlang/lib/os_mon-*/src /usr/lib/erlang/lib/os_mon-*/include
+FILELIST = /usr/lib/erlang/lib/os_mon-2.4/include/OTP-OS-MON-MIB.hrl /usr/lib/erlang/lib/os_mon-2.4/src/cpu_sup.c /usr/lib/erlang/lib/os_mon-2.4/src/cpu_sup.erl /usr/lib/erlang/lib/os_mon-2.4/src/disksup.erl /usr/lib/erlang/lib/os_mon-2.4/src/memsup.c /usr/lib/erlang/lib/os_mon-2.4/src/memsup.erl /usr/lib/erlang/lib/os_mon-2.4/src/memsup.hrl /usr/lib/erlang/lib/os_mon-2.4/src/nteventlog.erl /usr/lib/erlang/lib/os_mon-2.4/src/os_mon.erl /usr/lib/erlang/lib/os_mon-2.4/src/os_mon_mib.erl /usr/lib/erlang/lib/os_mon-2.4/src/os_mon_sysinfo.erl /usr/lib/erlang/lib/os_mon-2.4/src/os_sup.erl

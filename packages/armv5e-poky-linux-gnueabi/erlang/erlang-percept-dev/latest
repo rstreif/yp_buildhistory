@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 138766
+FILES = /usr/lib/erlang/lib/percept-*/src /usr/lib/erlang/lib/percept-*/include
+FILELIST = /usr/lib/erlang/lib/percept-0.8.11/src/egd.erl /usr/lib/erlang/lib/percept-0.8.11/src/egd.hrl /usr/lib/erlang/lib/percept-0.8.11/src/egd_font.erl /usr/lib/erlang/lib/percept-0.8.11/src/egd_png.erl /usr/lib/erlang/lib/percept-0.8.11/src/egd_primitives.erl /usr/lib/erlang/lib/percept-0.8.11/src/egd_render.erl /usr/lib/erlang/lib/percept-0.8.11/src/percept.erl /usr/lib/erlang/lib/percept-0.8.11/src/percept.hrl /usr/lib/erlang/lib/percept-0.8.11/src/percept_analyzer.erl /usr/lib/erlang/lib/percept-0.8.11/src/percept_db.erl /usr/lib/erlang/lib/percept-0.8.11/src/percept_graph.erl /usr/lib/erlang/lib/percept-0.8.11/src/percept_html.erl /usr/lib/erlang/lib/percept-0.8.11/src/percept_image.erl

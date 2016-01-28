@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 319700
+FILES = /usr/lib/erlang/lib/reltool-*/src /usr/lib/erlang/lib/reltool-*/include
+FILELIST = /usr/lib/erlang/lib/reltool-0.7/src/reltool.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool.hrl /usr/lib/erlang/lib/reltool-0.7/src/reltool_app_win.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool_fgraph.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool_fgraph.hrl /usr/lib/erlang/lib/reltool-0.7/src/reltool_fgraph_win.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool_mod_win.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool_server.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool_sys_win.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool_target.erl /usr/lib/erlang/lib/reltool-0.7/src/reltool_utils.erl

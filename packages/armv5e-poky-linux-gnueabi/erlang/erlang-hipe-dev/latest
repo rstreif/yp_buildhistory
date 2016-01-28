@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/hipe-*/src /usr/lib/erlang/lib/hipe-*/include
+FILELIST = 

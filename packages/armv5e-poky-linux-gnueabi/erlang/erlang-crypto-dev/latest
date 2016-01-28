@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev libcrypto-dev ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 143809
+FILES = /usr/lib/erlang/lib/crypto-*/src /usr/lib/erlang/lib/crypto-*/include
+FILELIST = /usr/lib/erlang/lib/crypto-3.6.2/src/crypto.erl /usr/lib/erlang/lib/crypto-3.6.2/src/crypto_ec_curves.erl

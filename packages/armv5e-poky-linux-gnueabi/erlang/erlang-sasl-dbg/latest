@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg ncurses-libtinfo-dbg zlib-dbg
+PKGSIZE = 0
+FILES = /usr/lib/erlang/lib/sasl-*/bin/.debug /usr/lib/erlang/lib/sasl-*/lib/.debug /usr/lib/erlang/lib/sasl-*/priv/lib/.debug /usr/lib/erlang/lib/sasl-*/priv/obj/.debug /usr/lib/erlang/lib/sasl-*/priv/bin/.debug
+FILELIST = 

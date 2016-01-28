@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 50731
+FILES = /usr/lib/erlang/lib/otp_mibs-*
+FILELIST = /usr/lib/erlang/lib/otp_mibs-1.1/ebin/otp_mib.beam /usr/lib/erlang/lib/otp_mibs-1.1/ebin/otp_mibs.app /usr/lib/erlang/lib/otp_mibs-1.1/ebin/otp_mibs.appup /usr/lib/erlang/lib/otp_mibs-1.1/mibs/OTP-MIB.funcs /usr/lib/erlang/lib/otp_mibs-1.1/mibs/OTP-MIB.mib /usr/lib/erlang/lib/otp_mibs-1.1/mibs/OTP-REG.mib /usr/lib/erlang/lib/otp_mibs-1.1/mibs/OTP-TC.mib /usr/lib/erlang/lib/otp_mibs-1.1/mibs/v1/OTP-MIB.mib.v1 /usr/lib/erlang/lib/otp_mibs-1.1/mibs/v1/OTP-REG.mib.v1 /usr/lib/erlang/lib/otp_mibs-1.1/mibs/v1/OTP-TC.mib.v1 /usr/lib/erlang/lib/otp_mibs-1.1/priv/mibs/OTP-MIB.bin /usr/lib/erlang/lib/otp_mibs-1.1/priv/mibs/OTP-REG.bin /usr/lib/erlang/lib/otp_mibs-1.1/priv/mibs/OTP-TC.bin

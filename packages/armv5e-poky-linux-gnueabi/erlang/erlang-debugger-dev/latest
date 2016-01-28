@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 354163
+FILES = /usr/lib/erlang/lib/debugger-*/src /usr/lib/erlang/lib/debugger-*/include
+FILELIST = /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_debugged.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_icmd.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_idb.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_ieval.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_ieval.hrl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_iload.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_iserver.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_istk.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_break.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_break_win.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_code.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_filedialog_win.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_filedialog_win.hrl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_interpret.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_mon.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_mon_win.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_settings.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_src_view.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_trace.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_trace_win.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_view.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_win.erl /usr/lib/erlang/lib/debugger-4.1.1/src/dbg_wx_winman.erl /usr/lib/erlang/lib/debugger-4.1.1/src/debugger.erl /usr/lib/erlang/lib/debugger-4.1.1/src/i.erl /usr/lib/erlang/lib/debugger-4.1.1/src/int.erl

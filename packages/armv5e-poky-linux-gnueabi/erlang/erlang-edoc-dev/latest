@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
+PKGSIZE = 398417
+FILES = /usr/lib/erlang/lib/edoc-*/src /usr/lib/erlang/lib/edoc-*/include
+FILELIST = /usr/lib/erlang/lib/edoc-0.7.17/include/edoc_doclet.hrl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc.hrl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_data.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_doclet.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_doclet.hrl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_extract.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_layout.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_lib.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_macros.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_parser.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_parser.yrl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_refs.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_report.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_run.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_scanner.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_specs.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_tags.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_types.erl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_types.hrl /usr/lib/erlang/lib/edoc-0.7.17/src/edoc_wiki.erl /usr/lib/erlang/lib/edoc-0.7.17/src/otpsgml_layout.erl

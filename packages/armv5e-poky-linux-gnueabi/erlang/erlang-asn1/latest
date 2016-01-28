@@ -1,0 +1,8 @@
+PV = 18.2.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 1026814
+FILES = /usr/lib/erlang/lib/asn1-*
+FILELIST = /usr/lib/erlang/lib/asn1-4.0.1/c_src/asn1_erl_nif.c /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1.app /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1.appup /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1_db.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_check.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_constructed_ber_bin_v2.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_constructed_per.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_eval_ext.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_func.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_gen.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_gen_ber_bin_v2.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_gen_check.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_gen_per.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_imm.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_name.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_parser2.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_pretty_format.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_rtt.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_table.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_tok.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1ct_value.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1rt.beam /usr/lib/erlang/lib/asn1-4.0.1/ebin/asn1rt_nif.beam /usr/lib/erlang/lib/asn1-4.0.1/priv/lib/asn1rt_nif.so
