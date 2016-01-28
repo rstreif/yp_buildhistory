@@ -1,8 +1,8 @@
-PV = 18.1
+PV = 18.2.1
 PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
-PKGSIZE = 147492
+PKGSIZE = 147417
 FILES = /usr/lib/erlang/lib/eunit-*/src /usr/lib/erlang/lib/eunit-*/include
-FILELIST = /usr/lib/erlang/lib/eunit-2.2.11/include/eunit.hrl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_autoexport.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_data.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_internal.hrl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_lib.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_proc.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_serial.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_server.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_striptests.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_surefire.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_test.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_tests.erl /usr/lib/erlang/lib/eunit-2.2.11/src/eunit_tty.erl
+FILELIST = /usr/lib/erlang/lib/eunit-2.2.12/include/eunit.hrl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_autoexport.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_data.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_internal.hrl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_lib.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_proc.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_serial.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_server.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_striptests.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_surefire.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_test.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_tests.erl /usr/lib/erlang/lib/eunit-2.2.12/src/eunit_tty.erl

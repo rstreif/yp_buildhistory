@@ -1,8 +1,8 @@
-PV = 18.1
+PV = 18.2.1
 PR = r0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
-PKGSIZE = 160828
+PKGSIZE = 160852
 FILES = /usr/lib/erlang/lib/os_mon-*
 FILELIST = /usr/lib/erlang/lib/os_mon-2.4/ebin/cpu_sup.beam /usr/lib/erlang/lib/os_mon-2.4/ebin/disksup.beam /usr/lib/erlang/lib/os_mon-2.4/ebin/memsup.beam /usr/lib/erlang/lib/os_mon-2.4/ebin/nteventlog.beam /usr/lib/erlang/lib/os_mon-2.4/ebin/os_mon.app /usr/lib/erlang/lib/os_mon-2.4/ebin/os_mon.appup /usr/lib/erlang/lib/os_mon-2.4/ebin/os_mon.beam /usr/lib/erlang/lib/os_mon-2.4/ebin/os_mon_mib.beam /usr/lib/erlang/lib/os_mon-2.4/ebin/os_mon_sysinfo.beam /usr/lib/erlang/lib/os_mon-2.4/ebin/os_sup.beam /usr/lib/erlang/lib/os_mon-2.4/mibs/OTP-OS-MON-MIB.funcs /usr/lib/erlang/lib/os_mon-2.4/mibs/OTP-OS-MON-MIB.mib /usr/lib/erlang/lib/os_mon-2.4/mibs/v1/OTP-OS-MON-MIB.mib.v1 /usr/lib/erlang/lib/os_mon-2.4/priv/bin/cpu_sup /usr/lib/erlang/lib/os_mon-2.4/priv/bin/memsup /usr/lib/erlang/lib/os_mon-2.4/priv/mibs/OTP-OS-MON-MIB.bin

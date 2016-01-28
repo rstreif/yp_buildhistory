@@ -1,8 +1,8 @@
-PV = 18.1
+PV = 18.2.1
 PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = ncurses-dev openssl-dev zlib-dev
-PKGSIZE = 370794
+PKGSIZE = 370810
 FILES = /usr/lib/erlang/lib/test_server-*/src /usr/lib/erlang/lib/test_server-*/include
-FILELIST = /usr/lib/erlang/lib/test_server-3.9/include/test_server.hrl /usr/lib/erlang/lib/test_server-3.9/include/test_server_line.hrl /usr/lib/erlang/lib/test_server-3.9/src/erl2html2.erl /usr/lib/erlang/lib/test_server-3.9/src/test_server.erl /usr/lib/erlang/lib/test_server-3.9/src/test_server_ctrl.erl /usr/lib/erlang/lib/test_server-3.9/src/test_server_gl.erl /usr/lib/erlang/lib/test_server-3.9/src/test_server_internal.hrl /usr/lib/erlang/lib/test_server-3.9/src/test_server_io.erl /usr/lib/erlang/lib/test_server-3.9/src/test_server_node.erl /usr/lib/erlang/lib/test_server-3.9/src/test_server_sup.erl /usr/lib/erlang/lib/test_server-3.9/src/ts.hrl
+FILELIST = /usr/lib/erlang/lib/test_server-3.9.1/include/test_server.hrl /usr/lib/erlang/lib/test_server-3.9.1/include/test_server_line.hrl /usr/lib/erlang/lib/test_server-3.9.1/src/erl2html2.erl /usr/lib/erlang/lib/test_server-3.9.1/src/test_server.erl /usr/lib/erlang/lib/test_server-3.9.1/src/test_server_ctrl.erl /usr/lib/erlang/lib/test_server-3.9.1/src/test_server_gl.erl /usr/lib/erlang/lib/test_server-3.9.1/src/test_server_internal.hrl /usr/lib/erlang/lib/test_server-3.9.1/src/test_server_io.erl /usr/lib/erlang/lib/test_server-3.9.1/src/test_server_node.erl /usr/lib/erlang/lib/test_server-3.9.1/src/test_server_sup.erl /usr/lib/erlang/lib/test_server-3.9.1/src/ts.hrl

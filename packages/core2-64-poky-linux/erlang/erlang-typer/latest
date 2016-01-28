@@ -1,8 +1,8 @@
-PV = 18.1
+PV = 18.2.1
 PR = r0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
-PKGSIZE = 102858
-FILES = /usr/bin/typer /usr/lib/erlang/bin/typer /usr/lib/erlang/lib/typer-* /usr/lib/erlang/erts-7.1/bin/typer
-FILELIST = /usr/bin/typer /usr/lib/erlang/bin/typer /usr/lib/erlang/erts-7.1/bin/typer /usr/lib/erlang/lib/typer-0.9.9/ebin/typer.app /usr/lib/erlang/lib/typer-0.9.9/ebin/typer.appup /usr/lib/erlang/lib/typer-0.9.9/ebin/typer.beam
+PKGSIZE = 102529
+FILES = /usr/bin/typer /usr/lib/erlang/bin/typer /usr/lib/erlang/lib/typer-* /usr/lib/erlang/erts-7.2.1/bin/typer
+FILELIST = /usr/bin/typer /usr/lib/erlang/bin/typer /usr/lib/erlang/erts-7.2.1/bin/typer /usr/lib/erlang/lib/typer-0.9.10/ebin/typer.app /usr/lib/erlang/lib/typer-0.9.10/ebin/typer.appup /usr/lib/erlang/lib/typer-0.9.10/ebin/typer.beam

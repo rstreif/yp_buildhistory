@@ -7,11 +7,11 @@ drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/et-1.5.1/ebin
 -rw-r--r-- root       root             1082 ./usr/lib/erlang/lib/et-1.5.1/ebin/et.app
 -rw-r--r-- root       root              778 ./usr/lib/erlang/lib/et-1.5.1/ebin/et.appup
 -rw-r--r-- root       root             1620 ./usr/lib/erlang/lib/et-1.5.1/ebin/et.beam
--rw-r--r-- root       root            38516 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_collector.beam
+-rw-r--r-- root       root            38520 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_collector.beam
 -rw-r--r-- root       root            13400 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_selector.beam
--rw-r--r-- root       root             2568 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_viewer.beam
--rw-r--r-- root       root            38664 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_wx_contents_viewer.beam
--rw-r--r-- root       root            99416 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_wx_viewer.beam
+-rw-r--r-- root       root             2572 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_viewer.beam
+-rw-r--r-- root       root            38668 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_wx_contents_viewer.beam
+-rw-r--r-- root       root            99420 ./usr/lib/erlang/lib/et-1.5.1/ebin/et_wx_viewer.beam
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/et-1.5.1/examples
 -rw-r--r-- root       root            15387 ./usr/lib/erlang/lib/et-1.5.1/examples/et_demo.erl
 -rw-r--r-- root       root             1361 ./usr/lib/erlang/lib/et-1.5.1/examples/et_display_demo.erl

@@ -2,8 +2,8 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/erlang
 drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib
-drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_docgen-0.4
-drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_docgen-0.4/src
--rw-r--r-- root       root            37745 ./usr/lib/erlang/lib/erl_docgen-0.4/src/docgen_edoc_xml_cb.erl
--rw-r--r-- root       root            21859 ./usr/lib/erlang/lib/erl_docgen-0.4/src/docgen_otp_specs.erl
--rw-r--r-- root       root             2926 ./usr/lib/erlang/lib/erl_docgen-0.4/src/docgen_xmerl_xml_cb.erl
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_docgen-0.4.1
+drwxr-xr-x root       root             4096 ./usr/lib/erlang/lib/erl_docgen-0.4.1/src
+-rw-r--r-- root       root            37605 ./usr/lib/erlang/lib/erl_docgen-0.4.1/src/docgen_edoc_xml_cb.erl
+-rw-r--r-- root       root            21859 ./usr/lib/erlang/lib/erl_docgen-0.4.1/src/docgen_otp_specs.erl
+-rw-r--r-- root       root             2926 ./usr/lib/erlang/lib/erl_docgen-0.4.1/src/docgen_xmerl_xml_cb.erl

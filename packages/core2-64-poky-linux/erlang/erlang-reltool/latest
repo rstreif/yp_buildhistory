@@ -1,8 +1,8 @@
-PV = 18.1
+PV = 18.2.1
 PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 450930
+PKGSIZE = 450950
 FILES = /usr/lib/erlang/lib/reltool-*
 FILELIST = /usr/lib/erlang/lib/reltool-0.7/ebin/reltool.app /usr/lib/erlang/lib/reltool-0.7/ebin/reltool.appup /usr/lib/erlang/lib/reltool-0.7/ebin/reltool.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_app_win.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_fgraph.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_fgraph_win.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_mod_win.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_server.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_sys_win.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_target.beam /usr/lib/erlang/lib/reltool-0.7/ebin/reltool_utils.beam /usr/lib/erlang/lib/reltool-0.7/examples/display_args /usr/lib/erlang/lib/reltool-0.7/examples/mnesia_core_dump_viewer

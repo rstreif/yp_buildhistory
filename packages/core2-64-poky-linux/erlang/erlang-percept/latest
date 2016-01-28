@@ -1,8 +1,8 @@
-PV = 18.1
+PV = 18.2.1
 PR = r0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 194938
+PKGSIZE = 194962
 FILES = /usr/lib/erlang/lib/percept-*
 FILELIST = /usr/lib/erlang/lib/percept-0.8.11/ebin/egd.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/egd_font.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/egd_png.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/egd_primitives.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/egd_render.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/percept.app /usr/lib/erlang/lib/percept-0.8.11/ebin/percept.appup /usr/lib/erlang/lib/percept-0.8.11/ebin/percept.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/percept_analyzer.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/percept_db.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/percept_graph.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/percept_html.beam /usr/lib/erlang/lib/percept-0.8.11/ebin/percept_image.beam /usr/lib/erlang/lib/percept-0.8.11/priv/fonts/6x11_latin1.wingsfont /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/conf/mime.types /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/css/percept.css /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/htdocs/index.html /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/images/nav.png /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/images/white.png /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/scripts/percept_area_select.js /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/scripts/percept_error_handler.js /usr/lib/erlang/lib/percept-0.8.11/priv/server_root/scripts/percept_select_all.js
