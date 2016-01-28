@@ -1,0 +1,3 @@
+drwxr-xr-x root       root             4096 ./lib
+lrwxrwxrwx root       root               21 ./lib/libgudev-1.0.so.0 -> libgudev-1.0.so.0.1.1
+-rwxr-xr-x root       root            29420 ./lib/libgudev-1.0.so.0.1.1

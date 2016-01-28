@@ -1,0 +1,8 @@
+PV = 182
+PR = r9
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libkmod (>= 22+git0+42f32b8ae4) make perl python util-linux-libblkid (>= 2.27.1)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 590630
+FILES = /usr/lib/udev/ptest
+FILELIST = /usr/lib/udev/ptest/Makefile /usr/lib/udev/ptest/rules/42-usb-hid-pm.rules /usr/lib/udev/ptest/rules/50-udev-default.rules /usr/lib/udev/ptest/rules/60-cdrom_id.rules /usr/lib/udev/ptest/rules/60-persistent-alsa.rules /usr/lib/udev/ptest/rules/60-persistent-input.rules /usr/lib/udev/ptest/rules/60-persistent-serial.rules /usr/lib/udev/ptest/rules/60-persistent-storage-tape.rules /usr/lib/udev/ptest/rules/60-persistent-storage.rules /usr/lib/udev/ptest/rules/60-persistent-v4l.rules /usr/lib/udev/ptest/rules/61-accelerometer.rules /usr/lib/udev/ptest/rules/75-net-description.rules /usr/lib/udev/ptest/rules/75-probe_mtd.rules /usr/lib/udev/ptest/rules/75-tty-description.rules /usr/lib/udev/ptest/rules/78-sound-card.rules /usr/lib/udev/ptest/rules/80-drivers.rules /usr/lib/udev/ptest/rules/95-keyboard-force-release.rules /usr/lib/udev/ptest/rules/95-keymap.rules /usr/lib/udev/ptest/rules/95-udev-late.rules /usr/lib/udev/ptest/run-ptest /usr/lib/udev/ptest/test-udev /usr/lib/udev/ptest/test/rule-syntax-check.py /usr/lib/udev/ptest/test/rules-test.sh /usr/lib/udev/ptest/test/sys.tar.xz /usr/lib/udev/ptest/test/udev-test.pl

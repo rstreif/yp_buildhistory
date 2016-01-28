@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/libnfsidmap
+-rw-r--r-- root       root            84370 ./usr/lib/libnfsidmap.a
+-rw-r--r-- root       root            24958 ./usr/lib/libnfsidmap/nsswitch.a
+-rw-r--r-- root       root            16590 ./usr/lib/libnfsidmap/static.a

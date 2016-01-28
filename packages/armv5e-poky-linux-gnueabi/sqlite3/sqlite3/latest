@@ -1,0 +1,9 @@
+PE = 3
+PV = 3.10.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libsqlite3 (>= 3.10.2)
+RRECOMMENDS = 
+PKGSIZE = 68360
+FILES = /usr/bin/*
+FILELIST = /usr/bin/sqlite3

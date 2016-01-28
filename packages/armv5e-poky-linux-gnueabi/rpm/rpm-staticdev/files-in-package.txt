@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root          9310578 ./usr/lib/librpm.a
+-rw-r--r-- root       root          5071098 ./usr/lib/librpmbuild.a
+-rw-r--r-- root       root           750470 ./usr/lib/librpmconstant.a
+-rw-r--r-- root       root          7784902 ./usr/lib/librpmdb.a
+-rw-r--r-- root       root         25110852 ./usr/lib/librpmio.a
+-rw-r--r-- root       root           559460 ./usr/lib/librpmmisc.a
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/rpm
+-rw-r--r-- root       root          5572198 ./usr/lib/python2.7/site-packages/rpm/_rpmmodule.a

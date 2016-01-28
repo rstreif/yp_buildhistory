@@ -1,0 +1,8 @@
+PV = 182
+PR = r9
+RPROVIDES = 
+RDEPENDS = libgudev libudev udev (= 182-r9)
+RRECOMMENDS = glib-2.0-dev glibc-dev initscripts-dev libffi-dev libgudev-dev libkmod-dev libudev-dev libusb-dev make-dev module-init-tools-dev pciutils-dev perl-dev python-dev update-rc.d-dev usbutils-dev util-linux-dev util-linux-libblkid-dev
+PKGSIZE = 31735
+FILES = /usr/share/pkgconfig/udev.pc /usr/include/libudev.h /usr/lib/libudev.so /usr/lib/libudev.la /usr/lib/libudev.a /usr/lib/pkgconfig/libudev.pc /usr/include/gudev* /usr/lib/libgudev*.so /usr/lib/libgudev*.la /usr/lib/libgudev*.a /usr/lib/pkgconfig/gudev*.pc
+FILELIST = /usr/include/gudev-1.0/gudev/gudev.h /usr/include/gudev-1.0/gudev/gudevclient.h /usr/include/gudev-1.0/gudev/gudevdevice.h /usr/include/gudev-1.0/gudev/gudevenumerator.h /usr/include/gudev-1.0/gudev/gudevenums.h /usr/include/gudev-1.0/gudev/gudevenumtypes.h /usr/include/gudev-1.0/gudev/gudevtypes.h /usr/include/libudev.h /usr/lib/libgudev-1.0.la /usr/lib/libgudev-1.0.so /usr/lib/libudev.la /usr/lib/libudev.so /usr/lib/pkgconfig/gudev-1.0.pc /usr/lib/pkgconfig/libudev.pc /usr/share/pkgconfig/udev.pc

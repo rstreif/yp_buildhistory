@@ -1,0 +1,8 @@
+PV = 1.0.29
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libasound (>= 1.1.0)
+RRECOMMENDS = 
+PKGSIZE = 59757
+FILES = /usr/bin/aplay /usr/bin/arecord
+FILELIST = /usr/bin/aplay /usr/bin/arecord

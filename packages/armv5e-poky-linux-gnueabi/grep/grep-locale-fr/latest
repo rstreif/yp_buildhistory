@@ -1,0 +1,8 @@
+PV = 2.22
+PR = r0
+RPROVIDES = fr-translation grep-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fr
+PKGSIZE = 17772
+FILES = /usr/share/locale/fr
+FILELIST = /usr/share/locale/fr/LC_MESSAGES/grep.mo

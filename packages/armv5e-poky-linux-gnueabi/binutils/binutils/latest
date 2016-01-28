@@ -1,0 +1,8 @@
+PV = 2.25.1
+PR = r0
+RPROVIDES = binutils-symlinks
+RDEPENDS = glibc (>= 2.22) update-alternatives-opkg zlib (>= 1.2.8)
+RRECOMMENDS = 
+PKGSIZE = 10295218
+FILES = /usr/bin/arm-poky-linux-gnueabi-* /usr/lib/lib*-*.so /usr/arm-poky-linux-gnueabi/bin/* /usr/bin/embedspu
+FILELIST = /usr/arm-poky-linux-gnueabi/bin/ar /usr/arm-poky-linux-gnueabi/bin/as /usr/arm-poky-linux-gnueabi/bin/ld /usr/arm-poky-linux-gnueabi/bin/ld.bfd /usr/arm-poky-linux-gnueabi/bin/ld.gold /usr/arm-poky-linux-gnueabi/bin/nm /usr/arm-poky-linux-gnueabi/bin/objcopy /usr/arm-poky-linux-gnueabi/bin/objdump /usr/arm-poky-linux-gnueabi/bin/ranlib /usr/arm-poky-linux-gnueabi/bin/strip /usr/bin/arm-poky-linux-gnueabi-addr2line /usr/bin/arm-poky-linux-gnueabi-ar /usr/bin/arm-poky-linux-gnueabi-as /usr/bin/arm-poky-linux-gnueabi-c++filt /usr/bin/arm-poky-linux-gnueabi-dwp /usr/bin/arm-poky-linux-gnueabi-elfedit /usr/bin/arm-poky-linux-gnueabi-gprof /usr/bin/arm-poky-linux-gnueabi-ld /usr/bin/arm-poky-linux-gnueabi-ld.bfd /usr/bin/arm-poky-linux-gnueabi-ld.gold /usr/bin/arm-poky-linux-gnueabi-nm /usr/bin/arm-poky-linux-gnueabi-objcopy /usr/bin/arm-poky-linux-gnueabi-objdump /usr/bin/arm-poky-linux-gnueabi-ranlib /usr/bin/arm-poky-linux-gnueabi-readelf /usr/bin/arm-poky-linux-gnueabi-size /usr/bin/arm-poky-linux-gnueabi-strings /usr/bin/arm-poky-linux-gnueabi-strip /usr/lib/libbfd-2.25.1.so /usr/lib/libopcodes-2.25.1.so

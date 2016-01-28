@@ -1,0 +1,8 @@
+PV = 1.0.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = libtirpc-dev (= 1.0.1-r0)
+RRECOMMENDS = 
+PKGSIZE = 1200306
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libtirpc/*.a
+FILELIST = /usr/lib/libtirpc.a

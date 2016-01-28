@@ -1,0 +1,9 @@
+PV = 1.11
+PR = r0
+PKG = libmb-locale
+RPROVIDES = 1.11 libmatchbox-locale
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 1.0.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = libical-dev (= 1.0.1-r0)
+RRECOMMENDS = 
+PKGSIZE = 1785752
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libical/*.a
+FILELIST = /usr/lib/libical.a /usr/lib/libicalss.a /usr/lib/libicalvcal.a

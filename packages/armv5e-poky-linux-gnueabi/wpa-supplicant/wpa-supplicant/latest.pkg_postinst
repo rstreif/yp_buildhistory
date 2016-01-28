@@ -1,0 +1,5 @@
+	# If we're offline, we don't need to do this.
+	if [ "x$D" = "x" ]; then
+		killall -q -HUP dbus-daemon || true
+	fi
+

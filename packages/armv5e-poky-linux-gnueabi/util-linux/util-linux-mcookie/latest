@@ -1,0 +1,8 @@
+PV = 2.27.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 22804
+FILES = /usr/bin/mcookie
+FILELIST = /usr/bin/mcookie

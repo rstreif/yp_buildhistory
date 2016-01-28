@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root           631078 ./usr/lib/libvorbis.a
+-rw-r--r-- root       root           818154 ./usr/lib/libvorbisenc.a
+-rw-r--r-- root       root            97344 ./usr/lib/libvorbisfile.a

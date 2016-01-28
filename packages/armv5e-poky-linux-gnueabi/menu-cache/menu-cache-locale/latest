@@ -1,0 +1,9 @@
+PV = 1.0.1
+PR = r0
+PKG = libmenu-cache-locale
+RPROVIDES = 1.0.1 menu-cache-locale
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

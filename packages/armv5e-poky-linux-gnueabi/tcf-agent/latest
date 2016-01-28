@@ -1,0 +1,4 @@
+PV = 1.3.0+gitAUTOINC+b9a735e9c7
+PR = r0
+DEPENDS = initscripts openssl update-rc.d update-rc.d-native util-linux virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = tcf-agent-dbg tcf-agent-staticdev tcf-agent-dev tcf-agent-doc tcf-agent-locale tcf-agent

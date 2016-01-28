@@ -1,0 +1,23 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/gudev-1.0
+drwxr-xr-x root       root             4096 ./usr/include/gudev-1.0/gudev
+-rw-r--r-- root       root             1191 ./usr/include/gudev-1.0/gudev/gudev.h
+-rw-r--r-- root       root             3905 ./usr/include/gudev-1.0/gudev/gudevclient.h
+-rw-r--r-- root       root             6408 ./usr/include/gudev-1.0/gudev/gudevdevice.h
+-rw-r--r-- root       root             4797 ./usr/include/gudev-1.0/gudev/gudevenumerator.h
+-rw-r--r-- root       root             1586 ./usr/include/gudev-1.0/gudev/gudevenums.h
+-rw-r--r-- root       root              396 ./usr/include/gudev-1.0/gudev/gudevenumtypes.h
+-rw-r--r-- root       root             1642 ./usr/include/gudev-1.0/gudev/gudevtypes.h
+-rw-r--r-- root       root             9240 ./usr/include/libudev.h
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root             1085 ./usr/lib/libgudev-1.0.la
+lrwxrwxrwx root       root               31 ./usr/lib/libgudev-1.0.so -> ../../lib/libgudev-1.0.so.0.1.1
+-rwxr-xr-x root       root              909 ./usr/lib/libudev.la
+lrwxrwxrwx root       root               27 ./usr/lib/libudev.so -> ../../lib/libudev.so.0.13.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              237 ./usr/lib/pkgconfig/gudev-1.0.pc
+-rw-r--r-- root       root              220 ./usr/lib/pkgconfig/libudev.pc
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root               61 ./usr/share/pkgconfig/udev.pc

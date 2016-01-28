@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root          1773184 ./usr/lib/libblkid.a
+-rw-r--r-- root       root          1633300 ./usr/lib/libfdisk.a
+-rw-r--r-- root       root          1258396 ./usr/lib/libmount.a
+-rw-r--r-- root       root           654308 ./usr/lib/libsmartcols.a
+-rw-r--r-- root       root            78420 ./usr/lib/libuuid.a

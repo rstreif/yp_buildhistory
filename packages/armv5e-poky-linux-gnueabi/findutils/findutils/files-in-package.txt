@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           222800 ./usr/bin/find.findutils
+-rwxr-xr-x root       root           133656 ./usr/bin/locate
+-rwxr-xr-x root       root           216096 ./usr/bin/oldfind
+-rwxr-xr-x root       root            10454 ./usr/bin/updatedb
+-rwxr-xr-x root       root            51268 ./usr/bin/xargs.findutils
+drwxr-xr-x root       root             4096 ./usr/libexec
+-rwxr-xr-x root       root            14356 ./usr/libexec/bigram
+-rwxr-xr-x root       root            19588 ./usr/libexec/code
+-rwxr-xr-x root       root            23340 ./usr/libexec/frcode
+drwxr-xr-x root       root             4096 ./var

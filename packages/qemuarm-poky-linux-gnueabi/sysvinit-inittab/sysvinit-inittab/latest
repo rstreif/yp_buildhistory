@@ -1,0 +1,8 @@
+PV = 2.88dsf
+PR = r10
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1209
+FILES = /etc/inittab /etc/init.d/start_getty
+FILELIST = /etc/init.d/start_getty /etc/inittab

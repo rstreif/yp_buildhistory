@@ -1,0 +1,8 @@
+PV = 2.24
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libcap (>= 2.24)
+RRECOMMENDS = 
+PKGSIZE = 31512
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/sbin/capsh /usr/sbin/getcap /usr/sbin/getpcaps /usr/sbin/setcap

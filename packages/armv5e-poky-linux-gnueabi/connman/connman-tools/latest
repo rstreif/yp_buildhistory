@@ -1,0 +1,8 @@
+PV = 1.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = connman glib-2.0 (>= 2.46.2) glibc (>= 2.22) gnutls (>= 3.4.8)
+RRECOMMENDS = 
+PKGSIZE = 40164
+FILES = /usr/bin/wispr
+FILELIST = /usr/bin/wispr

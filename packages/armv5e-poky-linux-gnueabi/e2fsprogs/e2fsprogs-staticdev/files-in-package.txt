@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./lib
+-r--r--r-- root       root            43836 ./lib/libcom_err.a
+-r--r--r-- root       root           170246 ./lib/libe2p.a
+-r--r--r-- root       root          2141156 ./lib/libext2fs.a
+-r--r--r-- root       root           133664 ./lib/libss.a

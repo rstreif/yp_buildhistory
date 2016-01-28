@@ -1,0 +1,35 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/arm-poky-linux-gnueabi
+drwxr-xr-x root       root             4096 ./usr/arm-poky-linux-gnueabi/bin
+lrwxrwxrwx root       root               42 ./usr/arm-poky-linux-gnueabi/bin/ar -> ../../../usr/bin/arm-poky-linux-gnueabi-ar
+lrwxrwxrwx root       root               42 ./usr/arm-poky-linux-gnueabi/bin/as -> ../../../usr/bin/arm-poky-linux-gnueabi-as
+lrwxrwxrwx root       root               42 ./usr/arm-poky-linux-gnueabi/bin/ld -> ../../../usr/bin/arm-poky-linux-gnueabi-ld
+lrwxrwxrwx root       root               46 ./usr/arm-poky-linux-gnueabi/bin/ld.bfd -> ../../../usr/bin/arm-poky-linux-gnueabi-ld.bfd
+lrwxrwxrwx root       root               47 ./usr/arm-poky-linux-gnueabi/bin/ld.gold -> ../../../usr/bin/arm-poky-linux-gnueabi-ld.gold
+lrwxrwxrwx root       root               42 ./usr/arm-poky-linux-gnueabi/bin/nm -> ../../../usr/bin/arm-poky-linux-gnueabi-nm
+lrwxrwxrwx root       root               47 ./usr/arm-poky-linux-gnueabi/bin/objcopy -> ../../../usr/bin/arm-poky-linux-gnueabi-objcopy
+lrwxrwxrwx root       root               47 ./usr/arm-poky-linux-gnueabi/bin/objdump -> ../../../usr/bin/arm-poky-linux-gnueabi-objdump
+lrwxrwxrwx root       root               46 ./usr/arm-poky-linux-gnueabi/bin/ranlib -> ../../../usr/bin/arm-poky-linux-gnueabi-ranlib
+lrwxrwxrwx root       root               45 ./usr/arm-poky-linux-gnueabi/bin/strip -> ../../../usr/bin/arm-poky-linux-gnueabi-strip
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            20140 ./usr/bin/arm-poky-linux-gnueabi-addr2line
+-rwxr-xr-x root       root            43596 ./usr/bin/arm-poky-linux-gnueabi-ar
+-rwxr-xr-x root       root           518992 ./usr/bin/arm-poky-linux-gnueabi-as
+-rwxr-xr-x root       root            18372 ./usr/bin/arm-poky-linux-gnueabi-c++filt
+-rwxr-xr-x root       root          2545644 ./usr/bin/arm-poky-linux-gnueabi-dwp
+-rwxr-xr-x root       root            22556 ./usr/bin/arm-poky-linux-gnueabi-elfedit
+-rwxr-xr-x root       root            88908 ./usr/bin/arm-poky-linux-gnueabi-gprof
+-rwxr-xr-x root       root           484288 ./usr/bin/arm-poky-linux-gnueabi-ld
+-rwxr-xr-x root       root           484288 ./usr/bin/arm-poky-linux-gnueabi-ld.bfd
+-rwxr-xr-x root       root          4008884 ./usr/bin/arm-poky-linux-gnueabi-ld.gold
+-rwxr-xr-x root       root            31264 ./usr/bin/arm-poky-linux-gnueabi-nm
+-rwxr-xr-x root       root           181160 ./usr/bin/arm-poky-linux-gnueabi-objcopy
+-rwxr-xr-x root       root           296696 ./usr/bin/arm-poky-linux-gnueabi-objdump
+-rwxr-xr-x root       root            43604 ./usr/bin/arm-poky-linux-gnueabi-ranlib
+-rwxr-xr-x root       root           411188 ./usr/bin/arm-poky-linux-gnueabi-readelf
+-rwxr-xr-x root       root            22628 ./usr/bin/arm-poky-linux-gnueabi-size
+-rwxr-xr-x root       root            20028 ./usr/bin/arm-poky-linux-gnueabi-strings
+-rwxr-xr-x root       root           181164 ./usr/bin/arm-poky-linux-gnueabi-strip
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           751684 ./usr/lib/libbfd-2.25.1.so
+-rwxr-xr-x root       root           119688 ./usr/lib/libopcodes-2.25.1.so

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               16 ./usr/lib/libical.so.1 -> libical.so.1.0.1
+-rwxr-xr-x root       root           272428 ./usr/lib/libical.so.1.0.1
+lrwxrwxrwx root       root               18 ./usr/lib/libicalss.so.1 -> libicalss.so.1.0.1
+-rwxr-xr-x root       root            68816 ./usr/lib/libicalss.so.1.0.1
+lrwxrwxrwx root       root               20 ./usr/lib/libicalvcal.so.1 -> libicalvcal.so.1.0.1
+-rwxr-xr-x root       root            55608 ./usr/lib/libicalvcal.so.1.0.1

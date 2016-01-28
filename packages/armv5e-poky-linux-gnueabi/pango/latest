@@ -1,0 +1,4 @@
+PV = 1.38.1
+PR = r0
+DEPENDS = autoconf-native automake-native cairo fontconfig freetype glib-2.0 gnome-common-native gnu-config-native gtk-doc-stub-native harfbuzz libtool-cross libtool-native libxft pkgconfig-native qemu-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/libiconv virtual/libx11 zlib
+PACKAGES = pango-ptest pango-dbg pango-staticdev pango-dev pango-doc pango-locale pango

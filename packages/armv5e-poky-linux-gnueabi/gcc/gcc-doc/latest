@@ -1,0 +1,8 @@
+PV = 5.3.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2127752
+FILES = /usr/share/info /usr/share/man /usr/lib/gcc/arm-poky-linux-gnueabi/5.3.0/include/README
+FILELIST = /usr/share/man/man1/arm-poky-linux-gnueabi-cpp.1 /usr/share/man/man1/arm-poky-linux-gnueabi-g++.1 /usr/share/man/man1/arm-poky-linux-gnueabi-gcc.1 /usr/share/man/man1/arm-poky-linux-gnueabi-gcov.1

@@ -1,0 +1,8 @@
+PV = 1.2.3
+PR = r1
+RPROVIDES = el-translation libfm-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-el
+PKGSIZE = 13132
+FILES = /usr/share/locale/el
+FILELIST = /usr/share/locale/el/LC_MESSAGES/libfm.mo

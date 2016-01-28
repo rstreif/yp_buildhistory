@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            17572 ./usr/bin/gst-play
+-rwxr-xr-x root       root            17132 ./usr/bin/gtk-play
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/applications
+-rw-r--r-- root       root              188 ./usr/share/applications/gst-player.desktop

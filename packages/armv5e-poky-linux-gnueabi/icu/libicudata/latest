@@ -1,0 +1,9 @@
+PV = 56.1
+PR = r0
+PKG = libicudata56
+RPROVIDES = 56.1 libicudata
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 25048086
+FILES = /usr/lib/libicudata.so.*
+FILELIST = /usr/lib/libicudata.so.56 /usr/lib/libicudata.so.56.1

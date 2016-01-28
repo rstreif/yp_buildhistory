@@ -1,0 +1,8 @@
+PV = 1.0.29
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libasound (>= 1.1.0) libsamplerate0 (>= 0.1.8)
+RRECOMMENDS = 
+PKGSIZE = 62440
+FILES = /usr/bin/alsaloop
+FILELIST = /usr/bin/alsaloop

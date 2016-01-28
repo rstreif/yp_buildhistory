@@ -1,0 +1,8 @@
+PV = 5.3.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22)
+RRECOMMENDS = 
+PKGSIZE = 764508
+FILES = /usr/bin/arm-poky-linux-gnueabi-gcov* /usr/bin/arm-poky-linux-gnueabi-gcov-tool*
+FILELIST = /usr/bin/arm-poky-linux-gnueabi-gcov /usr/bin/arm-poky-linux-gnueabi-gcov-tool

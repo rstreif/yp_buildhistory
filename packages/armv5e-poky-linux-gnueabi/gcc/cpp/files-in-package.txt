@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./lib
+lrwxrwxrwx root       root               35 ./lib/cpp -> /usr/bin/arm-poky-linux-gnueabi-cpp
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           721864 ./usr/bin/arm-poky-linux-gnueabi-cpp
