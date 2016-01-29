@@ -1,0 +1,9 @@
+PV = 0.5.0+gitAUTOINC+84c9eceebb
+PR = r0
+PKGV = 0.5.0+git0+84c9eceebb
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = 
