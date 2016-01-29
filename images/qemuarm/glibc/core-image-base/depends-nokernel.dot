@@ -378,6 +378,14 @@ digraph depends {
 "erlang" -> "erlang-kernel";
 "erlang" -> "erlang-sasl";
 "erlang" -> "erlang-stdlib";
+"erlang-crypto" -> "libc6";
+"erlang-crypto" -> "libcrypto1.0.0";
+"erlang-crypto-dbg" -> "libc6-dbg" [style=dotted];
+"erlang-crypto-dbg" -> "libz-dbg" [style=dotted];
+"erlang-crypto-dev" -> "libc6-dev" [style=dotted];
+"erlang-crypto-dev" -> "libz-dev" [style=dotted];
+"erlang-crypto-dev" -> "ncurses-dev" [style=dotted];
+"erlang-crypto-dev" -> "openssl-dev" [style=dotted];
 "erlang-dbg" -> "libc6-dbg" [style=dotted];
 "erlang-dbg" -> "libz-dbg" [style=dotted];
 "erlang-dev" -> "erlang-erts-dev" [style=dotted];

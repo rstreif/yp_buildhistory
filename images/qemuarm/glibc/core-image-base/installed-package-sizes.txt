@@ -246,6 +246,7 @@
 197	KiB perl-module-unicode-collate-locale-ja
 196	KiB libxfixes-dbg
 195	KiB python-textutils
+195	KiB erlang-crypto
 191	KiB libnss-mdns-dbg
 191	KiB grep
 191	KiB e2fsprogs-dev
@@ -284,6 +285,7 @@
 140	KiB libogg-dbg
 140	KiB libnfsidmap-dbg
 140	KiB less
+140	KiB erlang-crypto-dev
 140	KiB bluez5-dev
 139	KiB diffstat-dbg
 137	KiB python-threading
@@ -1284,6 +1286,7 @@
 0	KiB erlang-sasl-dbg
 0	KiB erlang-kernel-dbg
 0	KiB erlang-erts-dbg
+0	KiB erlang-crypto-dbg
 0	KiB erlang
 0	KiB ed-dev
 0	KiB distcc-dev
