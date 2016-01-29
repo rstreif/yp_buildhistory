@@ -243,6 +243,7 @@
 231	KiB libx11-dev
 230	KiB grep
 228	KiB pango-dev
+227	KiB erlang-crypto
 223	KiB libnss-mdns-dbg
 216	KiB m4
 213	KiB libavahi-core7
@@ -300,6 +301,7 @@
 143	KiB glibc-localedata-i18n
 140	KiB sed
 140	KiB libdbus-glib-1-dev
+140	KiB erlang-crypto-dev
 140	KiB bluez5-dev
 137	KiB python-threading
 137	KiB intltool
@@ -1295,6 +1297,7 @@
 0	KiB erlang-sasl-dbg
 0	KiB erlang-kernel-dbg
 0	KiB erlang-erts-dbg
+0	KiB erlang-crypto-dbg
 0	KiB erlang
 0	KiB ed-dev
 0	KiB distcc-dev

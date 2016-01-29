@@ -41,6 +41,6 @@ users:*::
 nogroup:*::
 avahi:!::
 rpc:!::
+rpcuser:!::
 netdev:!::
 messagebus:!::
-rpcuser:!::

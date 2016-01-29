@@ -100,6 +100,9 @@ e2fsprogs-mke2fs-1.42.99+1.43+git0+0f26747167-r0.core2_64.rpm
 ed-1.9-r0.core2_64.rpm
 ed-dev-1.9-r0.core2_64.rpm
 erlang-18.2.1-r0.core2_64.rpm
+erlang-crypto-18.2.1-r0.core2_64.rpm
+erlang-crypto-dbg-18.2.1-r0.core2_64.rpm
+erlang-crypto-dev-18.2.1-r0.core2_64.rpm
 erlang-dbg-18.2.1-r0.core2_64.rpm
 erlang-dev-18.2.1-r0.core2_64.rpm
 erlang-erts-18.2.1-r0.core2_64.rpm

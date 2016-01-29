@@ -1,4 +1,4 @@
-qemux86-64: core-image-base configured for poky 2.0+snapshot-20160128
+qemux86-64: core-image-base configured for poky 2.0+snapshot-20160129
 
 Build Configuration:
 BB_VERSION        = "1.28.0"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Fedora-22"
 TARGET_SYS        = "x86_64-poky-linux"
 MACHINE           = "qemux86-64"
 DISTRO            = "poky"
-DISTRO_VERSION    = "2.0+snapshot-20160128"
+DISTRO_VERSION    = "2.0+snapshot-20160129"
 TUNE_FEATURES     = "m64 core2"
 TARGET_FPU        = ""
 meta              
